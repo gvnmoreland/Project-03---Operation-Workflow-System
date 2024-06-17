@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="85f0a06e93760210df7e70aefaba10ef" label="Satellite Task" max_length="40" name="x_1387186_ows_satellite_task" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="1000" name="description" type="string"/>
+        <element label="Information Updates" max_length="4000" name="u_work_notes" type="journal_input"/>
+        <element label="Location" max_length="40" name="location" type="geo_point"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Accurate" max_length="40" name="accurate" type="boolean"/>
+        <element attributes="encode_utf8=false" label="Assignment" max_length="32" name="assignment" reference="x_1387186_ows_distance" type="reference"/>
+        <index name="index">
+            <element name="assignment"/>
+        </index>
+    </element>
+</database>

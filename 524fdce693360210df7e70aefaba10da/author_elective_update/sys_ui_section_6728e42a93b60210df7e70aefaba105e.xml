@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Notes" section_id="6728e42a93b60210df7e70aefaba105e" sys_domain="global" table="x_1387186_ows_satellite_task" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_work_notes</element>
+            <position>0</position>
+            <sys_created_by>gavin.moreland</sys_created_by>
+            <sys_created_on>2024-06-17 18:41:18</sys_created_on>
+            <sys_id>8c582c2a93b60210df7e70aefaba1086</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_1387186_ows_satellite_task" sys_domain="global" view="Default view">6728e42a93b60210df7e70aefaba105e</sys_ui_section>
+            <sys_updated_by>gavin.moreland</sys_updated_by>
+            <sys_updated_on>2024-06-17 18:41:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>1</position>
+            <sys_created_by>gavin.moreland</sys_created_by>
+            <sys_created_on>2024-06-17 18:41:18</sys_created_on>
+            <sys_id>84582c2a93b60210df7e70aefaba1087</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_1387186_ows_satellite_task" sys_domain="global" view="Default view">6728e42a93b60210df7e70aefaba105e</sys_ui_section>
+            <sys_updated_by>gavin.moreland</sys_updated_by>
+            <sys_updated_on>2024-06-17 18:41:18</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Notes</caption>
+            <header>false</header>
+            <name>x_1387186_ows_satellite_task</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>gavin.moreland</sys_created_by>
+            <sys_created_on>2024-06-17 18:40:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6728e42a93b60210df7e70aefaba105e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1387186_ows_satellite_task</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
+            <sys_update_name>sys_ui_section_6728e42a93b60210df7e70aefaba105e</sys_update_name>
+            <sys_updated_by>gavin.moreland</sys_updated_by>
+            <sys_updated_on>2024-06-17 18:40:42</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</application>
+        <file_path/>
+        <instance_id>de14e45c1b7d7d901024eb9b2d4bcb59</instance_id>
+        <instance_name>dev182002</instance_name>
+        <name>sys_ui_section_6728e42a93b60210df7e70aefaba105e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Notes" section_id="6728e42a93b60210df7e70aefaba105e" sys_domain="global" table="x_1387186_ows_satellite_task" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>u_work_notes</element><position>0</position><sys_created_by>gavin.moreland</sys_created_by><sys_created_on>2024-06-17 18:41:18</sys_created_on><sys_id>8c582c2a93b60210df7e70aefaba1086</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Notes" display_value="Notes" name="x_1387186_ows_satellite_task" sys_domain="global" view="Default view">6728e42a93b60210df7e70aefaba105e</sys_ui_section><sys_updated_by>gavin.moreland</sys_updated_by><sys_updated_on>2024-06-17 18:41:18</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>activity.xml</element><position>1</position><sys_created_by>gavin.moreland</sys_created_by><sys_created_on>2024-06-17 18:41:18</sys_created_on><sys_id>84582c2a93b60210df7e70aefaba1087</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter><sys_ui_section caption="Notes" display_value="Notes" name="x_1387186_ows_satellite_task" sys_domain="global" view="Default view">6728e42a93b60210df7e70aefaba105e</sys_ui_section><sys_updated_by>gavin.moreland</sys_updated_by><sys_updated_on>2024-06-17 18:41:18</sys_updated_on><sys_user/><type>formatter</type></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Notes</caption><header>false</header><name>x_1387186_ows_satellite_task</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>gavin.moreland</sys_created_by><sys_created_on>2024-06-17 18:40:42</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6728e42a93b60210df7e70aefaba105e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1387186_ows_satellite_task</sys_name><sys_overrides/><sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package><sys_policy/><sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope><sys_update_name>sys_ui_section_6728e42a93b60210df7e70aefaba105e</sys_update_name><sys_updated_by>gavin.moreland</sys_updated_by><sys_updated_on>2024-06-17 18:40:42</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-607870332</payload_hash>
+        <record_name>Satellite Task</record_name>
+        <reverted_from/>
+        <source>da4fdce693360210df7e70aefaba10de</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>gavin.moreland</sys_created_by>
+        <sys_created_on>2024-06-17 18:41:18</sys_created_on>
+        <sys_id>8858ec2a93b60210df7e70aefaba10fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1902780e9e00000001</sys_recorded_at>
+        <sys_updated_by>gavin.moreland</sys_updated_by>
+        <sys_updated_on>2024-06-17 18:41:18</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>00582c2affb602105899df601bd96389</update_guid>
+        <update_guid_history>00582c2affb602105899df601bd96389:-607870332,5548e42abbb602104d5e79cce98c9b69:1262813338</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>gavin.moreland</sys_created_by>
+        <sys_created_on>2024-06-17 18:42:20</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>02dcce6c342e4389abc7ff07cd216e99</sys_id>
+        <sys_metadata>6728e42a93b60210df7e70aefaba105e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Notes</sys_name>
+        <sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package>
+        <sys_parent display_value="Satellite Task">85f0a06e93760210df7e70aefaba10ef</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
+        <sys_scope_delete display_value="">33f219d46b4f4f608eb30d59f6038400</sys_scope_delete>
+        <sys_update_name>sys_ui_section_6728e42a93b60210df7e70aefaba105e</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_6728e42a93b60210df7e70aefaba105e">8858ec2a93b60210df7e70aefaba10fc</sys_update_version>
+        <sys_updated_by>gavin.moreland</sys_updated_by>
+        <sys_updated_on>2024-06-17 18:42:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

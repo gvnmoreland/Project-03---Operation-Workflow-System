@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="information_updates" table="x_1387186_ows_satellite_task">
+        <active>true</active>
+        <array>false</array>
+        <attributes>edge_encryption_enabled=true</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Information Updates</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>information_updates</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="Journal">journal</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <name>x_1387186_ows_satellite_task</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>gavin.moreland</sys_created_by>
+        <sys_created_on>2024-06-17 18:26:41</sys_created_on>
+        <sys_id>caf468e293b60210df7e70aefaba1048</sys_id>
+        <sys_name>Information Updates</sys_name>
+        <sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
+        <sys_update_name>sys_dictionary_x_1387186_ows_satellite_task_information_updates</sys_update_name>
+        <sys_updated_by>gavin.moreland</sys_updated_by>
+        <sys_updated_on>2024-06-17 18:26:41</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</application>
+        <file_path/>
+        <instance_id>de14e45c1b7d7d901024eb9b2d4bcb59</instance_id>
+        <instance_name>dev182002</instance_name>
+        <name>sys_dictionary_x_1387186_ows_satellite_task_information_updates</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="information_updates" table="x_1387186_ows_satellite_task"><active>true</active><array>false</array><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Information Updates</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>information_updates</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="Journal">journal</internal_type><mandatory>false</mandatory><max_length>4000</max_length><name>x_1387186_ows_satellite_task</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>gavin.moreland</sys_created_by><sys_created_on>2024-06-17 18:26:41</sys_created_on><sys_id>caf468e293b60210df7e70aefaba1048</sys_id><sys_name>Information Updates</sys_name><sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package><sys_policy/><sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope><sys_update_name>sys_dictionary_x_1387186_ows_satellite_task_information_updates</sys_update_name><sys_updated_by>gavin.moreland</sys_updated_by><sys_updated_on>2024-06-17 18:26:41</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>-1640685093</payload_hash>
+        <record_name>Satellite Task.Information Updates</record_name>
+        <reverted_from/>
+        <source>da4fdce693360210df7e70aefaba10de</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>gavin.moreland</sys_created_by>
+        <sys_created_on>2024-06-17 18:26:42</sys_created_on>
+        <sys_id>52f468e293b60210df7e70aefaba1064</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19027738b2d0000001</sys_recorded_at>
+        <sys_updated_by>gavin.moreland</sys_updated_by>
+        <sys_updated_on>2024-06-17 18:26:42</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>d6f468e214b602105b43432710720a63</update_guid>
+        <update_guid_history>d6f468e214b602105b43432710720a63:-1640685093,d5d464e27cb6021085ac8d528f35555f:-1300566297,24b4eca255b6021012e07bad72d523c9:149916152,2b33ac22a7b602104036c998c68c25e9:819204379</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>gavin.moreland</sys_created_by>
+        <sys_created_on>2024-06-17 18:28:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>b13a0af122744e3e8867d709742ea8e4</sys_id>
+        <sys_metadata>caf468e293b60210df7e70aefaba1048</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Information Updates</sys_name>
+        <sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package>
+        <sys_parent display_value="Satellite Task">85f0a06e93760210df7e70aefaba10ef</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
+        <sys_scope_delete display_value="">33f219d46b4f4f608eb30d59f6038400</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_1387186_ows_satellite_task_information_updates</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_1387186_ows_satellite_task_information_updates">52f468e293b60210df7e70aefaba1064</sys_update_version>
+        <sys_updated_by>gavin.moreland</sys_updated_by>
+        <sys_updated_on>2024-06-17 18:28:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
