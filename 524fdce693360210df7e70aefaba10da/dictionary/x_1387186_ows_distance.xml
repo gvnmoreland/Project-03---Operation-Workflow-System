@@ -2,8 +2,9 @@
     <element db_object_id="6d70e42e93760210df7e70aefaba10fe" label="Distance" max_length="40" name="x_1387186_ows_distance" type="collection">
         <element attributes="encode_utf8=false" label="Satellite" max_length="32" name="satellite" reference="x_1387186_sat_img_satellite_images" type="reference"/>
         <element attributes="encode_utf8=false" label="Asset" max_length="32" name="asset" reference="x_1387186_intellat_assets" type="reference"/>
-        <element attributes="encode_utf8=false" label="Agent" max_length="32" name="agent" reference="sys_user" type="reference"/>
-        <element label="Distance" max_length="40" name="distance" type="integer"/>
+        <element attributes="encode_utf8=false" label="Agent" max_length="32" name="agent" reference="x_1387186_aios_agent" type="reference"/>
+        <element label="Distance" max_length="40" name="distance" type="decimal"/>
+        <element function_definition="glidefunction:distance_sphere(satellite.location, agent.location)" function_field="true" label="Distance" max_length="20" name="dist" read_only="true" type="decimal"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <index name="index">
             <element name="agent"/>
