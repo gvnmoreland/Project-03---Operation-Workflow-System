@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="6d70e42e93760210df7e70aefaba10fe" label="Distance" max_length="40" name="x_1387186_ows_distance" type="collection">
+        <element label="Asset/Agent Location" max_length="40" name="loc" read_only="true" type="geo_point"/>
+        <element attributes="encode_utf8=false" dependent="asset_agent" dependent_on_field="asset_agent" label="Managing Agent" max_length="32" name="managing_agent" reference="sys_user" type="reference" use_dependent_field="true"/>
         <element attributes="encode_utf8=false" label="Satellite" max_length="32" name="satellite" reference="x_1387186_sat_img_satellite_images" type="reference"/>
-        <element attributes="encode_utf8=false" label="Asset" max_length="32" name="asset" reference="x_1387186_intellat_assets" type="reference"/>
-        <element attributes="encode_utf8=false" label="Agent" max_length="32" name="agent" reference="x_1387186_aios_agent" type="reference"/>
-        <element label="Distance" max_length="40" name="distance" type="decimal"/>
-        <element function_definition="glidefunction:distance_sphere(satellite.location, agent.location)" function_field="true" label="Distance" max_length="20" name="dist" read_only="true" type="decimal"/>
+        <element function_definition="glidefunction:distance_sphere(satellite.location, loc)" function_field="true" label="Distance" max_length="20" name="dist" read_only="true" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="clearance_level" choice_table="x_1387186_intellat_assets" label="Clearance" max_length="40" name="clearance" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Table" max_length="40" name="table" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Agent" sequence="1" value="x_1387186_aios_agent"/>
+                <element inactive_on_update="false" label="Asset" sequence="0" value="x_1387186_intellat_assets"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <index name="index">
-            <element name="agent"/>
-        </index>
         <index name="index2">
-            <element name="asset"/>
+            <element name="managing_agent"/>
         </index>
         <index name="index3">
             <element name="satellite"/>

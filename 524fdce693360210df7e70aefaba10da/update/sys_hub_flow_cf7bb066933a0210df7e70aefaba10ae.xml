@@ -4,7 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=71313000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=85333000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>25000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category display_value="">{}</category>
@@ -15,9 +15,9 @@
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>distance_measurement</internal_name>
-        <label_cache>[{"name":"4a79c034-7c65-4312-8e19-d4ffe493e1eb.Records","label":"1 - Look Up Records➛Agent Records","reference":"x_1387186_aios_agent","reference_display":"Agent","type":"records","base_type":"records","usedInstances":{"a710ef9b-c575-4a7f-8a40-6b159a7ac485":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a710ef9b-c575-4a7f-8a40-6b159a7ac485.item","label":"2 - For Each➛Agent Record","reference":"x_1387186_aios_agent","reference_display":"Agent","type":"reference","base_type":"reference","usedInstances":{"734ae9fe-77db-4d6c-907f-cbe2ab66811c":["agent"]},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"subflow.satellite","label":"Input➛Satellite","reference":"","reference_display":"","type":"GUID","base_type":"GUID","usedInstances":{"734ae9fe-77db-4d6c-907f-cbe2ab66811c":["satellite"],"41c83629-ad40-4530-acb6-6f8c8b3005a3":["satellite"],"bc4c6e1c-b90c-4b3a-a3d8-88137b0bdf01":["conditions"]}}]</label_cache>
+        <label_cache>[{"name":"subflow.table","label":"Input➛table","reference":"","reference_display":"","type":"table_name","base_type":"table_name","usedInstances":{"4a79c034-7c65-4312-8e19-d4ffe493e1eb":["table"]}},{"name":"4a79c034-7c65-4312-8e19-d4ffe493e1eb.Records","label":"1 - Look Up Records➛Agent Records","reference":"x_1387186_aios_agent","reference_display":"Agent","type":"records","base_type":"records","usedInstances":{"a710ef9b-c575-4a7f-8a40-6b159a7ac485":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a710ef9b-c575-4a7f-8a40-6b159a7ac485.item","label":"2 - For Each➛Agent Record","reference":"x_1387186_aios_agent","reference_display":"Agent","type":"reference","base_type":"reference","usedInstances":{"734ae9fe-77db-4d6c-907f-cbe2ab66811c":["agent","asset_agent"]},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"subflow.satellite","label":"Input➛Satellite","reference":"","reference_display":"","type":"GUID","base_type":"GUID","column_name":"","usedInstances":{"734ae9fe-77db-4d6c-907f-cbe2ab66811c":["satellite"],"41c83629-ad40-4530-acb6-6f8c8b3005a3":["satellite"],"bc4c6e1c-b90c-4b3a-a3d8-88137b0bdf01":["conditions"]},"attributes":{"uiType":"GUID","uiTypeLabel":"Sys ID (GUID)","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"7ccaa7d1-c856-4559-ae25-b81480fb8cdf","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"a710ef9b-c575-4a7f-8a40-6b159a7ac485.item.location","label":"2 - For Each➛Agent Record➛Location","reference":"","reference_display":"Location","type":"geo_point","base_type":"geo_point","parent_table_name":"x_1387186_aios_agent","column_name":"location","usedInstances":{"734ae9fe-77db-4d6c-907f-cbe2ab66811c":["loc"]}},{"name":"4a79c034-7c65-4312-8e19-d4ffe493e1eb.Table","label":"1 - Look Up Records➛Agent Table","reference":"x_1387186_aios_agent","reference_display":"Agent","type":"table_name","base_type":"table_name","usedInstances":{"41c83629-ad40-4530-acb6-6f8c8b3005a3":["table"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
         <master_snapshot>e18b413693328210df7e70aefaba107b</master_snapshot>
-        <name>Distance Measurement</name>
+        <name>Distance Measurement - Agent</name>
         <natlang/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
@@ -35,15 +35,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>cf7bb066933a0210df7e70aefaba10ae</sys_id>
-        <sys_mod_count>24</sys_mod_count>
-        <sys_name>Distance Measurement</sys_name>
+        <sys_mod_count>60</sys_mod_count>
+        <sys_name>Distance Measurement - Agent</sys_name>
         <sys_overrides/>
         <sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package>
         <sys_policy/>
         <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
         <sys_update_name>sys_hub_flow_cf7bb066933a0210df7e70aefaba10ae</sys_update_name>
         <sys_updated_by>alyssa.hoshor</sys_updated_by>
-        <sys_updated_on>2024-06-18 15:53:43</sys_updated_on>
+        <sys_updated_on>2024-06-18 19:47:18</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=cf7bb066933a0210df7e70aefaba10ae"/>
@@ -104,7 +104,7 @@
         <label>Satellite</label>
         <mandatory>true</mandatory>
         <max_length>32</max_length>
-        <model display_value="Distance Measurement">cf7bb066933a0210df7e70aefaba10ae</model>
+        <model display_value="Distance Measurement - Agent">cf7bb066933a0210df7e70aefaba10ae</model>
         <model_id>cf7bb066933a0210df7e70aefaba10ae</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_cf7bb066933a0210df7e70aefaba10ae</name>
@@ -127,14 +127,14 @@
         <sys_created_by>alyssa.hoshor</sys_created_by>
         <sys_created_on>2024-06-18 15:14:18</sys_created_on>
         <sys_id>b182017e93be4210df7e70aefaba1003</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
         <sys_update_name/>
         <sys_updated_by>alyssa.hoshor</sys_updated_by>
-        <sys_updated_on>2024-06-18 15:14:18</sys_updated_on>
+        <sys_updated_on>2024-06-18 19:47:04</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -159,7 +159,7 @@
         <attributes/>
         <comment/>
         <display_text/>
-        <flow display_value="Distance Measurement">cf7bb066933a0210df7e70aefaba10ae</flow>
+        <flow display_value="Distance Measurement - Agent">cf7bb066933a0210df7e70aefaba10ae</flow>
         <generation_source/>
         <order>4</order>
         <parent_ui_id/>
@@ -167,13 +167,27 @@
         <sys_created_by>alyssa.hoshor</sys_created_by>
         <sys_created_on>2024-06-18 15:36:11</sys_created_on>
         <sys_id>1e87c17a93fe4210df7e70aefaba10a3</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
         <sys_updated_by>alyssa.hoshor</sys_updated_by>
-        <sys_updated_on>2024-06-18 15:53:38</sys_updated_on>
+        <sys_updated_on>2024-06-18 19:47:18</sys_updated_on>
         <ui_id>41c83629-ad40-4530-acb6-6f8c8b3005a3</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=1e87c17a93fe4210df7e70aefaba10a3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1e87c17a93fe4210df7e70aefaba10a3</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-18 19:47:03</sys_created_on>
+        <sys_id>cdf0c6be93f68210df7e70aefaba107a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-18 19:47:03</sys_updated_on>
+        <value>x_1387186_aios_agent</value>
+        <variable display_value="table">f43ff5ba93f68210df7e70aefaba1052</variable>
+    </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=1e87c17a93fe4210df7e70aefaba10a3"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>satellite</field>
@@ -187,6 +201,18 @@
         <table>var__m_sys_hub_action_input_159645b693fe4210df7e70aefaba10f7</table>
         <value>{{subflow.satellite}}</value>
     </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>1e87c17a93fe4210df7e70aefaba10a3</id>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-18 19:40:05</sys_created_on>
+        <sys_id>035fbdba93f68210df7e70aefaba10b0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-18 19:47:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_159645b693fe4210df7e70aefaba10f7</table>
+        <value/>
+    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=1e87c17a93fe4210df7e70aefaba10a3"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=1e87c17a93fe4210df7e70aefaba10a3"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
@@ -197,7 +223,7 @@
         <attributes/>
         <comment/>
         <display_text/>
-        <flow display_value="Distance Measurement">cf7bb066933a0210df7e70aefaba10ae</flow>
+        <flow display_value="Distance Measurement - Agent">cf7bb066933a0210df7e70aefaba10ae</flow>
         <generation_source/>
         <order>3</order>
         <parent_ui_id>a710ef9b-c575-4a7f-8a40-6b159a7ac485</parent_ui_id>
@@ -205,10 +231,10 @@
         <sys_created_by>alyssa.hoshor</sys_created_by>
         <sys_created_on>2024-06-18 14:37:10</sys_created_on>
         <sys_id>3d0a30be937e4210df7e70aefaba10e3</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>50</sys_mod_count>
         <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
         <sys_updated_by>alyssa.hoshor</sys_updated_by>
-        <sys_updated_on>2024-06-18 15:53:38</sys_updated_on>
+        <sys_updated_on>2024-06-18 19:47:18</sys_updated_on>
         <ui_id>734ae9fe-77db-4d6c-907f-cbe2ab66811c</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3d0a30be937e4210df7e70aefaba10e3"/>
@@ -245,11 +271,11 @@
         <sys_created_by>alyssa.hoshor</sys_created_by>
         <sys_created_on>2024-06-18 14:40:27</sys_created_on>
         <sys_id>b9ca34fe937e4210df7e70aefaba10db</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>alyssa.hoshor</sys_updated_by>
-        <sys_updated_on>2024-06-18 15:14:18</sys_updated_on>
+        <sys_updated_on>2024-06-18 19:46:46</sys_updated_on>
         <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
-        <value>agent={{a710ef9b-c575-4a7f-8a40-6b159a7ac485.item}}^satellite={{subflow.satellite}}</value>
+        <value>table=x_1387186_aios_agent^asset_agent={{a710ef9b-c575-4a7f-8a40-6b159a7ac485.item}}^loc={{a710ef9b-c575-4a7f-8a40-6b159a7ac485.item.location}}^satellite={{subflow.satellite}}</value>
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=3d0a30be937e4210df7e70aefaba10e3"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=3d0a30be937e4210df7e70aefaba10e3"/>
@@ -260,7 +286,7 @@
         <attributes/>
         <comment/>
         <display_text/>
-        <flow display_value="Distance Measurement">cf7bb066933a0210df7e70aefaba10ae</flow>
+        <flow display_value="Distance Measurement - Agent">cf7bb066933a0210df7e70aefaba10ae</flow>
         <generation_source/>
         <order>1</order>
         <parent_ui_id/>
@@ -268,10 +294,10 @@
         <sys_created_by>alyssa.hoshor</sys_created_by>
         <sys_created_on>2024-06-18 13:44:01</sys_created_on>
         <sys_id>87dd687a933e4210df7e70aefaba10aa</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>50</sys_mod_count>
         <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
         <sys_updated_by>alyssa.hoshor</sys_updated_by>
-        <sys_updated_on>2024-06-18 15:53:38</sys_updated_on>
+        <sys_updated_on>2024-06-18 19:47:18</sys_updated_on>
         <ui_id>4a79c034-7c65-4312-8e19-d4ffe493e1eb</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=87dd687a933e4210df7e70aefaba10aa"/>
@@ -283,9 +309,9 @@
         <sys_created_by>alyssa.hoshor</sys_created_by>
         <sys_created_on>2024-06-18 13:45:25</sys_created_on>
         <sys_id>a32e2c7a933e4210df7e70aefaba10c3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>alyssa.hoshor</sys_updated_by>
-        <sys_updated_on>2024-06-18 13:45:25</sys_updated_on>
+        <sys_updated_on>2024-06-18 19:47:15</sys_updated_on>
         <value>x_1387186_aios_agent</value>
         <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
     </sys_variable_value>
@@ -317,7 +343,7 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Distance Measurement">cf7bb066933a0210df7e70aefaba10ae</flow>
+        <flow display_value="Distance Measurement - Agent">cf7bb066933a0210df7e70aefaba10ae</flow>
         <flow_variable/>
         <flow_variables_assigned/>
         <generation_source/>
@@ -332,10 +358,10 @@
         <sys_created_by>alyssa.hoshor</sys_created_by>
         <sys_created_on>2024-06-18 13:45:29</sys_created_on>
         <sys_id>303eec7a933e4210df7e70aefaba105a</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
         <sys_updated_by>alyssa.hoshor</sys_updated_by>
-        <sys_updated_on>2024-06-18 15:53:38</sys_updated_on>
+        <sys_updated_on>2024-06-18 19:47:18</sys_updated_on>
         <ui_id>a710ef9b-c575-4a7f-8a40-6b159a7ac485</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -399,12 +425,12 @@
         <description/>
         <flow_priority>MEDIUM</flow_priority>
         <internal_name>distance_measurement</internal_name>
-        <label_cache>[{"name":"4a79c034-7c65-4312-8e19-d4ffe493e1eb.Records","label":"1 - Look Up Records➛Agent Records","reference":"x_1387186_aios_agent","reference_display":"Agent","type":"records","base_type":"records","usedInstances":{"a710ef9b-c575-4a7f-8a40-6b159a7ac485":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a710ef9b-c575-4a7f-8a40-6b159a7ac485.item","label":"2 - For Each➛Agent Record","reference":"x_1387186_aios_agent","reference_display":"Agent","type":"reference","base_type":"reference","usedInstances":{"734ae9fe-77db-4d6c-907f-cbe2ab66811c":["agent"]},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"subflow.satellite","label":"Input➛Satellite","reference":"","reference_display":"","type":"GUID","base_type":"GUID","usedInstances":{"734ae9fe-77db-4d6c-907f-cbe2ab66811c":["satellite"],"41c83629-ad40-4530-acb6-6f8c8b3005a3":["satellite"],"bc4c6e1c-b90c-4b3a-a3d8-88137b0bdf01":["conditions"]}}]</label_cache>
+        <label_cache>[{"name":"subflow.table","label":"Input➛table","reference":"","reference_display":"","type":"table_name","base_type":"table_name","usedInstances":{"4a79c034-7c65-4312-8e19-d4ffe493e1eb":["table"]}},{"name":"4a79c034-7c65-4312-8e19-d4ffe493e1eb.Records","label":"1 - Look Up Records➛Agent Records","reference":"x_1387186_aios_agent","reference_display":"Agent","type":"records","base_type":"records","usedInstances":{"a710ef9b-c575-4a7f-8a40-6b159a7ac485":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a710ef9b-c575-4a7f-8a40-6b159a7ac485.item","label":"2 - For Each➛Agent Record","reference":"x_1387186_aios_agent","reference_display":"Agent","type":"reference","base_type":"reference","usedInstances":{"734ae9fe-77db-4d6c-907f-cbe2ab66811c":["agent","asset_agent"]},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"subflow.satellite","label":"Input➛Satellite","reference":"","reference_display":"","type":"GUID","base_type":"GUID","column_name":"","usedInstances":{"734ae9fe-77db-4d6c-907f-cbe2ab66811c":["satellite"],"41c83629-ad40-4530-acb6-6f8c8b3005a3":["satellite"],"bc4c6e1c-b90c-4b3a-a3d8-88137b0bdf01":["conditions"]},"attributes":{"uiType":"GUID","uiTypeLabel":"Sys ID (GUID)","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"7ccaa7d1-c856-4559-ae25-b81480fb8cdf","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"a710ef9b-c575-4a7f-8a40-6b159a7ac485.item.location","label":"2 - For Each➛Agent Record➛Location","reference":"","reference_display":"Location","type":"geo_point","base_type":"geo_point","parent_table_name":"x_1387186_aios_agent","column_name":"location","usedInstances":{"734ae9fe-77db-4d6c-907f-cbe2ab66811c":["loc"]}},{"name":"4a79c034-7c65-4312-8e19-d4ffe493e1eb.Table","label":"1 - Look Up Records➛Agent Table","reference":"x_1387186_aios_agent","reference_display":"Agent","type":"table_name","base_type":"table_name","usedInstances":{"41c83629-ad40-4530-acb6-6f8c8b3005a3":["table"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
         <master>true</master>
-        <name>Distance Measurement</name>
+        <name>Distance Measurement - Agent</name>
         <natlang/>
         <outputs/>
-        <parent_flow display_value="Distance Measurement">cf7bb066933a0210df7e70aefaba10ae</parent_flow>
+        <parent_flow display_value="Distance Measurement - Agent">cf7bb066933a0210df7e70aefaba10ae</parent_flow>
         <remote_trigger_id/>
         <run_as>user</run_as>
         <run_with_roles/>
@@ -416,7 +442,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e18b413693328210df7e70aefaba107b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -424,7 +450,7 @@
         <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
         <sys_update_name/>
         <sys_updated_by>alyssa.hoshor</sys_updated_by>
-        <sys_updated_on>2024-06-18 15:53:36</sys_updated_on>
+        <sys_updated_on>2024-06-18 19:47:17</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=e18b413693328210df7e70aefaba107b"/>
@@ -485,7 +511,7 @@
         <label>Satellite</label>
         <mandatory>true</mandatory>
         <max_length>32</max_length>
-        <model display_value="Distance Measurement">e18b413693328210df7e70aefaba107b</model>
+        <model display_value="Distance Measurement - Agent">e18b413693328210df7e70aefaba107b</model>
         <model_id>e18b413693328210df7e70aefaba107b</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
         <name>var__m_sys_hub_flow_input_e18b413693328210df7e70aefaba107b</name>
@@ -540,7 +566,7 @@
         <attributes/>
         <comment/>
         <display_text/>
-        <flow display_value="Distance Measurement">e18b413693328210df7e70aefaba107b</flow>
+        <flow display_value="Distance Measurement - Agent">e18b413693328210df7e70aefaba107b</flow>
         <generation_source/>
         <order>3</order>
         <parent_ui_id>a710ef9b-c575-4a7f-8a40-6b159a7ac485</parent_ui_id>
@@ -548,10 +574,10 @@
         <sys_created_by>alyssa.hoshor</sys_created_by>
         <sys_created_on>2024-06-18 15:53:37</sys_created_on>
         <sys_id>218b413693328210df7e70aefaba10d3</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
         <sys_updated_by>alyssa.hoshor</sys_updated_by>
-        <sys_updated_on>2024-06-18 15:53:37</sys_updated_on>
+        <sys_updated_on>2024-06-18 19:47:17</sys_updated_on>
         <ui_id>734ae9fe-77db-4d6c-907f-cbe2ab66811c</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=218b413693328210df7e70aefaba10d3"/>
@@ -588,11 +614,11 @@
         <sys_created_by>alyssa.hoshor</sys_created_by>
         <sys_created_on>2024-06-18 15:53:37</sys_created_on>
         <sys_id>a18b413693328210df7e70aefaba10d4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>alyssa.hoshor</sys_updated_by>
-        <sys_updated_on>2024-06-18 15:53:37</sys_updated_on>
+        <sys_updated_on>2024-06-18 19:47:17</sys_updated_on>
         <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
-        <value>agent={{a710ef9b-c575-4a7f-8a40-6b159a7ac485.item}}^satellite={{subflow.satellite}}</value>
+        <value>table=x_1387186_aios_agent^asset_agent={{a710ef9b-c575-4a7f-8a40-6b159a7ac485.item}}^loc={{a710ef9b-c575-4a7f-8a40-6b159a7ac485.item.location}}^satellite={{subflow.satellite}}</value>
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=218b413693328210df7e70aefaba10d3"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=218b413693328210df7e70aefaba10d3"/>
@@ -604,7 +630,7 @@
         <attributes/>
         <comment/>
         <display_text/>
-        <flow display_value="Distance Measurement">e18b413693328210df7e70aefaba107b</flow>
+        <flow display_value="Distance Measurement - Agent">e18b413693328210df7e70aefaba107b</flow>
         <generation_source/>
         <order>4</order>
         <parent_ui_id/>
@@ -612,13 +638,27 @@
         <sys_created_by>alyssa.hoshor</sys_created_by>
         <sys_created_on>2024-06-18 15:53:37</sys_created_on>
         <sys_id>618b413693328210df7e70aefaba10dc</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
         <sys_updated_by>alyssa.hoshor</sys_updated_by>
-        <sys_updated_on>2024-06-18 15:53:37</sys_updated_on>
+        <sys_updated_on>2024-06-18 19:47:17</sys_updated_on>
         <ui_id>41c83629-ad40-4530-acb6-6f8c8b3005a3</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=618b413693328210df7e70aefaba10dc"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>618b413693328210df7e70aefaba10dc</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-18 19:47:17</sys_created_on>
+        <sys_id>e00102fe93f68210df7e70aefaba10d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-18 19:47:17</sys_updated_on>
+        <value>x_1387186_aios_agent</value>
+        <variable display_value="table">f43ff5ba93f68210df7e70aefaba1052</variable>
+    </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=618b413693328210df7e70aefaba10dc"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>satellite</field>
@@ -632,6 +672,18 @@
         <table>var__m_sys_hub_action_input_159645b693fe4210df7e70aefaba10f7</table>
         <value>{{subflow.satellite}}</value>
     </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>618b413693328210df7e70aefaba10dc</id>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-18 19:40:10</sys_created_on>
+        <sys_id>1c6f31fa93f68210df7e70aefaba1031</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-18 19:47:17</sys_updated_on>
+        <table>var__m_sys_hub_action_input_159645b693fe4210df7e70aefaba10f7</table>
+        <value/>
+    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=618b413693328210df7e70aefaba10dc"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=618b413693328210df7e70aefaba10dc"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
@@ -641,7 +693,7 @@
         <attributes/>
         <comment/>
         <display_text/>
-        <flow display_value="Distance Measurement">e18b413693328210df7e70aefaba107b</flow>
+        <flow display_value="Distance Measurement - Agent">e18b413693328210df7e70aefaba107b</flow>
         <generation_source/>
         <order>1</order>
         <parent_ui_id/>
@@ -649,10 +701,10 @@
         <sys_created_by>alyssa.hoshor</sys_created_by>
         <sys_created_on>2024-06-18 15:53:37</sys_created_on>
         <sys_id>6d8b413693328210df7e70aefaba10be</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
         <sys_updated_by>alyssa.hoshor</sys_updated_by>
-        <sys_updated_on>2024-06-18 15:53:37</sys_updated_on>
+        <sys_updated_on>2024-06-18 19:47:17</sys_updated_on>
         <ui_id>4a79c034-7c65-4312-8e19-d4ffe493e1eb</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=6d8b413693328210df7e70aefaba10be"/>
@@ -684,7 +736,7 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Distance Measurement">e18b413693328210df7e70aefaba107b</flow>
+        <flow display_value="Distance Measurement - Agent">e18b413693328210df7e70aefaba107b</flow>
         <flow_variable/>
         <flow_variables_assigned/>
         <generation_source/>
@@ -699,10 +751,10 @@
         <sys_created_by>alyssa.hoshor</sys_created_by>
         <sys_created_on>2024-06-18 15:53:37</sys_created_on>
         <sys_id>e98b413693328210df7e70aefaba10a6</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
         <sys_updated_by>alyssa.hoshor</sys_updated_by>
-        <sys_updated_on>2024-06-18 15:53:37</sys_updated_on>
+        <sys_updated_on>2024-06-18 19:47:17</sys_updated_on>
         <ui_id>a710ef9b-c575-4a7f-8a40-6b159a7ac485</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -760,18 +812,18 @@
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=cf7bb066933a0210df7e70aefaba10ae"/>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=cf7bb066933a0210df7e70aefaba10ae^sys_idNOT INf58b813693328210df7e70aefaba1029"/>
     <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
-        <plan>com.snc.process_flow.engine.ProcessPlan@17296fde</plan>
-        <plan_id display_value="Distance Measurement">cf7bb066933a0210df7e70aefaba10ae</plan_id>
+        <plan>com.snc.process_flow.engine.ProcessPlan@714c9413</plan>
+        <plan_id display_value="Distance Measurement - Agent">cf7bb066933a0210df7e70aefaba10ae</plan_id>
         <snapshot>e18b413693328210df7e70aefaba107b</snapshot>
         <sys_created_by>alyssa.hoshor</sys_created_by>
         <sys_created_on>2024-06-18 15:53:37</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f58b813693328210df7e70aefaba1029</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>alyssa.hoshor</sys_updated_by>
-        <sys_updated_on>2024-06-18 15:53:37</sys_updated_on>
+        <sys_updated_on>2024-06-18 19:47:18</sys_updated_on>
     </sys_flow_subflow_plan>
 </record_update>

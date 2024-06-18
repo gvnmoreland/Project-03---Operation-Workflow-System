@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="table" table="x_1387186_ows_distance" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>table</element>
+            <name>x_1387186_ows_distance</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>alyssa.hoshor</sys_created_by>
+            <sys_created_on>2024-06-18 18:28:13</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>table</sys_name>
+            <sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
+            <sys_update_name>sys_choice_x_1387186_ows_distance_table</sys_update_name>
+            <sys_updated_by>alyssa.hoshor</sys_updated_by>
+            <sys_updated_on>2024-06-18 18:28:13</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>table</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Asset</label>
+            <language>en</language>
+            <name>x_1387186_ows_distance</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>alyssa.hoshor</sys_created_by>
+            <sys_created_on>2024-06-18 18:28:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>alyssa.hoshor</sys_updated_by>
+            <sys_updated_on>2024-06-18 18:33:26</sys_updated_on>
+            <value>x_1387186_intellat_assets</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>table</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Agent</label>
+            <language>en</language>
+            <name>x_1387186_ows_distance</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>alyssa.hoshor</sys_created_by>
+            <sys_created_on>2024-06-18 18:33:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>alyssa.hoshor</sys_updated_by>
+            <sys_updated_on>2024-06-18 18:33:26</sys_updated_on>
+            <value>x_1387186_aios_agent</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
