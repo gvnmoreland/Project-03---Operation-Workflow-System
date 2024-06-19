@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-19 18:42:27</sys_created_on>
+        <sys_id>24cbba0793f60610df7e70aefaba10ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1387186_ows_distance.snc_internal</sys_name>
+        <sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
+        <sys_security_acl display_value="x_1387186_ows_distance">60cbba0793f60610df7e70aefaba1086</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_24cbba0793f60610df7e70aefaba10ea</sys_update_name>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-19 18:42:27</sys_updated_on>
+        <sys_user_role display_value="snc_internal" name="snc_internal">7fcaa702933002009c8579b4f47ffbde</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</application>
+        <file_path/>
+        <instance_id>de14e45c1b7d7d901024eb9b2d4bcb59</instance_id>
+        <instance_name>dev182002</instance_name>
+        <name>sys_security_acl_role_24cbba0793f60610df7e70aefaba10ea</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>alyssa.hoshor</sys_created_by><sys_created_on>2024-06-19 18:42:27</sys_created_on><sys_id>24cbba0793f60610df7e70aefaba10ea</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1387186_ows_distance.snc_internal</sys_name><sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package><sys_policy/><sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope><sys_security_acl display_value="x_1387186_ows_distance">60cbba0793f60610df7e70aefaba1086</sys_security_acl><sys_update_name>sys_security_acl_role_24cbba0793f60610df7e70aefaba10ea</sys_update_name><sys_updated_by>alyssa.hoshor</sys_updated_by><sys_updated_on>2024-06-19 18:42:27</sys_updated_on><sys_user_role display_value="snc_internal" name="snc_internal">7fcaa702933002009c8579b4f47ffbde</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>1946207169</payload_hash>
+        <record_name>x_1387186_ows_distance.snc_internal</record_name>
+        <reverted_from/>
+        <source>934fa54293220210df7e70aefaba106c</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-06-04 00:18:47</sys_created_on>
+        <sys_id>9d0dc7c393ba0610df7e70aefaba1030</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18fe09cda580000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Access Roles</type>
+        <update_guid>5d0dc7c310ba0610344df6c13e3d5530</update_guid>
+        <update_guid_history>5d0dc7c310ba0610344df6c13e3d5530:1946207169</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1387186_ows_distance.snc_internal">550dc7c393ba0610df7e70aefaba1031</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-19 19:57:52</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>81cb2234ca214071a9a1b70c0a4f6981</sys_id>
+        <sys_metadata>24cbba0793f60610df7e70aefaba10ea</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1387186_ows_distance.snc_internal</sys_name>
+        <sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package>
+        <sys_parent display_value="x_1387186_ows_distance">60cbba0793f60610df7e70aefaba1086</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
+        <sys_scope_delete display_value="">33f219d46b4f4f608eb30d59f6038400</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_24cbba0793f60610df7e70aefaba10ea</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_24cbba0793f60610df7e70aefaba10ea">9d0dc7c393ba0610df7e70aefaba1030</sys_update_version>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-19 19:57:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

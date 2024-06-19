@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <condition table="x_1387186_ows_distance">satellite.clearance_level=Confidential^ORsatellite.clearance_level=^EQ<item display_value="Confidential" endquery="false" field="satellite.clearance_level" goto="false" newquery="false" operator="=" or="false" value="Confidential"/>
+            <item display_value="-- None --" endquery="false" field="satellite.clearance_level" goto="false" newquery="false" operator="=" or="true" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description>Distance table Confidential clearance ACL</description>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_1387186_ows_distance</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <security_attribute display_value="x_1387186_ows__ACL_941dbac793f60610df7e70aefaba10f1">283d7ec793f60610df7e70aefaba10b7</security_attribute>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-19 18:48:10</sys_created_on>
+        <sys_id>941dbac793f60610df7e70aefaba10f1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_1387186_ows_distance</sys_name>
+        <sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
+        <sys_update_name>sys_security_acl_941dbac793f60610df7e70aefaba10f1</sys_update_name>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-19 20:30:27</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>

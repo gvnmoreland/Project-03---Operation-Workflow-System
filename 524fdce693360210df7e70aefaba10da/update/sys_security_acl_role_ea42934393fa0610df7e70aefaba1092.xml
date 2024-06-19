@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-19 20:21:47</sys_created_on>
+        <sys_id>ea42934393fa0610df7e70aefaba1092</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1387186_ows_satellite_task.x_1387186_aios.intelligence_administrator</sys_name>
+        <sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
+        <sys_security_acl display_value="x_1387186_ows_satellite_task">fa60db0f93ba0610df7e70aefaba101c</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_ea42934393fa0610df7e70aefaba1092</sys_update_name>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-19 20:21:47</sys_updated_on>
+        <sys_user_role display_value="x_1387186_aios.intelligence_administrator" name="x_1387186_aios.intelligence_administrator">3eca4a7193328210df7e70aefaba10f2</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

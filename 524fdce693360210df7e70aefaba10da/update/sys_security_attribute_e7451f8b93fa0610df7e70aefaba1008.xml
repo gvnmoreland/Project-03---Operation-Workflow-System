@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_attribute">
+    <sys_security_attribute action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition>Role=72b5175d93120210df7e70aefaba103a</condition>
+        <description>Auto Created Attribute - ACL_4d25d78b93fa0610df7e70aefaba106e</description>
+        <is_dynamic>true</is_dynamic>
+        <is_localized>true</is_localized>
+        <is_system>false</is_system>
+        <label>ACL_4d25d78b93fa0610df7e70aefaba106e</label>
+        <lookup_table/>
+        <lookup_table_column/>
+        <name>x_1387186_ows__ACL_4d25d78b93fa0610df7e70aefaba106e</name>
+        <script/>
+        <sys_class_name>sys_security_attribute</sys_class_name>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-19 20:34:04</sys_created_on>
+        <sys_id>e7451f8b93fa0610df7e70aefaba1008</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1387186_ows__ACL_4d25d78b93fa0610df7e70aefaba106e</sys_name>
+        <sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
+        <sys_update_name>sys_security_attribute_e7451f8b93fa0610df7e70aefaba1008</sys_update_name>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-19 20:34:04</sys_updated_on>
+        <type>compound</type>
+    </sys_security_attribute>
+</record_update>
