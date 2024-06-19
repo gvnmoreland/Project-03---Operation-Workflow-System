@@ -7,22 +7,22 @@
         <hint>AIOS - Operation Workflow System</hint>
         <name/>
         <order/>
-        <roles>admin</roles>
+        <roles>admin,x_1387186_aios.intelligence_analyst,x_1387186_aios.intelligence_administrator</roles>
         <sys_class_name>sys_app_application</sys_class_name>
         <sys_created_by>gavin.moreland</sys_created_by>
         <sys_created_on>2024-06-17 18:10:17</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3d31a4aa93760210df7e70aefaba10f8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Operation Workflow System</sys_name>
         <sys_overrides/>
         <sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package>
         <sys_policy/>
         <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
         <sys_update_name>sys_app_application_3d31a4aa93760210df7e70aefaba10f8</sys_update_name>
-        <sys_updated_by>gavin.moreland</sys_updated_by>
-        <sys_updated_on>2024-06-17 18:10:17</sys_updated_on>
+        <sys_updated_by>amy.kronschnabel</sys_updated_by>
+        <sys_updated_on>2024-06-18 20:33:59</sys_updated_on>
         <title>Operation Workflow System</title>
         <view_name/>
     </sys_app_application>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>assign_agent</action_name>
+        <active>true</active>
+        <client>true</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition/>
+        <form_action>false</form_action>
+        <form_button>false</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <format_for_configurable_workspace>false</format_for_configurable_workspace>
+        <hint/>
+        <isolate_script>false</isolate_script>
+        <list_action>true</list_action>
+        <list_banner_button>true</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>true</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>Assign Agent</name>
+        <onclick>assignAgent()</onclick>
+        <order>100</order>
+        <script><![CDATA[function assignAgent() {
+	var entries = g_list.getChecked();
+	
+	if (!entries || entries.length != 32){
+		alert("Please select one agent to assign.");
+		return;
+	}
+
+	var gj = new GlideAjax("createSatelliteTask");
+	gj.addParam('sysparm_name', 'newTask');
+	gj.addParam("assignedAgent",entries);
+	gj.getXMLAnswer(message);
+
+	function message(response){
+		//var returnData = JSON.parse(response);
+		//alert(returnData.redirect);
+		
+	}
+
+	setTimeout(function(){
+		g_list.action("94eb3ca6933a0210df7e70aefaba1045","assign_agent");
+	}, 1000);
+	
+
+	
+}
+
+if(typeof window == 'undefined')
+   runBusRuleCode();
+
+function runBusRuleCode(){
+	var gr = new GlideRecord("x_1387186_ows_satellite_task");
+	gr.orderByDesc("number");
+	gr.setLimit(1);
+	gr.query();
+	gr.next();
+	action.setRedirectURL(gr);
+	
+}
+]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>gavin.moreland</sys_created_by>
+        <sys_created_on>2024-06-17 20:07:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>94eb3ca6933a0210df7e70aefaba1045</sys_id>
+        <sys_mod_count>70</sys_mod_count>
+        <sys_name>Assign Agent</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
+        <sys_update_name>sys_ui_action_94eb3ca6933a0210df7e70aefaba1045</sys_update_name>
+        <sys_updated_by>gavin.moreland</sys_updated_by>
+        <sys_updated_on>2024-06-18 16:16:55</sys_updated_on>
+        <table>x_1387186_ows_distance</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>true</ui16_compatible>
+    </sys_ui_action>
+</record_update>
