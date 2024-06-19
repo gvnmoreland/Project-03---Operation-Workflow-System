@@ -8,21 +8,21 @@
         <mandatory>ignore</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>alyssa.hoshor</sys_created_by>
-        <sys_created_on>2024-06-18 21:16:36</sys_created_on>
-        <sys_id>7d6516fe93ba8210df7e70aefaba109d</sys_id>
+        <sys_created_on>2024-06-19 14:22:17</sys_created_on>
+        <sys_id>1320064793fec210df7e70aefaba10a6</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>managing_agent</sys_name>
         <sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package>
         <sys_policy/>
         <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
-        <sys_update_name>sys_ui_policy_action_7d6516fe93ba8210df7e70aefaba109d</sys_update_name>
+        <sys_update_name>sys_ui_policy_action_1320064793fec210df7e70aefaba10a6</sys_update_name>
         <sys_updated_by>alyssa.hoshor</sys_updated_by>
-        <sys_updated_on>2024-06-18 21:16:36</sys_updated_on>
+        <sys_updated_on>2024-06-19 14:22:17</sys_updated_on>
         <table>x_1387186_ows_distance</table>
         <ui_policy display_value="Hide/Show Managing Agent Based on Asset/Agent Table">0db45e7e93ba8210df7e70aefaba1006</ui_policy>
         <value/>
         <value_action>ignore</value_action>
         <visible>true</visible>
     </sys_ui_policy_action>
-    <sys_translated_text action="delete_multiple" query="documentkey=7d6516fe93ba8210df7e70aefaba109d"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=1320064793fec210df7e70aefaba10a6"/>
 </record_update>

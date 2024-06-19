@@ -15,5 +15,62 @@
             <sys_updated_by>alyssa.hoshor</sys_updated_by>
             <sys_updated_on>2024-06-18 21:27:52</sys_updated_on>
         </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>clearance</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Top Secret</label>
+            <language>en</language>
+            <name>x_1387186_ows_distance</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>alyssa.hoshor</sys_created_by>
+            <sys_created_on>2024-06-19 14:21:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>alyssa.hoshor</sys_updated_by>
+            <sys_updated_on>2024-06-19 14:21:43</sys_updated_on>
+            <value>Top Secret</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>clearance</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Secret</label>
+            <language>en</language>
+            <name>x_1387186_ows_distance</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>alyssa.hoshor</sys_created_by>
+            <sys_created_on>2024-06-19 14:21:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>alyssa.hoshor</sys_updated_by>
+            <sys_updated_on>2024-06-19 14:21:43</sys_updated_on>
+            <value>Secret</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>clearance</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Confidential</label>
+            <language>en</language>
+            <name>x_1387186_ows_distance</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>alyssa.hoshor</sys_created_by>
+            <sys_created_on>2024-06-19 14:21:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>alyssa.hoshor</sys_updated_by>
+            <sys_updated_on>2024-06-19 14:21:43</sys_updated_on>
+            <value>Confidential</value>
+        </sys_choice>
     </sys_choice>
 </record_update>
