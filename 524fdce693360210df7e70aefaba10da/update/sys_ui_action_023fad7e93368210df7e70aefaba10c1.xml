@@ -7,7 +7,7 @@
 
 }]]></client_script_v2>
         <comments/>
-        <condition>current.status=="deployed"</condition>
+        <condition>current.status=="deployed"&amp;&amp;(gs.hasRole("x_1387186_aios.intelligence_administrator")||gs.hasRole("x_1387186_aios.intelligence_agent"))</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_button_v2>false</form_button_v2>
@@ -54,7 +54,7 @@ action.setRedirectURL(current);]]></script>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>023fad7e93368210df7e70aefaba10c1</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Send For Review</sys_name>
         <sys_overrides/>
         <sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package>
@@ -62,7 +62,7 @@ action.setRedirectURL(current);]]></script>
         <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
         <sys_update_name>sys_ui_action_023fad7e93368210df7e70aefaba10c1</sys_update_name>
         <sys_updated_by>gavin.moreland</sys_updated_by>
-        <sys_updated_on>2024-06-18 19:47:05</sys_updated_on>
+        <sys_updated_on>2024-06-19 14:25:50</sys_updated_on>
         <table>x_1387186_ows_satellite_task</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
