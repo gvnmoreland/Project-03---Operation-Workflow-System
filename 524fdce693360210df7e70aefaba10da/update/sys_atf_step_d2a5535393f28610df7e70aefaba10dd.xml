@@ -14,14 +14,14 @@
         <sys_created_by>alyssa.hoshor</sys_created_by>
         <sys_created_on>2024-06-20 15:14:21</sys_created_on>
         <sys_id>d2a5535393f28610df7e70aefaba10dd</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Open an Existing Record</sys_name>
         <sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package>
         <sys_policy/>
         <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
         <sys_update_name>sys_atf_step_d2a5535393f28610df7e70aefaba10dd</sys_update_name>
         <sys_updated_by>alyssa.hoshor</sys_updated_by>
-        <sys_updated_on>2024-06-20 15:14:21</sys_updated_on>
+        <sys_updated_on>2024-06-20 18:24:50</sys_updated_on>
         <table>x_1387186_ows_distance</table>
         <test display_value="OWS: Distance Record Creation">cc0c8b1f93728610df7e70aefaba1013</test>
         <timeout/>

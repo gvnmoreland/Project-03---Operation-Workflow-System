@@ -7,20 +7,20 @@
         <inputs/>
         <mugshots_cache_json/>
         <notes>Ensure Related Lists visible on form</notes>
-        <order>5</order>
+        <order>4</order>
         <step_config display_value="Validate Related List Visibility">8b84e5e837b1030064a52f3c8e41f170</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>alyssa.hoshor</sys_created_by>
         <sys_created_on>2024-06-20 15:00:46</sys_created_on>
         <sys_id>f8821b5b93b28610df7e70aefaba1049</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>Validate Related List Visibility</sys_name>
         <sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package>
         <sys_policy/>
         <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
         <sys_update_name>sys_atf_step_f8821b5b93b28610df7e70aefaba1049</sys_update_name>
         <sys_updated_by>alyssa.hoshor</sys_updated_by>
-        <sys_updated_on>2024-06-20 15:00:46</sys_updated_on>
+        <sys_updated_on>2024-06-20 18:33:38</sys_updated_on>
         <table>x_1387186_ows_satellite_task</table>
         <test display_value="OWS: Related List Visibility Test">1d32d35b93b28610df7e70aefaba1029</test>
         <timeout/>
