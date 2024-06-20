@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite_test">
+    <sys_atf_test_suite_test action="INSERT_OR_UPDATE">
+        <abort_on_failure>false</abort_on_failure>
+        <order>15</order>
+        <sys_class_name>sys_atf_test_suite_test</sys_class_name>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-20 15:05:22</sys_created_on>
+        <sys_id>b693171f93b28610df7e70aefaba10aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1d32d35b93b28610df7e70aefaba1029</sys_name>
+        <sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
+        <sys_update_name>sys_atf_test_suite_test_b693171f93b28610df7e70aefaba10aa</sys_update_name>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-20 15:05:22</sys_updated_on>
+        <test display_value="OWS: Related List Visibility Test">1d32d35b93b28610df7e70aefaba1029</test>
+        <test_suite display_value="Operation Workflow System">e79b8bcf937a0610df7e70aefaba104c</test_suite>
+    </sys_atf_test_suite_test>
+</record_update>

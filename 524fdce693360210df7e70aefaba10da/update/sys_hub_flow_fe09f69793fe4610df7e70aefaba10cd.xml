@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=769000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="">{}</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Delete asset and agent records when a Satellite Task location is updated</description>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>delete_agent_and_asset_records</internal_name>
+        <label_cache>[{"name":"subflow.satellite","label":"Input➛satellite","reference":"","reference_display":"","type":"GUID","base_type":"GUID","usedInstances":{"9a6244fe-0b4e-4c5a-907b-90089bcaf992":["conditions"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"224af190-77f0-42c7-ba56-70a612f44a86"}},{"name":"9a6244fe-0b4e-4c5a-907b-90089bcaf992.Records","label":"1 - Look Up Records➛Distance Records","reference":"x_1387186_ows_distance","reference_display":"Distance","type":"records","base_type":"records","usedInstances":{"d18ff0af-3e28-47b6-8cad-090466cf2ae4":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d18ff0af-3e28-47b6-8cad-090466cf2ae4.item","label":"2 - For Each➛Distance Record","reference":"x_1387186_ows_distance","reference_display":"Distance","type":"reference","base_type":"reference","usedInstances":{"64e8d015-ce66-4489-b584-271d604cebac":["record"]},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}}]</label_cache>
+        <master_snapshot>36fbb2db93fe4610df7e70aefaba10d8</master_snapshot>
+        <name>Delete Agent and Asset Records</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-20 13:09:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fe09f69793fe4610df7e70aefaba10cd</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Delete Agent and Asset Records</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
+        <sys_update_name>sys_hub_flow_fe09f69793fe4610df7e70aefaba10cd</sys_update_name>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-20 13:21:57</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=fe09f69793fe4610df7e70aefaba10cd"/>
+    <sys_variable_value action="delete_multiple" query="document_key=fe09f69793fe4610df7e70aefaba10cd"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=fe09f69793fe4610df7e70aefaba10cd"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=fe09f69793fe4610df7e70aefaba10cd"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=fe09f69793fe4610df7e70aefaba10cd^sys_idNOT IN7e09f69793fe4610df7e70aefaba10ce"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>fe09f69793fe4610df7e70aefaba10cd</id>
+        <name>Delete Agent and Asset Records</name>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-20 13:09:05</sys_created_on>
+        <sys_id>7e09f69793fe4610df7e70aefaba10ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-20 13:09:05</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=7e09f69793fe4610df7e70aefaba10ce"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=fe09f69793fe4610df7e70aefaba10cd^sys_idNOT IN6719f69793fe4610df7e70aefaba10d9"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=GUID,uiTypeLabel=Sys ID (GUID),uiUniqueId=224af190-77f0-42c7-ba56-70a612f44a86</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>satellite</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">GUID</internal_type>
+        <label>satellite</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Delete Agent and Asset Records">fe09f69793fe4610df7e70aefaba10cd</model>
+        <model_id>fe09f69793fe4610df7e70aefaba10cd</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_fe09f69793fe4610df7e70aefaba10cd</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-20 13:09:24</sys_created_on>
+        <sys_id>6719f69793fe4610df7e70aefaba10d9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-20 13:21:53</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=6719f69793fe4610df7e70aefaba10d9"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=fe09f69793fe4610df7e70aefaba10cd"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=fe09f69793fe4610df7e70aefaba10cd"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=fe09f69793fe4610df7e70aefaba10cd^sys_idNOT INa9297a9793fe4610df7e70aefaba10d4,b4eb32db93fe4610df7e70aefaba101b"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Delete Agent and Asset Records">fe09f69793fe4610df7e70aefaba10cd</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-20 13:09:32</sys_created_on>
+        <sys_id>a9297a9793fe4610df7e70aefaba10d4</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-20 13:53:12</sys_updated_on>
+        <ui_id>9a6244fe-0b4e-4c5a-907b-90089bcaf992</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a9297a9793fe4610df7e70aefaba10d4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a9297a9793fe4610df7e70aefaba10d4</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-20 13:21:53</sys_created_on>
+        <sys_id>aefbb2db93fe4610df7e70aefaba109b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-20 13:21:53</sys_updated_on>
+        <value>x_1387186_ows_distance</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a9297a9793fe4610df7e70aefaba10d4"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>a9297a9793fe4610df7e70aefaba10d4</id>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-20 13:21:53</sys_created_on>
+        <sys_id>6afbb2db93fe4610df7e70aefaba109b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-20 13:21:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>satellite={{subflow.satellite}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>a9297a9793fe4610df7e70aefaba10d4</id>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-20 13:21:53</sys_created_on>
+        <sys_id>2efbb2db93fe4610df7e70aefaba109b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-20 13:21:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a9297a9793fe4610df7e70aefaba10d4"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a9297a9793fe4610df7e70aefaba10d4"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Delete Record">c3e09916c31332002841b63b12d3aedf</action_type>
+        <action_type_parent display_value="Delete Record">a8f274c8c3c232002841b63b12d3aee9</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Delete Agent and Asset Records">fe09f69793fe4610df7e70aefaba10cd</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>d18ff0af-3e28-47b6-8cad-090466cf2ae4</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-20 13:21:29</sys_created_on>
+        <sys_id>b4eb32db93fe4610df7e70aefaba101b</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-20 13:53:12</sys_updated_on>
+        <ui_id>64e8d015-ce66-4489-b584-271d604cebac</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b4eb32db93fe4610df7e70aefaba101b"/>
+    <sys_element_mapping action="delete_multiple" query="id=b4eb32db93fe4610df7e70aefaba101b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>b4eb32db93fe4610df7e70aefaba101b</id>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-20 13:21:47</sys_created_on>
+        <sys_id>05fb72db93fe4610df7e70aefaba10fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-20 13:21:47</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c3e09916c31332002841b63b12d3aedf</table>
+        <value>{{d18ff0af-3e28-47b6-8cad-090466cf2ae4.item}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b4eb32db93fe4610df7e70aefaba101b"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b4eb32db93fe4610df7e70aefaba101b"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=fe09f69793fe4610df7e70aefaba10cd"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=fe09f69793fe4610df7e70aefaba10cd^sys_idNOT IN02db3e9b93fe4610df7e70aefaba1090"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">2efbb2db93fe4610df7e70aefaba109e</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Delete Agent and Asset Records">fe09f69793fe4610df7e70aefaba10cd</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-20 13:21:19</sys_created_on>
+        <sys_id>02db3e9b93fe4610df7e70aefaba1090</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-20 13:21:56</sys_updated_on>
+        <ui_id>d18ff0af-3e28-47b6-8cad-090466cf2ae4</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=02db3e9b93fe4610df7e70aefaba1090"/>
+    <sys_element_mapping action="delete_multiple" query="id=02db3e9b93fe4610df7e70aefaba1090"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>02db3e9b93fe4610df7e70aefaba1090</id>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-20 13:21:30</sys_created_on>
+        <sys_id>74eb32db93fe4610df7e70aefaba1022</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-20 13:21:30</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{9a6244fe-0b4e-4c5a-907b-90089bcaf992.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=02db3e9b93fe4610df7e70aefaba1090"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=02db3e9b93fe4610df7e70aefaba1090"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=fe09f69793fe4610df7e70aefaba10cd"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=fe09f69793fe4610df7e70aefaba10cd"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_fe09f69793fe4610df7e70aefaba10cd^sys_idNOT INe3197a9793fe4610df7e70aefaba10b5"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>satellite</element>
+        <help/>
+        <hint/>
+        <label>satellite</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_fe09f69793fe4610df7e70aefaba10cd</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-20 13:09:24</sys_created_on>
+        <sys_id>e3197a9793fe4610df7e70aefaba10b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-20 13:09:24</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_fe09f69793fe4610df7e70aefaba10cd"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_fe09f69793fe4610df7e70aefaba10cd"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_fe09f69793fe4610df7e70aefaba10cd"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="">{}</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Delete asset and agent records when a Satellite Task location is updated</description>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>delete_agent_and_asset_records</internal_name>
+        <label_cache>[{"name":"subflow.satellite","label":"Input➛satellite","reference":"","reference_display":"","type":"GUID","base_type":"GUID","usedInstances":{"9a6244fe-0b4e-4c5a-907b-90089bcaf992":["conditions"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"224af190-77f0-42c7-ba56-70a612f44a86"}},{"name":"9a6244fe-0b4e-4c5a-907b-90089bcaf992.Records","label":"1 - Look Up Records➛Distance Records","reference":"x_1387186_ows_distance","reference_display":"Distance","type":"records","base_type":"records","usedInstances":{"d18ff0af-3e28-47b6-8cad-090466cf2ae4":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d18ff0af-3e28-47b6-8cad-090466cf2ae4.item","label":"2 - For Each➛Distance Record","reference":"x_1387186_ows_distance","reference_display":"Distance","type":"reference","base_type":"reference","usedInstances":{"64e8d015-ce66-4489-b584-271d604cebac":["record"]},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}}]</label_cache>
+        <master>true</master>
+        <name>Delete Agent and Asset Records</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Delete Agent and Asset Records">fe09f69793fe4610df7e70aefaba10cd</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-20 13:21:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>36fbb2db93fe4610df7e70aefaba10d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-20 13:21:54</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=36fbb2db93fe4610df7e70aefaba10d8"/>
+    <sys_variable_value action="delete_multiple" query="document_key=36fbb2db93fe4610df7e70aefaba10d8"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=36fbb2db93fe4610df7e70aefaba10d8"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=36fbb2db93fe4610df7e70aefaba10d8"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=36fbb2db93fe4610df7e70aefaba10d8^sys_idNOT IN36fbb2db93fe4610df7e70aefaba10d9"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>36fbb2db93fe4610df7e70aefaba10d8</id>
+        <name>Delete Agent and Asset Records</name>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-20 13:21:54</sys_created_on>
+        <sys_id>36fbb2db93fe4610df7e70aefaba10d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-20 13:21:54</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=36fbb2db93fe4610df7e70aefaba10d9"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=36fbb2db93fe4610df7e70aefaba10d8^sys_idNOT IN7afbb2db93fe4610df7e70aefaba10da"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=GUID,uiTypeLabel=Sys ID (GUID),uiUniqueId=224af190-77f0-42c7-ba56-70a612f44a86</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>satellite</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">GUID</internal_type>
+        <label>satellite</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Delete Agent and Asset Records">36fbb2db93fe4610df7e70aefaba10d8</model>
+        <model_id>36fbb2db93fe4610df7e70aefaba10d8</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_36fbb2db93fe4610df7e70aefaba10d8</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-20 13:21:54</sys_created_on>
+        <sys_id>7afbb2db93fe4610df7e70aefaba10da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-20 13:21:54</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=7afbb2db93fe4610df7e70aefaba10da"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=36fbb2db93fe4610df7e70aefaba10d8"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=36fbb2db93fe4610df7e70aefaba10d8"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=36fbb2db93fe4610df7e70aefaba10d8^sys_idNOT IN7afbf2db93fe4610df7e70aefaba1022,7efbf2db93fe4610df7e70aefaba101b"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Delete Record">c3e09916c31332002841b63b12d3aedf</action_type>
+        <action_type_parent display_value="Delete Record">a8f274c8c3c232002841b63b12d3aee9</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Delete Agent and Asset Records">36fbb2db93fe4610df7e70aefaba10d8</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>d18ff0af-3e28-47b6-8cad-090466cf2ae4</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-20 13:21:55</sys_created_on>
+        <sys_id>7afbf2db93fe4610df7e70aefaba1022</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-20 13:21:55</sys_updated_on>
+        <ui_id>64e8d015-ce66-4489-b584-271d604cebac</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7afbf2db93fe4610df7e70aefaba1022"/>
+    <sys_element_mapping action="delete_multiple" query="id=7afbf2db93fe4610df7e70aefaba1022"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>7afbf2db93fe4610df7e70aefaba1022</id>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-20 13:21:55</sys_created_on>
+        <sys_id>3afbf2db93fe4610df7e70aefaba1023</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-20 13:21:55</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c3e09916c31332002841b63b12d3aedf</table>
+        <value>{{d18ff0af-3e28-47b6-8cad-090466cf2ae4.item}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7afbf2db93fe4610df7e70aefaba1022"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=7afbf2db93fe4610df7e70aefaba1022"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Delete Agent and Asset Records">36fbb2db93fe4610df7e70aefaba10d8</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-20 13:21:55</sys_created_on>
+        <sys_id>7efbf2db93fe4610df7e70aefaba101b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-20 13:21:55</sys_updated_on>
+        <ui_id>9a6244fe-0b4e-4c5a-907b-90089bcaf992</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7efbf2db93fe4610df7e70aefaba101b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7efbf2db93fe4610df7e70aefaba101b</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-20 13:21:55</sys_created_on>
+        <sys_id>f6fbf2db93fe4610df7e70aefaba101d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-20 13:21:55</sys_updated_on>
+        <value>x_1387186_ows_distance</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7efbf2db93fe4610df7e70aefaba101b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>7efbf2db93fe4610df7e70aefaba101b</id>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-20 13:21:55</sys_created_on>
+        <sys_id>b2fbf2db93fe4610df7e70aefaba101d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-20 13:21:55</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>satellite={{subflow.satellite}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>7efbf2db93fe4610df7e70aefaba101b</id>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-20 13:21:55</sys_created_on>
+        <sys_id>76fbf2db93fe4610df7e70aefaba101d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-20 13:21:55</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7efbf2db93fe4610df7e70aefaba101b"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=7efbf2db93fe4610df7e70aefaba101b"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=36fbb2db93fe4610df7e70aefaba10d8"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=36fbb2db93fe4610df7e70aefaba10d8^sys_idNOT INfafbf2db93fe4610df7e70aefaba1003"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">2efbb2db93fe4610df7e70aefaba109e</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Delete Agent and Asset Records">36fbb2db93fe4610df7e70aefaba10d8</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-20 13:21:54</sys_created_on>
+        <sys_id>fafbf2db93fe4610df7e70aefaba1003</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-20 13:21:54</sys_updated_on>
+        <ui_id>d18ff0af-3e28-47b6-8cad-090466cf2ae4</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=fafbf2db93fe4610df7e70aefaba1003"/>
+    <sys_element_mapping action="delete_multiple" query="id=fafbf2db93fe4610df7e70aefaba1003"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>fafbf2db93fe4610df7e70aefaba1003</id>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-20 13:21:54</sys_created_on>
+        <sys_id>bafbf2db93fe4610df7e70aefaba1006</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-20 13:21:54</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{9a6244fe-0b4e-4c5a-907b-90089bcaf992.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=fafbf2db93fe4610df7e70aefaba1003"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=fafbf2db93fe4610df7e70aefaba1003"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=36fbb2db93fe4610df7e70aefaba10d8"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=36fbb2db93fe4610df7e70aefaba10d8"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_36fbb2db93fe4610df7e70aefaba10d8^sys_idNOT IN3afbb2db93fe4610df7e70aefaba10fc"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>satellite</element>
+        <help/>
+        <hint/>
+        <label>satellite</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_36fbb2db93fe4610df7e70aefaba10d8</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-20 13:21:54</sys_created_on>
+        <sys_id>3afbb2db93fe4610df7e70aefaba10fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-20 13:21:54</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_36fbb2db93fe4610df7e70aefaba10d8"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_36fbb2db93fe4610df7e70aefaba10d8"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_36fbb2db93fe4610df7e70aefaba10d8"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>fe09f69793fe4610df7e70aefaba10cd</sys_id>
+        <latest_snapshot>36fbb2db93fe4610df7e70aefaba10d8</latest_snapshot>
+        <compiler_build>glide-washingtondc-12-20-2023__patch3-hotfix1-05-12-2024_05-16-2024_0813.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=fe09f69793fe4610df7e70aefaba10cd"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=fe09f69793fe4610df7e70aefaba10cd^sys_idNOT IN4bfbf2db93fe4610df7e70aefaba1040"/>
+    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"4bfbf2db93fe4610df7e70aefaba1040","name":"plan","plan_signature":null}}</plan>
+        <plan_id display_value="Delete Agent and Asset Records">fe09f69793fe4610df7e70aefaba10cd</plan_id>
+        <snapshot>0923cbdb93328610df7e70aefaba101e</snapshot>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-20 13:21:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4bfbf2db93fe4610df7e70aefaba1040</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-20 13:21:55</sys_updated_on>
+    </sys_flow_subflow_plan>
+</record_update>

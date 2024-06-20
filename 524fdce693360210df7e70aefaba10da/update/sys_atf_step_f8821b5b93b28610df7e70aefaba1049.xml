@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Confirm that the following related lists are visible on the 'Satellite Task' form: Closest Agents, Closest Assets</description>
+        <display_name>Validate Related List Visibility</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes>Ensure Related Lists visible on form</notes>
+        <order>5</order>
+        <step_config display_value="Validate Related List Visibility">8b84e5e837b1030064a52f3c8e41f170</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-20 15:00:46</sys_created_on>
+        <sys_id>f8821b5b93b28610df7e70aefaba1049</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Validate Related List Visibility</sys_name>
+        <sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
+        <sys_update_name>sys_atf_step_f8821b5b93b28610df7e70aefaba1049</sys_update_name>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-20 15:00:46</sys_updated_on>
+        <table>x_1387186_ows_satellite_task</table>
+        <test display_value="OWS: Related List Visibility Test">1d32d35b93b28610df7e70aefaba1029</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=f8821b5b93b28610df7e70aefaba1049"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>f8821b5b93b28610df7e70aefaba1049</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-20 15:00:46</sys_created_on>
+        <sys_id>0792139b93b28610df7e70aefaba1077</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-20 15:00:46</sys_updated_on>
+        <value>REL:2d43c236933a8210df7e70aefaba10cb,REL:33bd02fe937a8210df7e70aefaba104b</value>
+        <variable display_value="Visible">820ec4e93735030064a52f3c8e41f1a4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>f8821b5b93b28610df7e70aefaba1049</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-20 15:00:46</sys_created_on>
+        <sys_id>0f92139b93b28610df7e70aefaba1077</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-20 15:00:46</sys_updated_on>
+        <value/>
+        <variable display_value="Not visible">2bf688e637310300b8a62f3c8e41f1d0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>f8821b5b93b28610df7e70aefaba1049</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-20 15:00:46</sys_created_on>
+        <sys_id>cf92139b93b28610df7e70aefaba1077</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-20 15:00:46</sys_updated_on>
+        <value>x_1387186_ows_satellite_task</value>
+        <variable display_value="Table">2c77697437f1030064a52f3c8e41f15a</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_8b84e5e837b1030064a52f3c8e41f170^id=f8821b5b93b28610df7e70aefaba1049"/>
+</record_update>

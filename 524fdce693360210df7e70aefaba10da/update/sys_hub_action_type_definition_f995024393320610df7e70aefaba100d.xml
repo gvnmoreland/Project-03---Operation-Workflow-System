@@ -16,7 +16,7 @@
         <flow_priority/>
         <ih_action>false</ih_action>
         <internal_name>look_up_satellite_record_clearance</internal_name>
-        <label_cache>[{"name":"{{action.satellite}}","label":"action➛Satellite","type":"action","ref":"","reference_display":"","base_type":"GUID","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[44b2960b-536a-48a6-8e87-00d255b5ddb9].role}}","label":"step➛Script step➛role","type":"step","ref":"","reference_display":"","base_type":"user_roles","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"User Roles","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"user_roles","uiUniqueId":"deb359b2-b426-46ed-8b4b-a686bdce58ee"}},{"name":"{{step[44b2960b-536a-48a6-8e87-00d255b5ddb9].clearance_level}}","label":"step➛Script step➛Clearance Level","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"choice","uiUniqueId":"ed1aecee-480a-45cf-aaae-14cdb15e6dd3"}}]</label_cache>
+        <label_cache>[{"name":"{{action.satellite}}","label":"action➛Satellite","type":"action","ref":"","reference_display":"","base_type":"GUID","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[44b2960b-536a-48a6-8e87-00d255b5ddb9].role}}","label":"step➛Script step➛role","type":"step","ref":"","reference_display":"","base_type":"user_roles","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"User Roles","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"user_roles","uiUniqueId":"deb359b2-b426-46ed-8b4b-a686bdce58ee"}},{"name":"{{step[44b2960b-536a-48a6-8e87-00d255b5ddb9].clearance_level}}","label":"step➛Script step➛Clearance Level","type":"step","ref":"","reference_display":"","base_type":"choice","parent_table_name":"","column_name":"","choices":[],"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"ed1aecee-480a-45cf-aaae-14cdb15e6dd3"}}]</label_cache>
         <master_snapshot>b80a82cb93320610df7e70aefaba10d1</master_snapshot>
         <name>Look Up Satellite Record Clearance</name>
         <natlang/>
@@ -30,7 +30,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f995024393320610df7e70aefaba100d</sys_id>
-        <sys_mod_count>56</sys_mod_count>
+        <sys_mod_count>83</sys_mod_count>
         <sys_name>Look Up Satellite Record Clearance</sys_name>
         <sys_overrides/>
         <sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package>
@@ -38,7 +38,7 @@
         <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_f995024393320610df7e70aefaba100d</sys_update_name>
         <sys_updated_by>alyssa.hoshor</sys_updated_by>
-        <sys_updated_on>2024-06-19 18:03:01</sys_updated_on>
+        <sys_updated_on>2024-06-20 13:51:52</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -79,9 +79,9 @@
         <sys_created_by>alyssa.hoshor</sys_created_by>
         <sys_created_on>2024-06-19 14:48:18</sys_created_on>
         <sys_id>a6264a8393320610df7e70aefaba1065</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_updated_by>alyssa.hoshor</sys_updated_by>
-        <sys_updated_on>2024-06-19 16:48:52</sys_updated_on>
+        <sys_updated_on>2024-06-20 13:51:32</sys_updated_on>
         <table>var__m_sys_hub_action_output_f995024393320610df7e70aefaba100d</table>
         <value>{{step[44b2960b-536a-48a6-8e87-00d255b5ddb9].clearance_level}}</value>
     </sys_element_mapping>
@@ -139,10 +139,10 @@
         <sys_created_by>alyssa.hoshor</sys_created_by>
         <sys_created_on>2024-06-19 14:51:01</sys_created_on>
         <sys_id>26c6cec393320610df7e70aefaba10de</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
         <sys_updated_by>alyssa.hoshor</sys_updated_by>
-        <sys_updated_on>2024-06-19 16:50:34</sys_updated_on>
+        <sys_updated_on>2024-06-20 13:50:41</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=26c6cec393320610df7e70aefaba10de"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -167,16 +167,22 @@
         <sys_created_by>alyssa.hoshor</sys_created_by>
         <sys_created_on>2024-06-19 14:51:02</sys_created_on>
         <sys_id>2ac6cec393320610df7e70aefaba10fd</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_updated_by>alyssa.hoshor</sys_updated_by>
-        <sys_updated_on>2024-06-19 16:50:34</sys_updated_on>
+        <sys_updated_on>2024-06-20 13:50:41</sys_updated_on>
         <value>(function execute(inputs, outputs) {&#13;
     var sat = new GlideRecord('x_1387186_sat_img_satellite_images');&#13;
     sat.addQuery('sys_id', inputs.satellite);&#13;
     sat.query();&#13;
     if (sat.next()) {&#13;
         var clearance = sat.getValue('clearance_level');&#13;
+        if (clearance == null) {&#13;
+            clearance = 'Top Secret'&#13;
+        }&#13;
         outputs.clearance_level = clearance;&#13;
+&#13;
+&#13;
+&#13;
     }&#13;
 &#13;
     switch(clearance) {&#13;
@@ -188,6 +194,9 @@
             break;&#13;
         case 'Confidential':&#13;
             outputs.role = 'x_1387186_soms.confidential';&#13;
+            break;&#13;
+        case null:&#13;
+            outputs.role = 'x_1387186_soms.top_secret';&#13;
             break;&#13;
     }&#13;
 &#13;
@@ -319,12 +328,12 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=26c6cec393320610df7e70aefaba10de^sys_idNOT IN5ab1224393360610df7e70aefaba102d,afd456c393b20610df7e70aefaba1028"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=26c6cec393320610df7e70aefaba10de^sys_idNOT IN62a2879b93328610df7e70aefaba100a,afd456c393b20610df7e70aefaba1028"/>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=ed1aecee-480a-45cf-aaae-14cdb15e6dd3</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=choice,uiTypeLabel=Choice,uiUniqueId=ed1aecee-480a-45cf-aaae-14cdb15e6dd3</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -332,8 +341,8 @@
 	return '';  // return the calculated value
 
 })(current);]]></calculation>
-        <choice/>
-        <choice_field>clearance_level</choice_field>
+        <choice>1</choice>
+        <choice_field/>
         <choice_table>x_1387186_intellat_assets</choice_table>
         <column_label/>
         <comments/>
@@ -356,10 +365,10 @@
         <function_field>false</function_field>
         <help/>
         <hint/>
-        <internal_type display_value="String">string</internal_type>
+        <internal_type display_value="Choice">choice</internal_type>
         <label>Clearance Level</label>
         <mandatory>true</mandatory>
-        <max_length>8000</max_length>
+        <max_length>32</max_length>
         <model display_value="Script step">26c6cec393320610df7e70aefaba10de</model>
         <model_id>26c6cec393320610df7e70aefaba10de</model_id>
         <model_table>sys_hub_step_instance</model_table>
@@ -381,8 +390,8 @@
         <staged>false</staged>
         <sys_class_name>sys_hub_step_ext_output</sys_class_name>
         <sys_created_by>alyssa.hoshor</sys_created_by>
-        <sys_created_on>2024-06-19 16:48:42</sys_created_on>
-        <sys_id>5ab1224393360610df7e70aefaba102d</sys_id>
+        <sys_created_on>2024-06-20 13:51:06</sys_created_on>
+        <sys_id>62a2879b93328610df7e70aefaba100a</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
@@ -390,7 +399,7 @@
         <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
         <sys_update_name/>
         <sys_updated_by>alyssa.hoshor</sys_updated_by>
-        <sys_updated_on>2024-06-19 16:48:42</sys_updated_on>
+        <sys_updated_on>2024-06-20 13:51:06</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -487,7 +496,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_input_scripts action="delete_multiple" query="instance=26c6cec393320610df7e70aefaba10de"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_26c6cec393320610df7e70aefaba10de^sys_idNOT IN9eb1224393360610df7e70aefaba1033,a3d456c393b20610df7e70aefaba102c"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_26c6cec393320610df7e70aefaba10de^sys_idNOT IN2ea2879b93328610df7e70aefaba1010,a3d456c393b20610df7e70aefaba102c"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>clearance_level</element>
         <help/>
@@ -498,8 +507,8 @@
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>alyssa.hoshor</sys_created_by>
-        <sys_created_on>2024-06-19 16:48:42</sys_created_on>
-        <sys_id>9eb1224393360610df7e70aefaba1033</sys_id>
+        <sys_created_on>2024-06-20 13:51:06</sys_created_on>
+        <sys_id>2ea2879b93328610df7e70aefaba1010</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package>
@@ -507,7 +516,7 @@
         <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
         <sys_update_name/>
         <sys_updated_by>alyssa.hoshor</sys_updated_by>
-        <sys_updated_on>2024-06-19 16:48:42</sys_updated_on>
+        <sys_updated_on>2024-06-20 13:51:06</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -706,7 +715,20 @@
         <xml_view>false</xml_view>
     </sys_hub_action_output>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=896d92c793f20610df7e70aefaba1013"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=896d92c793f20610df7e70aefaba1013"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=896d92c793f20610df7e70aefaba1013^sys_idNOT INc1204fd393328610df7e70aefaba10e1"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>clearance_level</input_name>
+        <instance>896d92c793f20610df7e70aefaba1013</instance>
+        <referenced_table>sys_hub_action_output</referenced_table>
+        <script>{"clearance_level":{"scriptActive":false}}</script>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-20 13:40:05</sys_created_on>
+        <sys_id>c1204fd393328610df7e70aefaba10e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-20 13:40:05</sys_updated_on>
+    </sys_hub_input_scripts>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -946,14 +968,14 @@
         <sys_created_by>alyssa.hoshor</sys_created_by>
         <sys_created_on>2024-06-19 14:46:36</sys_created_on>
         <sys_id>f9c58a4393320610df7e70aefaba10a7</sys_id>
-        <sys_mod_count>75</sys_mod_count>
+        <sys_mod_count>107</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
         <sys_update_name/>
         <sys_updated_by>alyssa.hoshor</sys_updated_by>
-        <sys_updated_on>2024-06-19 18:02:59</sys_updated_on>
+        <sys_updated_on>2024-06-20 13:51:50</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1195,9 +1217,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>bbdd920b93f20610df7e70aefaba107c</sys_id>
-            <sys_mod_count>4</sys_mod_count>
+            <sys_mod_count>6</sys_mod_count>
             <sys_updated_by>alyssa.hoshor</sys_updated_by>
-            <sys_updated_on>2024-06-19 16:49:49</sys_updated_on>
+            <sys_updated_on>2024-06-20 13:51:50</sys_updated_on>
             <value/>
         </sys_choice>
     </sys_choice>
@@ -1205,17 +1227,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Look Up Satellite Record Clearance">f995024393320610df7e70aefaba100d</action_id>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"510ac2cb93320610df7e70aefaba107c","name":"plan","plan_signature":null}}</plan>
-        <snapshot>cfb2b20f93760610df7e70aefaba101b</snapshot>
+        <snapshot>add24f9b93328610df7e70aefaba10f0</snapshot>
         <sys_created_by>alyssa.hoshor</sys_created_by>
         <sys_created_on>2024-06-19 15:05:08</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>510ac2cb93320610df7e70aefaba107c</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>alyssa.hoshor</sys_updated_by>
-        <sys_updated_on>2024-06-19 18:03:02</sys_updated_on>
+        <sys_updated_on>2024-06-20 13:51:53</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1232,7 +1254,7 @@
         <description>Look up the clearance of a specified satellite record and output the clearance level</description>
         <flow_priority/>
         <internal_name>look_up_satellite_record_clearance</internal_name>
-        <label_cache>[{"name":"{{action.satellite}}","label":"action➛Satellite","type":"action","ref":"","reference_display":"","base_type":"GUID","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[44b2960b-536a-48a6-8e87-00d255b5ddb9].role}}","label":"step➛Script step➛role","type":"step","ref":"","reference_display":"","base_type":"user_roles","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"User Roles","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"user_roles","uiUniqueId":"deb359b2-b426-46ed-8b4b-a686bdce58ee"}},{"name":"{{step[44b2960b-536a-48a6-8e87-00d255b5ddb9].clearance_level}}","label":"step➛Script step➛Clearance Level","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"choice","uiUniqueId":"ed1aecee-480a-45cf-aaae-14cdb15e6dd3"}}]</label_cache>
+        <label_cache>[{"name":"{{action.satellite}}","label":"action➛Satellite","type":"action","ref":"","reference_display":"","base_type":"GUID","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[44b2960b-536a-48a6-8e87-00d255b5ddb9].role}}","label":"step➛Script step➛role","type":"step","ref":"","reference_display":"","base_type":"user_roles","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"User Roles","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"user_roles","uiUniqueId":"deb359b2-b426-46ed-8b4b-a686bdce58ee"}},{"name":"{{step[44b2960b-536a-48a6-8e87-00d255b5ddb9].clearance_level}}","label":"step➛Script step➛Clearance Level","type":"step","ref":"","reference_display":"","base_type":"choice","parent_table_name":"","column_name":"","choices":[],"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"ed1aecee-480a-45cf-aaae-14cdb15e6dd3"}}]</label_cache>
         <master>true</master>
         <name>Look Up Satellite Record Clearance</name>
         <natlang/>
@@ -1245,7 +1267,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b80a82cb93320610df7e70aefaba10d1</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1253,7 +1275,7 @@
         <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
         <sys_update_name/>
         <sys_updated_by>alyssa.hoshor</sys_updated_by>
-        <sys_updated_on>2024-06-19 18:03:00</sys_updated_on>
+        <sys_updated_on>2024-06-20 13:51:51</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -1354,10 +1376,10 @@
         <sys_created_by>alyssa.hoshor</sys_created_by>
         <sys_created_on>2024-06-19 15:05:07</sys_created_on>
         <sys_id>f00a82cb93320610df7e70aefaba10dc</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
         <sys_updated_by>alyssa.hoshor</sys_updated_by>
-        <sys_updated_on>2024-06-19 18:03:01</sys_updated_on>
+        <sys_updated_on>2024-06-20 13:51:52</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f00a82cb93320610df7e70aefaba10dc"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1382,16 +1404,22 @@
         <sys_created_by>alyssa.hoshor</sys_created_by>
         <sys_created_on>2024-06-19 15:05:07</sys_created_on>
         <sys_id>c90ac2cb93320610df7e70aefaba1015</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>alyssa.hoshor</sys_updated_by>
-        <sys_updated_on>2024-06-19 18:03:01</sys_updated_on>
+        <sys_updated_on>2024-06-20 13:51:52</sys_updated_on>
         <value>(function execute(inputs, outputs) {&#13;
     var sat = new GlideRecord('x_1387186_sat_img_satellite_images');&#13;
     sat.addQuery('sys_id', inputs.satellite);&#13;
     sat.query();&#13;
     if (sat.next()) {&#13;
         var clearance = sat.getValue('clearance_level');&#13;
+        if (clearance == null) {&#13;
+            clearance = 'Top Secret'&#13;
+        }&#13;
         outputs.clearance_level = clearance;&#13;
+&#13;
+&#13;
+&#13;
     }&#13;
 &#13;
     switch(clearance) {&#13;
@@ -1403,6 +1431,9 @@
             break;&#13;
         case 'Confidential':&#13;
             outputs.role = 'x_1387186_soms.confidential';&#13;
+            break;&#13;
+        case null:&#13;
+            outputs.role = 'x_1387186_soms.top_secret';&#13;
             break;&#13;
     }&#13;
 &#13;
@@ -1534,7 +1565,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=f00a82cb93320610df7e70aefaba10dc^sys_idNOT IN3585de4793b20610df7e70aefaba10c8,7ab2720f93760610df7e70aefaba10df"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=f00a82cb93320610df7e70aefaba10dc^sys_idNOT IN3585de4793b20610df7e70aefaba10c8,6dd24f9b93328610df7e70aefaba10ba"/>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1622,7 +1653,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=ed1aecee-480a-45cf-aaae-14cdb15e6dd3</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=choice,uiTypeLabel=Choice,uiUniqueId=ed1aecee-480a-45cf-aaae-14cdb15e6dd3</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1630,8 +1661,8 @@
 	return '';  // return the calculated value
 
 })(current);]]></calculation>
-        <choice/>
-        <choice_field>clearance_level</choice_field>
+        <choice>1</choice>
+        <choice_field/>
         <choice_table>x_1387186_intellat_assets</choice_table>
         <column_label/>
         <comments/>
@@ -1654,10 +1685,10 @@
         <function_field>false</function_field>
         <help/>
         <hint/>
-        <internal_type display_value="String">string</internal_type>
+        <internal_type display_value="Choice">choice</internal_type>
         <label>Clearance Level</label>
         <mandatory>true</mandatory>
-        <max_length>8000</max_length>
+        <max_length>32</max_length>
         <model display_value="Script step">f00a82cb93320610df7e70aefaba10dc</model>
         <model_id>f00a82cb93320610df7e70aefaba10dc</model_id>
         <model_table>sys_hub_step_instance</model_table>
@@ -1679,8 +1710,8 @@
         <staged>false</staged>
         <sys_class_name>sys_hub_step_ext_output</sys_class_name>
         <sys_created_by>alyssa.hoshor</sys_created_by>
-        <sys_created_on>2024-06-19 18:03:01</sys_created_on>
-        <sys_id>7ab2720f93760610df7e70aefaba10df</sys_id>
+        <sys_created_on>2024-06-20 13:51:52</sys_created_on>
+        <sys_id>6dd24f9b93328610df7e70aefaba10ba</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
@@ -1688,7 +1719,7 @@
         <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
         <sys_update_name/>
         <sys_updated_by>alyssa.hoshor</sys_updated_by>
-        <sys_updated_on>2024-06-19 18:03:01</sys_updated_on>
+        <sys_updated_on>2024-06-20 13:51:52</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1702,7 +1733,30 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_input_scripts action="delete_multiple" query="instance=f00a82cb93320610df7e70aefaba10dc"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_f00a82cb93320610df7e70aefaba10dc^sys_idNOT INf585de4793b20610df7e70aefaba10cb,fab2720f93760610df7e70aefaba10e4"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_f00a82cb93320610df7e70aefaba10dc^sys_idNOT INa5d24f9b93328610df7e70aefaba10d9,f585de4793b20610df7e70aefaba10cb"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>clearance_level</element>
+        <help/>
+        <hint/>
+        <label>Clearance Level</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_f00a82cb93320610df7e70aefaba10dc</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-20 13:51:52</sys_created_on>
+        <sys_id>a5d24f9b93328610df7e70aefaba10d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-20 13:51:52</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>role</element>
         <help/>
@@ -1723,29 +1777,6 @@
         <sys_update_name/>
         <sys_updated_by>alyssa.hoshor</sys_updated_by>
         <sys_updated_on>2024-06-19 15:55:25</sys_updated_on>
-        <url/>
-        <url_target/>
-    </sys_documentation>
-    <sys_documentation action="INSERT_OR_UPDATE">
-        <element>clearance_level</element>
-        <help/>
-        <hint/>
-        <label>Clearance Level</label>
-        <language>en</language>
-        <name>var__m_sys_hub_step_ext_output_f00a82cb93320610df7e70aefaba10dc</name>
-        <plural/>
-        <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>alyssa.hoshor</sys_created_by>
-        <sys_created_on>2024-06-19 18:03:01</sys_created_on>
-        <sys_id>fab2720f93760610df7e70aefaba10e4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package>
-        <sys_policy/>
-        <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>alyssa.hoshor</sys_updated_by>
-        <sys_updated_on>2024-06-19 18:03:01</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -2095,7 +2126,20 @@
         <xml_view>false</xml_view>
     </sys_hub_action_output>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=890ac2cb93320610df7e70aefaba1019"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=890ac2cb93320610df7e70aefaba1019"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=890ac2cb93320610df7e70aefaba1019^sys_idNOT IN6dd24f9b93328610df7e70aefaba10ed"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>clearance_level</input_name>
+        <instance>890ac2cb93320610df7e70aefaba1019</instance>
+        <referenced_table>sys_hub_action_output</referenced_table>
+        <script>{"clearance_level":{"scriptActive":false}}</script>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-20 13:51:52</sys_created_on>
+        <sys_id>6dd24f9b93328610df7e70aefaba10ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-20 13:51:52</sys_updated_on>
+    </sys_hub_input_scripts>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -2161,14 +2205,14 @@
         <sys_created_by>alyssa.hoshor</sys_created_by>
         <sys_created_on>2024-06-19 15:05:08</sys_created_on>
         <sys_id>c50ac2cb93320610df7e70aefaba1040</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
         <sys_update_name/>
         <sys_updated_by>alyssa.hoshor</sys_updated_by>
-        <sys_updated_on>2024-06-19 18:03:01</sys_updated_on>
+        <sys_updated_on>2024-06-20 13:51:52</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
