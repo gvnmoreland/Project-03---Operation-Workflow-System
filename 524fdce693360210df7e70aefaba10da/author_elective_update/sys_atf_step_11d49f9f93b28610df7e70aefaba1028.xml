@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from/>
+        <description>Validate there is at least one record in 'x_1387186_sat_img_satellite_images' matching query:
+Location != (0.000000, 0.000000)
+With a failure timeout of 5 Seconds</description>
+        <display_name>Record Query</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes>Search for Distance record with agent</notes>
+        <order>2</order>
+        <step_config display_value="Record Query">2d82e3c7531400109e02ddeeff7b12a7</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-20 15:11:19</sys_created_on>
+        <sys_id>11d49f9f93b28610df7e70aefaba1028</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Record Query</sys_name>
+        <sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
+        <sys_update_name>sys_atf_step_11d49f9f93b28610df7e70aefaba1028</sys_update_name>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-20 18:39:53</sys_updated_on>
+        <table>x_1387186_sat_img_satellite_images</table>
+        <test display_value="OWS: Satellite Task Form from Distance Record">9814135f93b28610df7e70aefaba1006</test>
+        <timeout>1970-01-01 00:00:05</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=11d49f9f93b28610df7e70aefaba1028"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>11d49f9f93b28610df7e70aefaba1028</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-20 15:11:20</sys_created_on>
+        <sys_id>6d0553df93b28610df7e70aefaba10df</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-20 18:39:53</sys_updated_on>
+        <value>location!=(0,0)^EQ</value>
+        <variable display_value="Conditions">915990ab531000109e02ddeeff7b12f8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>11d49f9f93b28610df7e70aefaba1028</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-20 15:11:20</sys_created_on>
+        <sys_id>a90553df93b28610df7e70aefaba10df</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-20 18:37:48</sys_updated_on>
+        <value>x_1387186_sat_img_satellite_images</value>
+        <variable display_value="Table">78b8d86b531000109e02ddeeff7b12f3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>11d49f9f93b28610df7e70aefaba1028</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-20 15:11:20</sys_created_on>
+        <sys_id>e50553df93b28610df7e70aefaba10df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-20 15:11:20</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Enforce security">02fb0027531000109e02ddeeff7b120b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>11d49f9f93b28610df7e70aefaba1028</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-20 15:11:20</sys_created_on>
+        <sys_id>ed0553df93b28610df7e70aefaba10de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-20 15:11:20</sys_updated_on>
+        <value>records_match_query</value>
+        <variable display_value="Assert type">b86c0427531000109e02ddeeff7b1227</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_atf_input_variable_2d82e3c7531400109e02ddeeff7b12a7^id=11d49f9f93b28610df7e70aefaba1028"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</application>
+        <file_path/>
+        <instance_id>de14e45c1b7d7d901024eb9b2d4bcb59</instance_id>
+        <instance_name>dev182002</instance_name>
+        <name>sys_atf_step_11d49f9f93b28610df7e70aefaba1028</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Validate there is at least one record in 'x_1387186_sat_img_satellite_images' matching query:
+Location != (0.000000, 0.000000)
+With a failure timeout of 5 Seconds</description><display_name>Record Query</display_name><inputs/><mugshots_cache_json/><notes>Search for Distance record with agent</notes><order>2</order><step_config display_value="Record Query">2d82e3c7531400109e02ddeeff7b12a7</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>alyssa.hoshor</sys_created_by><sys_created_on>2024-06-20 15:11:19</sys_created_on><sys_id>11d49f9f93b28610df7e70aefaba1028</sys_id><sys_mod_count>5</sys_mod_count><sys_name>Record Query</sys_name><sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package><sys_policy/><sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope><sys_update_name>sys_atf_step_11d49f9f93b28610df7e70aefaba1028</sys_update_name><sys_updated_by>alyssa.hoshor</sys_updated_by><sys_updated_on>2024-06-20 18:39:53</sys_updated_on><table>x_1387186_sat_img_satellite_images</table><test display_value="OWS: Satellite Task Form from Distance Record">9814135f93b28610df7e70aefaba1006</test><timeout>1970-01-01 00:00:05</timeout><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=11d49f9f93b28610df7e70aefaba1028"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>11d49f9f93b28610df7e70aefaba1028</document_key><order>400</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>alyssa.hoshor</sys_created_by><sys_created_on>2024-06-20 15:11:20</sys_created_on><sys_id>6d0553df93b28610df7e70aefaba10df</sys_id><sys_mod_count>3</sys_mod_count><sys_updated_by>alyssa.hoshor</sys_updated_by><sys_updated_on>2024-06-20 18:39:53</sys_updated_on><value>location!=(0,0)^EQ</value><variable display_value="Conditions">915990ab531000109e02ddeeff7b12f8</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>11d49f9f93b28610df7e70aefaba1028</document_key><order>300</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>alyssa.hoshor</sys_created_by><sys_created_on>2024-06-20 15:11:20</sys_created_on><sys_id>a90553df93b28610df7e70aefaba10df</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>alyssa.hoshor</sys_updated_by><sys_updated_on>2024-06-20 18:37:48</sys_updated_on><value>x_1387186_sat_img_satellite_images</value><variable display_value="Table">78b8d86b531000109e02ddeeff7b12f3</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>11d49f9f93b28610df7e70aefaba1028</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>alyssa.hoshor</sys_created_by><sys_created_on>2024-06-20 15:11:20</sys_created_on><sys_id>e50553df93b28610df7e70aefaba10df</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>alyssa.hoshor</sys_updated_by><sys_updated_on>2024-06-20 15:11:20</sys_updated_on><value>0</value><variable display_value="Enforce security">02fb0027531000109e02ddeeff7b120b</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>11d49f9f93b28610df7e70aefaba1028</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>alyssa.hoshor</sys_created_by><sys_created_on>2024-06-20 15:11:20</sys_created_on><sys_id>ed0553df93b28610df7e70aefaba10de</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>alyssa.hoshor</sys_updated_by><sys_updated_on>2024-06-20 15:11:20</sys_updated_on><value>records_match_query</value><variable display_value="Assert type">b86c0427531000109e02ddeeff7b1227</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_2d82e3c7531400109e02ddeeff7b12a7^id=11d49f9f93b28610df7e70aefaba1028"/></record_update>]]></payload>
+        <payload_hash>806991441</payload_hash>
+        <record_name>Record Query</record_name>
+        <reverted_from/>
+        <source>2b17306e93f60210df7e70aefaba10d2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-20 18:39:53</sys_created_on>
+        <sys_id>f8c4c4e7937a8610df7e70aefaba10c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19036f2b3d90000001</sys_recorded_at>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-20 18:39:53</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>70c4c4e7517a8610b4972c8ab4f599c9</update_guid>
+        <update_guid_history>70c4c4e7517a8610b4972c8ab4f599c9:806991441,8d944ca7dd7a8610346ce0b4f3a793b4:-1796706303,6c5444a7f57a86103345ef85505972ae:806991441,564480a7a77a861081f57e3e65b78016:-1887982608,e10553df01b28610fd94118fb49559e2:2130285161</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-20 18:58:26</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>7ff9c6a018ed4c3a8d67208fb36b5be4</sys_id>
+        <sys_metadata>11d49f9f93b28610df7e70aefaba1028</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record Query</sys_name>
+        <sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
+        <sys_scope_delete display_value="">33f219d46b4f4f608eb30d59f6038400</sys_scope_delete>
+        <sys_update_name>sys_atf_step_11d49f9f93b28610df7e70aefaba1028</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_11d49f9f93b28610df7e70aefaba1028">f8c4c4e7937a8610df7e70aefaba10c9</sys_update_version>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-20 18:58:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

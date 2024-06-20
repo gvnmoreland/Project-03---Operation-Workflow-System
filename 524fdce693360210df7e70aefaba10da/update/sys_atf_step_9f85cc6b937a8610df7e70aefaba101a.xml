@@ -3,27 +3,26 @@
         <active>true</active>
         <copied_from/>
         <description>Validate there is at least one record in 'x_1387186_ows_distance' matching query:
-Satellite Image = {{Step 2: Record Query.First record}}
+Satellite Image is not empty
 With a failure timeout of 5 Seconds</description>
         <display_name>Record Query</display_name>
         <inputs/>
-        <inputs/>
         <mugshots_cache_json/>
         <notes/>
-        <order>3</order>
+        <order>2</order>
         <step_config display_value="Record Query">2d82e3c7531400109e02ddeeff7b12a7</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>alyssa.hoshor</sys_created_by>
         <sys_created_on>2024-06-20 18:43:33</sys_created_on>
         <sys_id>9f85cc6b937a8610df7e70aefaba101a</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Record Query</sys_name>
         <sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package>
         <sys_policy/>
         <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
         <sys_update_name>sys_atf_step_9f85cc6b937a8610df7e70aefaba101a</sys_update_name>
         <sys_updated_by>alyssa.hoshor</sys_updated_by>
-        <sys_updated_on>2024-06-20 18:43:48</sys_updated_on>
+        <sys_updated_on>2024-06-20 18:59:49</sys_updated_on>
         <table>x_1387186_ows_distance</table>
         <test display_value="OWS: Satellite Task Form from Distance Record">9814135f93b28610df7e70aefaba1006</test>
         <timeout>1970-01-01 00:00:05</timeout>
@@ -52,10 +51,10 @@ With a failure timeout of 5 Seconds</description>
         <sys_created_by>alyssa.hoshor</sys_created_by>
         <sys_created_on>2024-06-20 18:43:33</sys_created_on>
         <sys_id>629500ab937a8610df7e70aefaba10bd</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>alyssa.hoshor</sys_updated_by>
-        <sys_updated_on>2024-06-20 18:43:33</sys_updated_on>
-        <value>satellite={{step['11d49f9f93b28610df7e70aefaba1028'].first_record}}^EQ</value>
+        <sys_updated_on>2024-06-20 18:59:49</sys_updated_on>
+        <value>satelliteISNOTEMPTY^EQ</value>
         <variable display_value="Conditions">915990ab531000109e02ddeeff7b12f8</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -86,29 +85,5 @@ With a failure timeout of 5 Seconds</description>
         <value>0</value>
         <variable display_value="Enforce security">02fb0027531000109e02ddeeff7b120b</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=9f85cc6b937a8610df7e70aefaba101a"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>enforce_security</field>
-        <id>9f85cc6b937a8610df7e70aefaba101a</id>
-        <sys_created_by>alyssa.hoshor</sys_created_by>
-        <sys_created_on>2024-06-20 18:43:33</sys_created_on>
-        <sys_id>e29500ab937a8610df7e70aefaba10bc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>alyssa.hoshor</sys_updated_by>
-        <sys_updated_on>2024-06-20 18:43:33</sys_updated_on>
-        <table>var__m_atf_input_variable_2d82e3c7531400109e02ddeeff7b12a7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>field_values</field>
-        <id>9f85cc6b937a8610df7e70aefaba101a</id>
-        <sys_created_by>alyssa.hoshor</sys_created_by>
-        <sys_created_on>2024-06-20 18:43:33</sys_created_on>
-        <sys_id>a69500ab937a8610df7e70aefaba10bc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>alyssa.hoshor</sys_updated_by>
-        <sys_updated_on>2024-06-20 18:43:33</sys_updated_on>
-        <table>var__m_atf_input_variable_2d82e3c7531400109e02ddeeff7b12a7</table>
-        <value>satellite={{step['11d49f9f93b28610df7e70aefaba1028'].first_record}}^EQ</value>
-    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_2d82e3c7531400109e02ddeeff7b12a7^id=9f85cc6b937a8610df7e70aefaba101a"/>
 </record_update>
