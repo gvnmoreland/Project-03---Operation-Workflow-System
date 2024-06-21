@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
     <sys_atf_test action="INSERT_OR_UPDATE">
         <active>true</active>
-        <copied_from display_value="OWS: Distance Record Creation">cc0c8b1f93728610df7e70aefaba1013</copied_from>
-        <description>Test to ensure that the 'Deploy Asset/Agent' button on Distance form opens a new form for admin</description>
+        <copied_from display_value="OWS: Top Secret Clearance Check for Top Secret Agents/Analyts">4c1e08ef93ba8610df7e70aefaba106b</copied_from>
+        <description>Test to check that user that has Secret clearance can access Secret Distance records</description>
         <enable_parameterized_testing>false</enable_parameterized_testing>
         <fail_on_server_error>true</fail_on_server_error>
-        <name>OWS: Satellite Task Form from Distance Record Admin</name>
+        <name>OWS: Secret Clearance Check for Secret Agents/Analyts</name>
         <parameters/>
         <remember/>
         <sn_atf_tg_generated>false</sn_atf_tg_generated>
         <sys_class_name>sys_atf_test</sys_class_name>
         <sys_created_by>alyssa.hoshor</sys_created_by>
-        <sys_created_on>2024-06-20 15:07:08</sys_created_on>
-        <sys_id>9814135f93b28610df7e70aefaba1006</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>OWS: Satellite Task Form from Distance Record Admin</sys_name>
+        <sys_created_on>2024-06-20 19:28:06</sys_created_on>
+        <sys_id>f2cf882793fa8610df7e70aefaba1031</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>OWS: Secret Clearance Check for Secret Agents/Analyts</sys_name>
         <sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package>
         <sys_policy/>
         <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
-        <sys_update_name>sys_atf_test_9814135f93b28610df7e70aefaba1006</sys_update_name>
+        <sys_update_name>sys_atf_test_f2cf882793fa8610df7e70aefaba1031</sys_update_name>
         <sys_updated_by>alyssa.hoshor</sys_updated_by>
-        <sys_updated_on>2024-06-20 19:08:55</sys_updated_on>
+        <sys_updated_on>2024-06-20 19:28:44</sys_updated_on>
     </sys_atf_test>
-    <sys_variable_value action="delete_multiple" query="document_key=9814135f93b28610df7e70aefaba1006"/>
+    <sys_variable_value action="delete_multiple" query="document_key=f2cf882793fa8610df7e70aefaba1031"/>
 </record_update>

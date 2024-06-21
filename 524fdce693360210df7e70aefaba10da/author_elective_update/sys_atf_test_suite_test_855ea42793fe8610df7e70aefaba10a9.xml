@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite_test">
+    <sys_atf_test_suite_test action="DELETE">
+        <abort_on_failure>false</abort_on_failure>
+        <order>300</order>
+        <sys_class_name>sys_atf_test_suite_test</sys_class_name>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-20 21:41:40</sys_created_on>
+        <sys_id>855ea42793fe8610df7e70aefaba10a9</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>73ab002b93ba8610df7e70aefaba10f7</sys_name>
+        <sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
+        <sys_update_name>sys_atf_test_suite_test_855ea42793fe8610df7e70aefaba10a9</sys_update_name>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-20 21:57:15</sys_updated_on>
+        <test display_value="OWS: Top Secret Clearance Check Confidential/Secret Agents/Analysts">73ab002b93ba8610df7e70aefaba10f7</test>
+        <test_suite display_value="Operation Workflow System">e79b8bcf937a0610df7e70aefaba104c</test_suite>
+    </sys_atf_test_suite_test>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</application>
+        <file_path/>
+        <instance_id>de14e45c1b7d7d901024eb9b2d4bcb59</instance_id>
+        <instance_name>dev182002</instance_name>
+        <name>sys_atf_test_suite_test_855ea42793fe8610df7e70aefaba10a9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite_test"><sys_atf_test_suite_test action="INSERT_OR_UPDATE"><abort_on_failure>false</abort_on_failure><order>300</order><sys_class_name>sys_atf_test_suite_test</sys_class_name><sys_created_by>alyssa.hoshor</sys_created_by><sys_created_on>2024-06-20 21:41:40</sys_created_on><sys_id>855ea42793fe8610df7e70aefaba10a9</sys_id><sys_mod_count>2</sys_mod_count><sys_name>73ab002b93ba8610df7e70aefaba10f7</sys_name><sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package><sys_policy/><sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope><sys_update_name>sys_atf_test_suite_test_855ea42793fe8610df7e70aefaba10a9</sys_update_name><sys_updated_by>alyssa.hoshor</sys_updated_by><sys_updated_on>2024-06-20 21:57:15</sys_updated_on><test display_value="OWS: Top Secret Clearance Check Confidential/Secret Agents/Analysts">73ab002b93ba8610df7e70aefaba10f7</test><test_suite display_value="Operation Workflow System">e79b8bcf937a0610df7e70aefaba104c</test_suite></sys_atf_test_suite_test></record_update>]]></payload>
+        <payload_hash>160565538</payload_hash>
+        <record_name>73ab002b93ba8610df7e70aefaba10f7</record_name>
+        <reverted_from/>
+        <source>2b17306e93f60210df7e70aefaba10d2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-20 21:57:15</sys_created_on>
+        <sys_id>b7e1706f93fe8610df7e70aefaba10b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19037a763020000001</sys_recorded_at>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-20 21:57:15</sys_updated_on>
+        <type>Test Suite Test</type>
+        <update_guid>3fe1706fb8fe861062f763f215e500b7</update_guid>
+        <update_guid_history>3fe1706fb8fe861062f763f215e500b7:160565538,316e2427fbfe861094c00c9113190e4d:-1878992637,275ee427aefe8610839af737277962c3:-1633032661</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-21 13:33:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_test_suite_test">sys_atf_test_suite_test</sys_db_object>
+        <sys_id>8ae3e74af75746f49e461c49c6715310</sys_id>
+        <sys_metadata>855ea42793fe8610df7e70aefaba10a9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>73ab002b93ba8610df7e70aefaba10f7</sys_name>
+        <sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
+        <sys_scope_delete display_value="">33f219d46b4f4f608eb30d59f6038400</sys_scope_delete>
+        <sys_update_name>sys_atf_test_suite_test_855ea42793fe8610df7e70aefaba10a9</sys_update_name>
+        <sys_update_version display_value="sys_atf_test_suite_test_855ea42793fe8610df7e70aefaba10a9">b7e1706f93fe8610df7e70aefaba10b8</sys_update_version>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-21 13:33:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

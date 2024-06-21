@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="OWS:Top Secret Clearance Sat Task Confidential/Secret Agents/Analysts">1e20f82b93fe8610df7e70aefaba10e6</copied_from>
+        <description>Test to check that user does not have access to Top Secret Satellite Task Assignment records when they have secret or confidential clearance. </description>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
+        <fail_on_server_error>true</fail_on_server_error>
+        <name>OWS:Top Secret Clearance Confidential/Secret Agents/Analysts copy</name>
+        <parameters/>
+        <remember/>
+        <sn_atf_tg_generated>false</sn_atf_tg_generated>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-21 13:06:46</sys_created_on>
+        <sys_id>3a124c3793720a10df7e70aefaba1082</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>OWS:Top Secret Clearance Confidential/Secret Agents/Analysts copy</sys_name>
+        <sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
+        <sys_update_name>sys_atf_test_3a124c3793720a10df7e70aefaba1082</sys_update_name>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-21 13:07:12</sys_updated_on>
+    </sys_atf_test>
+    <sys_variable_value action="delete_multiple" query="document_key=3a124c3793720a10df7e70aefaba1082"/>
+</record_update>
