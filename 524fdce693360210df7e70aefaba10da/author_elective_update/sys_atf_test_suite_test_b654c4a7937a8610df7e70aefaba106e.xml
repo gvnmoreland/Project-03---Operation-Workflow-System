@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite_test">
+    <sys_atf_test_suite_test action="DELETE">
+        <abort_on_failure>false</abort_on_failure>
+        <order>1</order>
+        <sys_class_name>sys_atf_test_suite_test</sys_class_name>
+        <sys_created_by>gavin.moreland</sys_created_by>
+        <sys_created_on>2024-06-20 18:38:20</sys_created_on>
+        <sys_id>b654c4a7937a8610df7e70aefaba106e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>6b9cc38393ba0610df7e70aefaba1083</sys_name>
+        <sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
+        <sys_update_name>sys_atf_test_suite_test_b654c4a7937a8610df7e70aefaba106e</sys_update_name>
+        <sys_updated_by>gavin.moreland</sys_updated_by>
+        <sys_updated_on>2024-06-20 18:38:20</sys_updated_on>
+        <test display_value="OWS: Assign Agent">6b9cc38393ba0610df7e70aefaba1083</test>
+        <test_suite display_value="Operation Workflow System">e79b8bcf937a0610df7e70aefaba104c</test_suite>
+    </sys_atf_test_suite_test>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</application>
+        <file_path/>
+        <instance_id>de14e45c1b7d7d901024eb9b2d4bcb59</instance_id>
+        <instance_name>dev182002</instance_name>
+        <name>sys_atf_test_suite_test_b654c4a7937a8610df7e70aefaba106e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite_test"><sys_atf_test_suite_test action="INSERT_OR_UPDATE"><abort_on_failure>false</abort_on_failure><order>1</order><sys_class_name>sys_atf_test_suite_test</sys_class_name><sys_created_by>gavin.moreland</sys_created_by><sys_created_on>2024-06-20 18:38:20</sys_created_on><sys_id>b654c4a7937a8610df7e70aefaba106e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>6b9cc38393ba0610df7e70aefaba1083</sys_name><sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package><sys_policy/><sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope><sys_update_name>sys_atf_test_suite_test_b654c4a7937a8610df7e70aefaba106e</sys_update_name><sys_updated_by>gavin.moreland</sys_updated_by><sys_updated_on>2024-06-20 18:38:20</sys_updated_on><test display_value="OWS: Assign Agent">6b9cc38393ba0610df7e70aefaba1083</test><test_suite display_value="Operation Workflow System">e79b8bcf937a0610df7e70aefaba104c</test_suite></sys_atf_test_suite_test></record_update>]]></payload>
+        <payload_hash>-1058016560</payload_hash>
+        <record_name>6b9cc38393ba0610df7e70aefaba1083</record_name>
+        <reverted_from/>
+        <source>d53e24a293f60210df7e70aefaba10a7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>gavin.moreland</sys_created_by>
+        <sys_created_on>2024-06-20 18:38:20</sys_created_on>
+        <sys_id>f164c4a7937a8610df7e70aefaba10c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19036f1462e0000001</sys_recorded_at>
+        <sys_updated_by>gavin.moreland</sys_updated_by>
+        <sys_updated_on>2024-06-20 18:38:20</sys_updated_on>
+        <type>Test Suite Test</type>
+        <update_guid>f564c4a75c7a8610593a3b709c95e8c4</update_guid>
+        <update_guid_history>f564c4a75c7a8610593a3b709c95e8c4:-1058016560</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>gavin.moreland</sys_created_by>
+        <sys_created_on>2024-06-20 19:00:08</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_test_suite_test">sys_atf_test_suite_test</sys_db_object>
+        <sys_id>e0ce3d9b19894b2a949ceff94b2fd1f1</sys_id>
+        <sys_metadata>b654c4a7937a8610df7e70aefaba106e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>6b9cc38393ba0610df7e70aefaba1083</sys_name>
+        <sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
+        <sys_scope_delete display_value="">33f219d46b4f4f608eb30d59f6038400</sys_scope_delete>
+        <sys_update_name>sys_atf_test_suite_test_b654c4a7937a8610df7e70aefaba106e</sys_update_name>
+        <sys_update_version display_value="sys_atf_test_suite_test_b654c4a7937a8610df7e70aefaba106e">f164c4a7937a8610df7e70aefaba10c5</sys_update_version>
+        <sys_updated_by>gavin.moreland</sys_updated_by>
+        <sys_updated_on>2024-06-20 19:00:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

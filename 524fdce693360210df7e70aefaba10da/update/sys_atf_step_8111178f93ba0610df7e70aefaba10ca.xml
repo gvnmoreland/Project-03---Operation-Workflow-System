@@ -3,8 +3,8 @@
         <active>true</active>
         <copied_from/>
         <description>Insert a record into 'x_1387186_sat_img_satellite_images' with the following values:
-Location = (12.000000, 13.000000)
-and Confidence Level = Roughly even chance
+Confidence Level = Roughly even chance
+and Clearance Level = Confidential
 Confirm the record was successfully inserted</description>
         <display_name>Record Insert</display_name>
         <inputs/>
@@ -16,14 +16,14 @@ Confirm the record was successfully inserted</description>
         <sys_created_by>gavin.moreland</sys_created_by>
         <sys_created_on>2024-06-19 20:17:13</sys_created_on>
         <sys_id>8111178f93ba0610df7e70aefaba10ca</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Record Insert</sys_name>
         <sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package>
         <sys_policy/>
         <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
         <sys_update_name>sys_atf_step_8111178f93ba0610df7e70aefaba10ca</sys_update_name>
         <sys_updated_by>gavin.moreland</sys_updated_by>
-        <sys_updated_on>2024-06-19 20:17:13</sys_updated_on>
+        <sys_updated_on>2024-06-20 20:55:38</sys_updated_on>
         <table>x_1387186_sat_img_satellite_images</table>
         <test display_value="OWS: Satellite Task Lifecycle">4730170f93ba0610df7e70aefaba1091</test>
         <timeout/>
@@ -80,10 +80,10 @@ Confirm the record was successfully inserted</description>
         <sys_created_by>gavin.moreland</sys_created_by>
         <sys_created_on>2024-06-19 20:17:14</sys_created_on>
         <sys_id>f07193cf93ba0610df7e70aefaba10e2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>gavin.moreland</sys_updated_by>
-        <sys_updated_on>2024-06-19 20:17:14</sys_updated_on>
-        <value>location=(12.000,13.0000)^confidence_level=roughly_even_chance^EQ</value>
+        <sys_updated_on>2024-06-20 20:55:38</sys_updated_on>
+        <value>confidence_level=roughly_even_chance^clearance_level=Confidential^EQ</value>
         <variable display_value="Field values">dd54cf535320220002c6435723dc34fd</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_14872288df60220062fe6c7a4df26319^id=8111178f93ba0610df7e70aefaba10ca"/>

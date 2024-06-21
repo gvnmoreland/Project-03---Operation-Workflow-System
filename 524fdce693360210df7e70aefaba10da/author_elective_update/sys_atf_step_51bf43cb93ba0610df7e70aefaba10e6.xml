@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from/>
+        <description>Confirm that the following UI actions on the 'Distance' list are visible: Assign Agent</description>
+        <display_name>Validate List UI Action Visibility</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>3</order>
+        <step_config display_value="Validate List UI Action Visibility">012105620fe2330091d0f00c97767ec4</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>gavin.moreland</sys_created_by>
+        <sys_created_on>2024-06-19 20:09:54</sys_created_on>
+        <sys_id>51bf43cb93ba0610df7e70aefaba10e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Validate List UI Action Visibility</sys_name>
+        <sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
+        <sys_update_name>sys_atf_step_51bf43cb93ba0610df7e70aefaba10e6</sys_update_name>
+        <sys_updated_by>gavin.moreland</sys_updated_by>
+        <sys_updated_on>2024-06-19 20:09:54</sys_updated_on>
+        <table>x_1387186_ows_distance</table>
+        <test display_value="OWS: Assign Agent">6b9cc38393ba0610df7e70aefaba1083</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=51bf43cb93ba0610df7e70aefaba10e6"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>51bf43cb93ba0610df7e70aefaba10e6</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>gavin.moreland</sys_created_by>
+        <sys_created_on>2024-06-19 20:09:54</sys_created_on>
+        <sys_id>21cfc3cb93ba0610df7e70aefaba1044</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>gavin.moreland</sys_updated_by>
+        <sys_updated_on>2024-06-19 20:09:54</sys_updated_on>
+        <value>x_1387186_ows_distance</value>
+        <variable display_value="Table">1cd3cda20fe2330091d0f00c97767e37</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>51bf43cb93ba0610df7e70aefaba10e6</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>gavin.moreland</sys_created_by>
+        <sys_created_on>2024-06-19 20:09:54</sys_created_on>
+        <sys_id>6dcfc3cb93ba0610df7e70aefaba1043</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>gavin.moreland</sys_updated_by>
+        <sys_updated_on>2024-06-19 20:09:54</sys_updated_on>
+        <value>REL:b9edf0ca0a0a0b010035de2d6b579a03</value>
+        <variable display_value="Related List">992489e20fe2330091d0f00c97767e25</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>51bf43cb93ba0610df7e70aefaba10e6</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>gavin.moreland</sys_created_by>
+        <sys_created_on>2024-06-19 20:09:54</sys_created_on>
+        <sys_id>a9cfc3cb93ba0610df7e70aefaba1043</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>gavin.moreland</sys_updated_by>
+        <sys_updated_on>2024-06-19 20:09:54</sys_updated_on>
+        <value/>
+        <variable display_value="Not visible">e4650d260fe2330091d0f00c97767ec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>51bf43cb93ba0610df7e70aefaba10e6</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>gavin.moreland</sys_created_by>
+        <sys_created_on>2024-06-19 20:09:54</sys_created_on>
+        <sys_id>e1cfc3cb93ba0610df7e70aefaba1044</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>gavin.moreland</sys_updated_by>
+        <sys_updated_on>2024-06-19 20:09:54</sys_updated_on>
+        <value>x_1387186_ows_distance</value>
+        <variable display_value="Related list table">e664cde20fe2330091d0f00c97767e45</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>51bf43cb93ba0610df7e70aefaba10e6</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>gavin.moreland</sys_created_by>
+        <sys_created_on>2024-06-19 20:09:54</sys_created_on>
+        <sys_id>e5cfc3cb93ba0610df7e70aefaba1043</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>gavin.moreland</sys_updated_by>
+        <sys_updated_on>2024-06-19 20:09:54</sys_updated_on>
+        <value>94eb3ca6933a0210df7e70aefaba1045</value>
+        <variable display_value="Visible">a78481260fe2330091d0f00c97767e7c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>51bf43cb93ba0610df7e70aefaba10e6</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>gavin.moreland</sys_created_by>
+        <sys_created_on>2024-06-19 20:09:54</sys_created_on>
+        <sys_id>edcfc3cb93ba0610df7e70aefaba1042</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>gavin.moreland</sys_updated_by>
+        <sys_updated_on>2024-06-19 20:09:54</sys_updated_on>
+        <value>list</value>
+        <variable display_value="List type">ae1a857ddb5f3300f2410f95ca96191f</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_atf_input_variable_012105620fe2330091d0f00c97767ec4^id=51bf43cb93ba0610df7e70aefaba10e6"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</application>
+        <file_path/>
+        <instance_id>de14e45c1b7d7d901024eb9b2d4bcb59</instance_id>
+        <instance_name>dev182002</instance_name>
+        <name>sys_atf_step_51bf43cb93ba0610df7e70aefaba10e6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Confirm that the following UI actions on the 'Distance' list are visible: Assign Agent</description><display_name>Validate List UI Action Visibility</display_name><inputs/><mugshots_cache_json/><notes/><order>3</order><step_config display_value="Validate List UI Action Visibility">012105620fe2330091d0f00c97767ec4</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>gavin.moreland</sys_created_by><sys_created_on>2024-06-19 20:09:54</sys_created_on><sys_id>51bf43cb93ba0610df7e70aefaba10e6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Validate List UI Action Visibility</sys_name><sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package><sys_policy/><sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope><sys_update_name>sys_atf_step_51bf43cb93ba0610df7e70aefaba10e6</sys_update_name><sys_updated_by>gavin.moreland</sys_updated_by><sys_updated_on>2024-06-19 20:09:54</sys_updated_on><table>x_1387186_ows_distance</table><test display_value="OWS: Assign Agent">6b9cc38393ba0610df7e70aefaba1083</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=51bf43cb93ba0610df7e70aefaba10e6"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>51bf43cb93ba0610df7e70aefaba10e6</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>gavin.moreland</sys_created_by><sys_created_on>2024-06-19 20:09:54</sys_created_on><sys_id>21cfc3cb93ba0610df7e70aefaba1044</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gavin.moreland</sys_updated_by><sys_updated_on>2024-06-19 20:09:54</sys_updated_on><value>x_1387186_ows_distance</value><variable display_value="Table">1cd3cda20fe2330091d0f00c97767e37</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>51bf43cb93ba0610df7e70aefaba10e6</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>gavin.moreland</sys_created_by><sys_created_on>2024-06-19 20:09:54</sys_created_on><sys_id>6dcfc3cb93ba0610df7e70aefaba1043</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gavin.moreland</sys_updated_by><sys_updated_on>2024-06-19 20:09:54</sys_updated_on><value>REL:b9edf0ca0a0a0b010035de2d6b579a03</value><variable display_value="Related List">992489e20fe2330091d0f00c97767e25</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>51bf43cb93ba0610df7e70aefaba10e6</document_key><order>500</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>gavin.moreland</sys_created_by><sys_created_on>2024-06-19 20:09:54</sys_created_on><sys_id>a9cfc3cb93ba0610df7e70aefaba1043</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gavin.moreland</sys_updated_by><sys_updated_on>2024-06-19 20:09:54</sys_updated_on><value/><variable display_value="Not visible">e4650d260fe2330091d0f00c97767ec9</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>51bf43cb93ba0610df7e70aefaba10e6</document_key><order>300</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>gavin.moreland</sys_created_by><sys_created_on>2024-06-19 20:09:54</sys_created_on><sys_id>e1cfc3cb93ba0610df7e70aefaba1044</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gavin.moreland</sys_updated_by><sys_updated_on>2024-06-19 20:09:54</sys_updated_on><value>x_1387186_ows_distance</value><variable display_value="Related list table">e664cde20fe2330091d0f00c97767e45</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>51bf43cb93ba0610df7e70aefaba10e6</document_key><order>400</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>gavin.moreland</sys_created_by><sys_created_on>2024-06-19 20:09:54</sys_created_on><sys_id>e5cfc3cb93ba0610df7e70aefaba1043</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gavin.moreland</sys_updated_by><sys_updated_on>2024-06-19 20:09:54</sys_updated_on><value>94eb3ca6933a0210df7e70aefaba1045</value><variable display_value="Visible">a78481260fe2330091d0f00c97767e7c</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>51bf43cb93ba0610df7e70aefaba10e6</document_key><order>50</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>gavin.moreland</sys_created_by><sys_created_on>2024-06-19 20:09:54</sys_created_on><sys_id>edcfc3cb93ba0610df7e70aefaba1042</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gavin.moreland</sys_updated_by><sys_updated_on>2024-06-19 20:09:54</sys_updated_on><value>list</value><variable display_value="List type">ae1a857ddb5f3300f2410f95ca96191f</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_012105620fe2330091d0f00c97767ec4^id=51bf43cb93ba0610df7e70aefaba10e6"/></record_update>]]></payload>
+        <payload_hash>-1564007407</payload_hash>
+        <record_name>Validate List UI Action Visibility</record_name>
+        <reverted_from/>
+        <source>d53e24a293f60210df7e70aefaba10a7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>gavin.moreland</sys_created_by>
+        <sys_created_on>2024-06-19 20:09:54</sys_created_on>
+        <sys_id>25cfc3cb93ba0610df7e70aefaba1047</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190321ebfbb0000001</sys_recorded_at>
+        <sys_updated_by>gavin.moreland</sys_updated_by>
+        <sys_updated_on>2024-06-19 20:09:54</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>29cfc3cb99ba06104d036a1d8589f546</update_guid>
+        <update_guid_history>29cfc3cb99ba06104d036a1d8589f546:-1564007407</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>gavin.moreland</sys_created_by>
+        <sys_created_on>2024-06-20 18:38:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>1d522bb044c24749852d2de435b4e3e1</sys_id>
+        <sys_metadata>51bf43cb93ba0610df7e70aefaba10e6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Validate List UI Action Visibility</sys_name>
+        <sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
+        <sys_scope_delete display_value="">33f219d46b4f4f608eb30d59f6038400</sys_scope_delete>
+        <sys_update_name>sys_atf_step_51bf43cb93ba0610df7e70aefaba10e6</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_51bf43cb93ba0610df7e70aefaba10e6">25cfc3cb93ba0610df7e70aefaba1047</sys_update_version>
+        <sys_updated_by>gavin.moreland</sys_updated_by>
+        <sys_updated_on>2024-06-20 18:38:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from/>
+        <description>Validate there is at least one record in 'x_1387186_ows_distance' matching query:
+Sys ID is not empty
+With a failure timeout of 5 Seconds</description>
+        <display_name>Record Query</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>2</order>
+        <step_config display_value="Record Query">2d82e3c7531400109e02ddeeff7b12a7</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>gavin.moreland</sys_created_by>
+        <sys_created_on>2024-06-20 18:39:23</sys_created_on>
+        <sys_id>a9848ca7937a8610df7e70aefaba104f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Record Query</sys_name>
+        <sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
+        <sys_update_name>sys_atf_step_a9848ca7937a8610df7e70aefaba104f</sys_update_name>
+        <sys_updated_by>gavin.moreland</sys_updated_by>
+        <sys_updated_on>2024-06-20 18:39:55</sys_updated_on>
+        <table>x_1387186_ows_distance</table>
+        <test display_value="OWS: Assign Agent">6b9cc38393ba0610df7e70aefaba1083</test>
+        <timeout>1970-01-01 00:00:05</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=a9848ca7937a8610df7e70aefaba104f"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>a9848ca7937a8610df7e70aefaba104f</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>gavin.moreland</sys_created_by>
+        <sys_created_on>2024-06-20 18:39:23</sys_created_on>
+        <sys_id>15a4cca7937a8610df7e70aefaba1041</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>gavin.moreland</sys_updated_by>
+        <sys_updated_on>2024-06-20 18:39:23</sys_updated_on>
+        <value>x_1387186_ows_distance</value>
+        <variable display_value="Table">78b8d86b531000109e02ddeeff7b12f3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>a9848ca7937a8610df7e70aefaba104f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>gavin.moreland</sys_created_by>
+        <sys_created_on>2024-06-20 18:39:23</sys_created_on>
+        <sys_id>51a4cca7937a8610df7e70aefaba1041</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>gavin.moreland</sys_updated_by>
+        <sys_updated_on>2024-06-20 18:39:23</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Enforce security">02fb0027531000109e02ddeeff7b120b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>a9848ca7937a8610df7e70aefaba104f</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>gavin.moreland</sys_created_by>
+        <sys_created_on>2024-06-20 18:39:23</sys_created_on>
+        <sys_id>9da4cca7937a8610df7e70aefaba1040</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>gavin.moreland</sys_updated_by>
+        <sys_updated_on>2024-06-20 18:39:23</sys_updated_on>
+        <value>records_match_query</value>
+        <variable display_value="Assert type">b86c0427531000109e02ddeeff7b1227</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>a9848ca7937a8610df7e70aefaba104f</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>gavin.moreland</sys_created_by>
+        <sys_created_on>2024-06-20 18:39:23</sys_created_on>
+        <sys_id>d5a4cca7937a8610df7e70aefaba1041</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>gavin.moreland</sys_updated_by>
+        <sys_updated_on>2024-06-20 18:39:23</sys_updated_on>
+        <value>sys_idISNOTEMPTY^EQ</value>
+        <variable display_value="Conditions">915990ab531000109e02ddeeff7b12f8</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_atf_input_variable_2d82e3c7531400109e02ddeeff7b12a7^id=a9848ca7937a8610df7e70aefaba104f"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</application>
+        <file_path/>
+        <instance_id>de14e45c1b7d7d901024eb9b2d4bcb59</instance_id>
+        <instance_name>dev182002</instance_name>
+        <name>sys_atf_step_a9848ca7937a8610df7e70aefaba104f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Validate there is at least one record in 'x_1387186_ows_distance' matching query:
+Sys ID is not empty
+With a failure timeout of 5 Seconds</description><display_name>Record Query</display_name><inputs/><mugshots_cache_json/><notes/><order>2</order><step_config display_value="Record Query">2d82e3c7531400109e02ddeeff7b12a7</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>gavin.moreland</sys_created_by><sys_created_on>2024-06-20 18:39:23</sys_created_on><sys_id>a9848ca7937a8610df7e70aefaba104f</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Record Query</sys_name><sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package><sys_policy/><sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope><sys_update_name>sys_atf_step_a9848ca7937a8610df7e70aefaba104f</sys_update_name><sys_updated_by>gavin.moreland</sys_updated_by><sys_updated_on>2024-06-20 18:39:55</sys_updated_on><table>x_1387186_ows_distance</table><test display_value="OWS: Assign Agent">6b9cc38393ba0610df7e70aefaba1083</test><timeout>1970-01-01 00:00:05</timeout><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=a9848ca7937a8610df7e70aefaba104f"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>a9848ca7937a8610df7e70aefaba104f</document_key><order>300</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>gavin.moreland</sys_created_by><sys_created_on>2024-06-20 18:39:23</sys_created_on><sys_id>15a4cca7937a8610df7e70aefaba1041</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gavin.moreland</sys_updated_by><sys_updated_on>2024-06-20 18:39:23</sys_updated_on><value>x_1387186_ows_distance</value><variable display_value="Table">78b8d86b531000109e02ddeeff7b12f3</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>a9848ca7937a8610df7e70aefaba104f</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>gavin.moreland</sys_created_by><sys_created_on>2024-06-20 18:39:23</sys_created_on><sys_id>51a4cca7937a8610df7e70aefaba1041</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gavin.moreland</sys_updated_by><sys_updated_on>2024-06-20 18:39:23</sys_updated_on><value>0</value><variable display_value="Enforce security">02fb0027531000109e02ddeeff7b120b</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>a9848ca7937a8610df7e70aefaba104f</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>gavin.moreland</sys_created_by><sys_created_on>2024-06-20 18:39:23</sys_created_on><sys_id>9da4cca7937a8610df7e70aefaba1040</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gavin.moreland</sys_updated_by><sys_updated_on>2024-06-20 18:39:23</sys_updated_on><value>records_match_query</value><variable display_value="Assert type">b86c0427531000109e02ddeeff7b1227</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>a9848ca7937a8610df7e70aefaba104f</document_key><order>400</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>gavin.moreland</sys_created_by><sys_created_on>2024-06-20 18:39:23</sys_created_on><sys_id>d5a4cca7937a8610df7e70aefaba1041</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>gavin.moreland</sys_updated_by><sys_updated_on>2024-06-20 18:39:23</sys_updated_on><value>sys_idISNOTEMPTY^EQ</value><variable display_value="Conditions">915990ab531000109e02ddeeff7b12f8</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_2d82e3c7531400109e02ddeeff7b12a7^id=a9848ca7937a8610df7e70aefaba104f"/></record_update>]]></payload>
+        <payload_hash>539328629</payload_hash>
+        <record_name>Record Query</record_name>
+        <reverted_from/>
+        <source>d53e24a293f60210df7e70aefaba10a7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>gavin.moreland</sys_created_by>
+        <sys_created_on>2024-06-20 18:39:55</sys_created_on>
+        <sys_id>91c408e7937a8610df7e70aefaba1031</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19036f2bb570000001</sys_recorded_at>
+        <sys_updated_by>gavin.moreland</sys_updated_by>
+        <sys_updated_on>2024-06-20 18:39:55</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>19c408e7c87a861096cc691dacfa8c30</update_guid>
+        <update_guid_history>19c408e7c87a861096cc691dacfa8c30:539328629,19a4cca7fc7a861088a647461d32be43:-1163629258</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>gavin.moreland</sys_created_by>
+        <sys_created_on>2024-06-20 18:39:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>678e538dee8a4212813641de7d2a0061</sys_id>
+        <sys_metadata>a9848ca7937a8610df7e70aefaba104f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record Query</sys_name>
+        <sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
+        <sys_scope_delete display_value="">33f219d46b4f4f608eb30d59f6038400</sys_scope_delete>
+        <sys_update_name>sys_atf_step_a9848ca7937a8610df7e70aefaba104f</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_a9848ca7937a8610df7e70aefaba104f">91c408e7937a8610df7e70aefaba1031</sys_update_version>
+        <sys_updated_by>gavin.moreland</sys_updated_by>
+        <sys_updated_on>2024-06-20 18:39:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

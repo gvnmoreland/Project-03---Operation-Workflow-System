@@ -3,92 +3,77 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="x_1387186_ows_distance" element="NULL" name="x_1387186_ows_distance" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bead397693f68210df7e70aefaba1060</list_id>
+            <list_id display_value="x_1387186_ows_distance" element="NULL" name="x_1387186_ows_distance" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e5aa94eb933e8610df7e70aefaba1003</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
-            <sys_created_by>alyssa.hoshor</sys_created_by>
-            <sys_created_on>2024-06-18 19:32:42</sys_created_on>
-            <sys_id>3aad7d7693f68210df7e70aefaba1025</sys_id>
+            <sys_created_by>gavin.moreland</sys_created_by>
+            <sys_created_on>2024-06-20 20:15:31</sys_created_on>
+            <sys_id>69aa94eb933e8610df7e70aefaba1004</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>alyssa.hoshor</sys_updated_by>
-            <sys_updated_on>2024-06-18 19:32:42</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>asset_agent</element>
-            <list_id display_value="x_1387186_ows_distance" element="NULL" name="x_1387186_ows_distance" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bead397693f68210df7e70aefaba1060</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>1</position>
-            <sum>false</sum>
-            <sys_created_by>alyssa.hoshor</sys_created_by>
-            <sys_created_on>2024-06-18 19:32:42</sys_created_on>
-            <sys_id>72ad7d7693f68210df7e70aefaba1026</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>alyssa.hoshor</sys_updated_by>
-            <sys_updated_on>2024-06-18 19:32:42</sys_updated_on>
+            <sys_updated_by>gavin.moreland</sys_updated_by>
+            <sys_updated_on>2024-06-20 20:15:31</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>satellite</element>
-            <list_id display_value="x_1387186_ows_distance" element="NULL" name="x_1387186_ows_distance" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bead397693f68210df7e70aefaba1060</list_id>
+            <list_id display_value="x_1387186_ows_distance" element="NULL" name="x_1387186_ows_distance" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e5aa94eb933e8610df7e70aefaba1003</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>gavin.moreland</sys_created_by>
+            <sys_created_on>2024-06-20 20:15:31</sys_created_on>
+            <sys_id>61aa94eb933e8610df7e70aefaba1005</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>gavin.moreland</sys_updated_by>
+            <sys_updated_on>2024-06-20 20:15:31</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>asset_agent</element>
+            <list_id display_value="x_1387186_ows_distance" element="NULL" name="x_1387186_ows_distance" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e5aa94eb933e8610df7e70aefaba1003</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
-            <sys_created_by>alyssa.hoshor</sys_created_by>
-            <sys_created_on>2024-06-18 19:32:42</sys_created_on>
-            <sys_id>76ad7d7693f68210df7e70aefaba1026</sys_id>
+            <sys_created_by>gavin.moreland</sys_created_by>
+            <sys_created_on>2024-06-20 20:15:31</sys_created_on>
+            <sys_id>65aa94eb933e8610df7e70aefaba1005</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>alyssa.hoshor</sys_updated_by>
-            <sys_updated_on>2024-06-18 19:32:42</sys_updated_on>
+            <sys_updated_by>gavin.moreland</sys_updated_by>
+            <sys_updated_on>2024-06-20 20:15:31</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>loc</element>
-            <list_id display_value="x_1387186_ows_distance" element="NULL" name="x_1387186_ows_distance" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bead397693f68210df7e70aefaba1060</list_id>
+            <list_id display_value="x_1387186_ows_distance" element="NULL" name="x_1387186_ows_distance" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e5aa94eb933e8610df7e70aefaba1003</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
-            <sys_created_by>alyssa.hoshor</sys_created_by>
-            <sys_created_on>2024-06-18 19:32:42</sys_created_on>
-            <sys_id>7aad7d7693f68210df7e70aefaba1026</sys_id>
+            <sys_created_by>gavin.moreland</sys_created_by>
+            <sys_created_on>2024-06-20 20:15:31</sys_created_on>
+            <sys_id>69aa94eb933e8610df7e70aefaba1005</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>alyssa.hoshor</sys_updated_by>
-            <sys_updated_on>2024-06-18 19:32:42</sys_updated_on>
+            <sys_updated_by>gavin.moreland</sys_updated_by>
+            <sys_updated_on>2024-06-20 20:15:31</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>dist</element>
-            <list_id display_value="x_1387186_ows_distance" element="NULL" name="x_1387186_ows_distance" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bead397693f68210df7e70aefaba1060</list_id>
+            <list_id display_value="x_1387186_ows_distance" element="NULL" name="x_1387186_ows_distance" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e5aa94eb933e8610df7e70aefaba1003</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
-            <sys_created_by>alyssa.hoshor</sys_created_by>
-            <sys_created_on>2024-06-18 19:32:42</sys_created_on>
-            <sys_id>7ead7d7693f68210df7e70aefaba1026</sys_id>
+            <sys_created_by>gavin.moreland</sys_created_by>
+            <sys_created_on>2024-06-20 20:15:31</sys_created_on>
+            <sys_id>6daa94eb933e8610df7e70aefaba1005</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>alyssa.hoshor</sys_updated_by>
-            <sys_updated_on>2024-06-18 19:32:42</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>distance</element>
-            <list_id display_value="x_1387186_ows_distance" element="NULL" name="x_1387186_ows_distance" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bead397693f68210df7e70aefaba1060</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>5</position>
-            <sum>false</sum>
-            <sys_created_by>alyssa.hoshor</sys_created_by>
-            <sys_created_on>2024-06-18 19:32:42</sys_created_on>
-            <sys_id>72ad7d7693f68210df7e70aefaba1027</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>alyssa.hoshor</sys_updated_by>
-            <sys_updated_on>2024-06-18 19:32:42</sys_updated_on>
+            <sys_updated_by>gavin.moreland</sys_updated_by>
+            <sys_updated_on>2024-06-20 20:15:31</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -101,19 +86,19 @@
             <relationship/>
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
-            <sys_created_by>alyssa.hoshor</sys_created_by>
-            <sys_created_on>2024-06-18 19:32:42</sys_created_on>
+            <sys_created_by>gavin.moreland</sys_created_by>
+            <sys_created_on>2024-06-20 20:15:31</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>bead397693f68210df7e70aefaba1060</sys_id>
+            <sys_id>e5aa94eb933e8610df7e70aefaba1003</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_1387186_ows_distance</sys_name>
             <sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package>
             <sys_policy/>
             <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
             <sys_update_name>sys_ui_list_x_1387186_ows_distance_null</sys_update_name>
-            <sys_updated_by>alyssa.hoshor</sys_updated_by>
-            <sys_updated_on>2024-06-18 19:32:42</sys_updated_on>
+            <sys_updated_by>gavin.moreland</sys_updated_by>
+            <sys_updated_on>2024-06-20 20:15:31</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

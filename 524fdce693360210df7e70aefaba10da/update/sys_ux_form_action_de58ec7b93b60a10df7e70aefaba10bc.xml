@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_form_action">
+    <sys_ux_form_action action="INSERT_OR_UPDATE">
+        <action_type>ui_action</action_type>
+        <active>true</active>
+        <declarative_action/>
+        <description/>
+        <name>Deployed</name>
+        <specificity>10</specificity>
+        <sys_class_name>sys_ux_form_action</sys_class_name>
+        <sys_created_by>gavin.moreland</sys_created_by>
+        <sys_created_on>2024-06-21 15:53:51</sys_created_on>
+        <sys_id>de58ec7b93b60a10df7e70aefaba10bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Deployed</sys_name>
+        <sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
+        <sys_update_name>sys_ux_form_action_de58ec7b93b60a10df7e70aefaba10bc</sys_update_name>
+        <sys_updated_by>gavin.moreland</sys_updated_by>
+        <sys_updated_on>2024-06-21 15:53:51</sys_updated_on>
+        <table>x_1387186_ows_satellite_task</table>
+        <ui_action display_value="Deployed">bd7e253e93368210df7e70aefaba1003</ui_action>
+    </sys_ux_form_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=de58ec7b93b60a10df7e70aefaba10bc"/>
+</record_update>
