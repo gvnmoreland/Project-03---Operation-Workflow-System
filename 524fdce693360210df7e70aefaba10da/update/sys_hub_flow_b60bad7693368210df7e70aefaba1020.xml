@@ -17,7 +17,7 @@
         <internal_name>distance_measurement__asset</internal_name>
         <label_cache>[{"name":"a34e887e-ed94-470f-bd64-aaf2955c3c20.role","label":"1 - Look Up Satellite Record Clearance➛Role","reference_display":"Role","type":"user_roles","base_type":"user_roles","usedInstances":{"4a79c034-7c65-4312-8e19-d4ffe493e1eb":["conditions"]},"attributes":{"uiType":"user_roles","uiTypeLabel":"User Roles","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"82f7900e-4ea9-456b-b085-fc11c2f52d85"}},{"name":"a34e887e-ed94-470f-bd64-aaf2955c3c20.clearance_level","label":"1 - Look Up Satellite Record Clearance➛Clearance Level","reference_display":"Clearance Level","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Top Secret","value":"Top Secret","order":1.0},{"label":"Secret","value":"Secret","order":2.0},{"label":"Confidential","value":"Confidential","order":3.0}],"usedInstances":{"734ae9fe-77db-4d6c-907f-cbe2ab66811c":["clearance"]},"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"10f00af2-3c27-4596-ac10-39233fb54de1"}},{"name":"a710ef9b-c575-4a7f-8a40-6b159a7ac485.item.managing_agent","label":"3 - For Each➛Assets Record➛Managing Agent","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1387186_intellat_assets","column_name":"managing_agent","usedInstances":{"734ae9fe-77db-4d6c-907f-cbe2ab66811c":["managing_agent"]}},{"name":"subflow.satellite","label":"Input➛Satellite","reference":"","reference_display":"","type":"GUID","base_type":"GUID","column_name":"","usedInstances":{"734ae9fe-77db-4d6c-907f-cbe2ab66811c":["satellite"],"41c83629-ad40-4530-acb6-6f8c8b3005a3":["satellite"],"bc4c6e1c-b90c-4b3a-a3d8-88137b0bdf01":["conditions"],"a34e887e-ed94-470f-bd64-aaf2955c3c20":["satellite"]},"attributes":{"uiType":"GUID","uiTypeLabel":"Sys ID (GUID)","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"7ccaa7d1-c856-4559-ae25-b81480fb8cdf","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"a710ef9b-c575-4a7f-8a40-6b159a7ac485.item","label":"3 - For Each➛Assets Record","reference":"x_1387186_intellat_assets","reference_display":"Assets","type":"reference","base_type":"reference","usedInstances":{"734ae9fe-77db-4d6c-907f-cbe2ab66811c":["agent","asset","asset_agent"]},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"4a79c034-7c65-4312-8e19-d4ffe493e1eb.Records","label":"2 - Look Up Records➛Assets Records","reference":"x_1387186_intellat_assets","reference_display":"Assets","type":"records","base_type":"records","usedInstances":{"a710ef9b-c575-4a7f-8a40-6b159a7ac485":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a710ef9b-c575-4a7f-8a40-6b159a7ac485.item.location","label":"3 - For Each➛Assets Record➛Location","reference":"","reference_display":"Location","type":"geo_point","base_type":"geo_point","parent_table_name":"x_1387186_intellat_assets","column_name":"location","usedInstances":{"734ae9fe-77db-4d6c-907f-cbe2ab66811c":["loc"]}},{"name":"4a79c034-7c65-4312-8e19-d4ffe493e1eb.Table","label":"2 - Look Up Records➛Assets Table","reference":"x_1387186_intellat_assets","reference_display":"Assets","type":"table_name","base_type":"table_name","usedInstances":{"41c83629-ad40-4530-acb6-6f8c8b3005a3":["table"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
         <master_snapshot>bdbbe5f693368210df7e70aefaba104e</master_snapshot>
-        <name>Distance Measurement - Asset</name>
+        <name>Distance Measurement - Asset Subflow</name>
         <natlang/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
@@ -35,15 +35,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b60bad7693368210df7e70aefaba1020</sys_id>
-        <sys_mod_count>70</sys_mod_count>
-        <sys_name>Distance Measurement - Asset</sys_name>
+        <sys_mod_count>72</sys_mod_count>
+        <sys_name>Distance Measurement - Asset Subflow</sys_name>
         <sys_overrides/>
         <sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package>
         <sys_policy/>
         <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
         <sys_update_name>sys_hub_flow_b60bad7693368210df7e70aefaba1020</sys_update_name>
         <sys_updated_by>alyssa.hoshor</sys_updated_by>
-        <sys_updated_on>2024-06-19 18:17:36</sys_updated_on>
+        <sys_updated_on>2024-06-21 19:59:53</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=b60bad7693368210df7e70aefaba1020"/>
@@ -104,7 +104,7 @@
         <label>Satellite</label>
         <mandatory>true</mandatory>
         <max_length>32</max_length>
-        <model display_value="Distance Measurement - Asset">b60bad7693368210df7e70aefaba1020</model>
+        <model display_value="Distance Measurement - Asset Subflow">b60bad7693368210df7e70aefaba1020</model>
         <model_id>b60bad7693368210df7e70aefaba1020</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_b60bad7693368210df7e70aefaba1020</name>
@@ -159,7 +159,7 @@
         <attributes/>
         <comment/>
         <display_text/>
-        <flow display_value="Distance Measurement - Asset">b60bad7693368210df7e70aefaba1020</flow>
+        <flow display_value="Distance Measurement - Asset Subflow">b60bad7693368210df7e70aefaba1020</flow>
         <generation_source/>
         <order>4</order>
         <parent_ui_id>a710ef9b-c575-4a7f-8a40-6b159a7ac485</parent_ui_id>
@@ -167,10 +167,10 @@
         <sys_created_by>alyssa.hoshor</sys_created_by>
         <sys_created_on>2024-06-18 18:11:19</sys_created_on>
         <sys_id>3a0bad7693368210df7e70aefaba104a</sys_id>
-        <sys_mod_count>80</sys_mod_count>
+        <sys_mod_count>86</sys_mod_count>
         <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
-        <sys_updated_by>alyssa.hoshor</sys_updated_by>
-        <sys_updated_on>2024-06-19 18:17:36</sys_updated_on>
+        <sys_updated_by>AIOS.Admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 18:11:21</sys_updated_on>
         <ui_id>734ae9fe-77db-4d6c-907f-cbe2ab66811c</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3a0bad7693368210df7e70aefaba104a"/>
@@ -236,7 +236,7 @@
         <attributes/>
         <comment/>
         <display_text/>
-        <flow display_value="Distance Measurement - Asset">b60bad7693368210df7e70aefaba1020</flow>
+        <flow display_value="Distance Measurement - Asset Subflow">b60bad7693368210df7e70aefaba1020</flow>
         <generation_source/>
         <order>2</order>
         <parent_ui_id/>
@@ -244,10 +244,10 @@
         <sys_created_by>alyssa.hoshor</sys_created_by>
         <sys_created_on>2024-06-18 18:11:19</sys_created_on>
         <sys_id>7a0bad7693368210df7e70aefaba1043</sys_id>
-        <sys_mod_count>76</sys_mod_count>
+        <sys_mod_count>82</sys_mod_count>
         <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
-        <sys_updated_by>alyssa.hoshor</sys_updated_by>
-        <sys_updated_on>2024-06-19 18:17:36</sys_updated_on>
+        <sys_updated_by>AIOS.Admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 18:11:21</sys_updated_on>
         <ui_id>4a79c034-7c65-4312-8e19-d4ffe493e1eb</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7a0bad7693368210df7e70aefaba1043"/>
@@ -314,7 +314,7 @@
         <attributes/>
         <comment/>
         <display_text/>
-        <flow display_value="Distance Measurement - Asset">b60bad7693368210df7e70aefaba1020</flow>
+        <flow display_value="Distance Measurement - Asset Subflow">b60bad7693368210df7e70aefaba1020</flow>
         <generation_source/>
         <order>1</order>
         <parent_ui_id/>
@@ -322,10 +322,10 @@
         <sys_created_by>alyssa.hoshor</sys_created_by>
         <sys_created_on>2024-06-19 15:14:08</sys_created_on>
         <sys_id>891c020393720610df7e70aefaba10f1</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
-        <sys_updated_by>alyssa.hoshor</sys_updated_by>
-        <sys_updated_on>2024-06-19 18:17:36</sys_updated_on>
+        <sys_updated_by>AIOS.Admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 18:11:21</sys_updated_on>
         <ui_id>a34e887e-ed94-470f-bd64-aaf2955c3c20</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=891c020393720610df7e70aefaba10f1"/>
@@ -347,12 +347,12 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
-        <action_type display_value="Top Five Agent/Asset Lookup Action">159645b693fe4210df7e70aefaba10f7</action_type>
-        <action_type_parent display_value="Top Five Agent/Asset Lookup Action">9e9385be93be4210df7e70aefaba10c7</action_type_parent>
+        <action_type display_value="Top Agent/Asset Lookup Action">159645b693fe4210df7e70aefaba10f7</action_type>
+        <action_type_parent display_value="Top Agent/Asset Lookup Action">9e9385be93be4210df7e70aefaba10c7</action_type_parent>
         <attributes/>
         <comment/>
         <display_text/>
-        <flow display_value="Distance Measurement - Asset">b60bad7693368210df7e70aefaba1020</flow>
+        <flow display_value="Distance Measurement - Asset Subflow">b60bad7693368210df7e70aefaba1020</flow>
         <generation_source/>
         <order>5</order>
         <parent_ui_id/>
@@ -360,10 +360,10 @@
         <sys_created_by>alyssa.hoshor</sys_created_by>
         <sys_created_on>2024-06-18 18:11:20</sys_created_on>
         <sys_id>f20bad7693368210df7e70aefaba1052</sys_id>
-        <sys_mod_count>64</sys_mod_count>
+        <sys_mod_count>70</sys_mod_count>
         <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
-        <sys_updated_by>alyssa.hoshor</sys_updated_by>
-        <sys_updated_on>2024-06-19 18:17:36</sys_updated_on>
+        <sys_updated_by>AIOS.Admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 18:11:21</sys_updated_on>
         <ui_id>41c83629-ad40-4530-acb6-6f8c8b3005a3</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f20bad7693368210df7e70aefaba1052"/>
@@ -405,7 +405,7 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Distance Measurement - Asset">b60bad7693368210df7e70aefaba1020</flow>
+        <flow display_value="Distance Measurement - Asset Subflow">b60bad7693368210df7e70aefaba1020</flow>
         <flow_variable/>
         <flow_variables_assigned/>
         <generation_source/>
@@ -492,7 +492,7 @@
         <name>Distance Measurement - Asset</name>
         <natlang/>
         <outputs/>
-        <parent_flow display_value="Distance Measurement - Asset">b60bad7693368210df7e70aefaba1020</parent_flow>
+        <parent_flow display_value="Distance Measurement - Asset Subflow">b60bad7693368210df7e70aefaba1020</parent_flow>
         <remote_trigger_id/>
         <run_as>user</run_as>
         <run_with_roles/>
@@ -701,8 +701,8 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
-        <action_type display_value="Top Five Agent/Asset Lookup Action">159645b693fe4210df7e70aefaba10f7</action_type>
-        <action_type_parent display_value="Top Five Agent/Asset Lookup Action">9e9385be93be4210df7e70aefaba10c7</action_type_parent>
+        <action_type display_value="Top Agent/Asset Lookup Action">159645b693fe4210df7e70aefaba10f7</action_type>
+        <action_type_parent display_value="Top Agent/Asset Lookup Action">9e9385be93be4210df7e70aefaba10c7</action_type_parent>
         <attributes/>
         <comment/>
         <display_text/>
@@ -945,14 +945,14 @@
     <sys_hub_flow action="UPDATE">
         <sys_id>b60bad7693368210df7e70aefaba1020</sys_id>
         <latest_snapshot>bdbbe5f693368210df7e70aefaba104e</latest_snapshot>
-        <compiler_build/>
+        <compiler_build>glide-washingtondc-12-20-2023__patch3-hotfix1-05-12-2024_05-16-2024_0813.zip</compiler_build>
     </sys_hub_flow>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=b60bad7693368210df7e70aefaba1020"/>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=b60bad7693368210df7e70aefaba1020^sys_idNOT IN06bbe5f693368210df7e70aefaba10d8"/>
     <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
-        <plan>com.snc.process_flow.engine.ProcessPlan@4e9a3795</plan>
-        <plan_id display_value="Distance Measurement - Asset">b60bad7693368210df7e70aefaba1020</plan_id>
-        <snapshot>bdbbe5f693368210df7e70aefaba104e</snapshot>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"06bbe5f693368210df7e70aefaba10d8","name":"plan","plan_signature":null}}</plan>
+        <plan_id display_value="Distance Measurement - Asset Subflow">b60bad7693368210df7e70aefaba1020</plan_id>
+        <snapshot>10d7c97b93ba0a10df7e70aefaba10f2</snapshot>
         <sys_created_by>alyssa.hoshor</sys_created_by>
         <sys_created_on>2024-06-18 18:14:16</sys_created_on>
         <sys_domain>global</sys_domain>
