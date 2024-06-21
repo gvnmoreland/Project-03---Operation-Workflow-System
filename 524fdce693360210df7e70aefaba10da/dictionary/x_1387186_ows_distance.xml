@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" db_object_id="6d70e42e93760210df7e70aefaba10fe" label="Distance" max_length="40" name="x_1387186_ows_distance" type="collection">
+    <element audit="true" db_object_id="6d70e42e93760210df7e70aefaba10fe" label="Satellite Task Assignments" max_length="40" name="x_1387186_ows_distance" type="collection">
         <element label="Asset/Agent Location" max_length="40" name="loc" read_only="true" type="geo_point"/>
-        <element attributes="encode_utf8=false" label="Satellite" max_length="32" name="satellite" reference="x_1387186_sat_img_satellite_images" type="reference"/>
+        <element attributes="encode_utf8=false" label="Satellite Image" max_length="32" name="satellite" reference="x_1387186_sat_img_satellite_images" type="reference"/>
         <element attributes="encode_utf8=false" label="Managing Agent" max_length="32" name="managing_agent" reference="sys_user" type="reference"/>
         <element function_definition="glidefunction:distance_sphere(satellite.location, loc)" function_field="true" label="Distance" max_length="20" name="dist" read_only="true" type="decimal"/>
         <element dependent="table" dependent_on_field="table" label="Asset/Agent" max_length="32" name="asset_agent" type="document_id" use_dependent_field="true"/>

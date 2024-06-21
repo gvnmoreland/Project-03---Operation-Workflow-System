@@ -3,77 +3,92 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="x_1387186_ows_satellite_task" element="NULL" name="x_1387186_ows_satellite_task" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">42aa30fe937e4210df7e70aefaba109e</list_id>
+            <list_id display_value="x_1387186_ows_satellite_task" element="NULL" name="x_1387186_ows_satellite_task" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5dda86e793f6c610df7e70aefaba10ff</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>amy.kronschnabel</sys_created_by>
-            <sys_created_on>2024-06-18 14:39:55</sys_created_on>
-            <sys_id>8eaa30fe937e4210df7e70aefaba109e</sys_id>
+            <sys_created_on>2024-06-21 04:25:39</sys_created_on>
+            <sys_id>99dac6e793f6c610df7e70aefaba1000</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>amy.kronschnabel</sys_updated_by>
-            <sys_updated_on>2024-06-18 14:39:55</sys_updated_on>
+            <sys_updated_on>2024-06-21 04:25:39</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>assignment</element>
-            <list_id display_value="x_1387186_ows_satellite_task" element="NULL" name="x_1387186_ows_satellite_task" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">42aa30fe937e4210df7e70aefaba109e</list_id>
+            <element>assignment.satellite</element>
+            <list_id display_value="x_1387186_ows_satellite_task" element="NULL" name="x_1387186_ows_satellite_task" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5dda86e793f6c610df7e70aefaba10ff</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>amy.kronschnabel</sys_created_by>
-            <sys_created_on>2024-06-18 14:39:55</sys_created_on>
-            <sys_id>82aa30fe937e4210df7e70aefaba109f</sys_id>
+            <sys_created_on>2024-06-21 04:25:39</sys_created_on>
+            <sys_id>9ddac6e793f6c610df7e70aefaba1000</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>amy.kronschnabel</sys_updated_by>
-            <sys_updated_on>2024-06-18 14:39:55</sys_updated_on>
+            <sys_updated_on>2024-06-21 04:25:39</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>accurate</element>
-            <list_id display_value="x_1387186_ows_satellite_task" element="NULL" name="x_1387186_ows_satellite_task" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">42aa30fe937e4210df7e70aefaba109e</list_id>
+            <element>assignment.asset_agent</element>
+            <list_id display_value="x_1387186_ows_satellite_task" element="NULL" name="x_1387186_ows_satellite_task" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5dda86e793f6c610df7e70aefaba10ff</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>amy.kronschnabel</sys_created_by>
-            <sys_created_on>2024-06-18 14:39:55</sys_created_on>
-            <sys_id>86aa30fe937e4210df7e70aefaba109f</sys_id>
+            <sys_created_on>2024-06-21 04:25:39</sys_created_on>
+            <sys_id>91dac6e793f6c610df7e70aefaba1001</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>amy.kronschnabel</sys_updated_by>
-            <sys_updated_on>2024-06-18 14:39:55</sys_updated_on>
+            <sys_updated_on>2024-06-21 04:25:39</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>description</element>
-            <list_id display_value="x_1387186_ows_satellite_task" element="NULL" name="x_1387186_ows_satellite_task" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">42aa30fe937e4210df7e70aefaba109e</list_id>
+            <list_id display_value="x_1387186_ows_satellite_task" element="NULL" name="x_1387186_ows_satellite_task" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5dda86e793f6c610df7e70aefaba10ff</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>amy.kronschnabel</sys_created_by>
-            <sys_created_on>2024-06-18 14:39:55</sys_created_on>
-            <sys_id>8aaa30fe937e4210df7e70aefaba109f</sys_id>
+            <sys_created_on>2024-06-21 04:25:39</sys_created_on>
+            <sys_id>95dac6e793f6c610df7e70aefaba1001</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>amy.kronschnabel</sys_updated_by>
-            <sys_updated_on>2024-06-18 14:39:55</sys_updated_on>
+            <sys_updated_on>2024-06-21 04:25:39</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>location</element>
-            <list_id display_value="x_1387186_ows_satellite_task" element="NULL" name="x_1387186_ows_satellite_task" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">42aa30fe937e4210df7e70aefaba109e</list_id>
+            <list_id display_value="x_1387186_ows_satellite_task" element="NULL" name="x_1387186_ows_satellite_task" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5dda86e793f6c610df7e70aefaba10ff</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
             <sys_created_by>amy.kronschnabel</sys_created_by>
-            <sys_created_on>2024-06-18 14:39:55</sys_created_on>
-            <sys_id>8eaa30fe937e4210df7e70aefaba109f</sys_id>
+            <sys_created_on>2024-06-21 04:25:39</sys_created_on>
+            <sys_id>99dac6e793f6c610df7e70aefaba1001</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>amy.kronschnabel</sys_updated_by>
-            <sys_updated_on>2024-06-18 14:39:55</sys_updated_on>
+            <sys_updated_on>2024-06-21 04:25:39</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>status</element>
+            <list_id display_value="x_1387186_ows_satellite_task" element="NULL" name="x_1387186_ows_satellite_task" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5dda86e793f6c610df7e70aefaba10ff</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>amy.kronschnabel</sys_created_by>
+            <sys_created_on>2024-06-21 04:25:39</sys_created_on>
+            <sys_id>9ddac6e793f6c610df7e70aefaba1001</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>amy.kronschnabel</sys_updated_by>
+            <sys_updated_on>2024-06-21 04:25:39</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -87,10 +102,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>amy.kronschnabel</sys_created_by>
-            <sys_created_on>2024-06-18 14:39:55</sys_created_on>
+            <sys_created_on>2024-06-21 04:25:39</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>42aa30fe937e4210df7e70aefaba109e</sys_id>
+            <sys_id>5dda86e793f6c610df7e70aefaba10ff</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_1387186_ows_satellite_task</sys_name>
             <sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package>
@@ -98,7 +113,7 @@
             <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
             <sys_update_name>sys_ui_list_x_1387186_ows_satellite_task_null</sys_update_name>
             <sys_updated_by>amy.kronschnabel</sys_updated_by>
-            <sys_updated_on>2024-06-18 14:39:55</sys_updated_on>
+            <sys_updated_on>2024-06-21 04:25:39</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
     <sys_ui_action action="INSERT_OR_UPDATE">
         <action_name>deploy</action_name>
-        <active>false</active>
-        <client>false</client>
+        <active>true</active>
+        <client>true</client>
         <client_script_v2><![CDATA[function onClick(g_form) {
 
 }]]></client_script_v2>
         <comments/>
-        <condition/>
+        <condition>gs.hasRole("x_1387186_aios.intelligence_administrator")</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_button_v2>false</form_button_v2>
@@ -28,9 +28,34 @@
         <list_style/>
         <messages/>
         <name>Deploy Asset/Agent</name>
-        <onclick/>
+        <onclick>createTask()</onclick>
         <order>100</order>
-        <script/>
+        <script><![CDATA[function createTask() {
+    try {
+        gsftSubmit(null, g_form.getFormElement(), 'deploy');
+    } catch (err) {
+        alert('Client side error: ' + err);
+    }
+    
+}
+
+if (typeof window == 'undefined') {
+    serverFunc();
+}
+
+function serverFunc() {
+    current.update();
+
+    var gr = new GlideRecord("x_1387186_ows_satellite_task");
+    gr.initialize();
+    gr.setValue('satellite', current.satellite);
+    gr.setValue('asset_agent', current.agent_asset);
+    gr.setValue('location', current.satellite.location);
+	gr.setValue('assignment', current.sys_id);
+    gr.insert();
+
+    action.setRedirectURL(gr);
+}]]></script>
         <show_insert>false</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
@@ -41,7 +66,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b2b8493e93fe4210df7e70aefaba1059</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>31</sys_mod_count>
         <sys_name>Deploy Asset/Agent</sys_name>
         <sys_overrides/>
         <sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package>
@@ -49,7 +74,7 @@
         <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
         <sys_update_name>sys_ui_action_b2b8493e93fe4210df7e70aefaba1059</sys_update_name>
         <sys_updated_by>amy.kronschnabel</sys_updated_by>
-        <sys_updated_on>2024-06-18 21:34:18</sys_updated_on>
+        <sys_updated_on>2024-06-19 17:07:18</sys_updated_on>
         <table>x_1387186_ows_distance</table>
         <ui11_compatible>false</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
