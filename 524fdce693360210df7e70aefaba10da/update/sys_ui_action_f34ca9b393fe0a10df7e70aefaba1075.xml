@@ -2,17 +2,17 @@
     <sys_ui_action action="INSERT_OR_UPDATE">
         <action_name/>
         <active>true</active>
-        <client>false</client>
+        <client>true</client>
         <client_script_v2><![CDATA[function onClick(g_form) {
 
 }]]></client_script_v2>
         <comments/>
         <condition>current.status == "Analyzed"</condition>
         <form_action>true</form_action>
-        <form_button>true</form_button>
+        <form_button>false</form_button>
         <form_button_v2>false</form_button_v2>
         <form_context_menu>false</form_context_menu>
-        <form_link>false</form_link>
+        <form_link>true</form_link>
         <form_menu_button_v2>false</form_menu_button_v2>
         <form_style/>
         <format_for_configurable_workspace>false</format_for_configurable_workspace>
@@ -30,11 +30,19 @@
         <name>Go To Assignments</name>
         <onclick/>
         <order>100</order>
-        <script><![CDATA[var url = "x_1387186_ows_distance_list.do"+
-"?sysparm_query=satellite="+current.sys_id +
-"&sysparm_order=dist&sysparm_order_direction=asc";
-action.setRedirectURL(url);]]></script>
-        <show_insert>true</show_insert>
+        <script><![CDATA[function onClick(){
+	var url = "x_1387186_ows_distance_list.do"+
+	"?sysparm_query=satellite="+current.sys_id +
+	"&sysparm_order=dist&sysparm_order_direction=asc";
+	g_navigation.open(url);
+}
+
+//action.setRedirectURL(url);
+//var gr = new GlideRecord("x_1387186_ows_distance");
+//gr.addQuery("satellite",current.sys_id);
+//gr.orderBy("dist");
+//action.setRedirectURL(gr);]]></script>
+        <show_insert>false</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
         <show_update>true</show_update>
@@ -44,7 +52,7 @@ action.setRedirectURL(url);]]></script>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f34ca9b393fe0a10df7e70aefaba1075</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_name>Go To Assignments</sys_name>
         <sys_overrides/>
         <sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package>
@@ -52,7 +60,7 @@ action.setRedirectURL(url);]]></script>
         <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
         <sys_update_name>sys_ui_action_f34ca9b393fe0a10df7e70aefaba1075</sys_update_name>
         <sys_updated_by>gavin.moreland</sys_updated_by>
-        <sys_updated_on>2024-06-24 14:25:06</sys_updated_on>
+        <sys_updated_on>2024-06-25 19:31:17</sys_updated_on>
         <table>x_1387186_sat_img_satellite_images</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

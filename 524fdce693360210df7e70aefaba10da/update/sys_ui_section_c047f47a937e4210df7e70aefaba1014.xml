@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_ui_section caption="New Section" section_id="c047f47a937e4210df7e70aefaba1014" sys_domain="global" table="x_1387186_ows_satellite_task" version="3" view="">
+    <sys_ui_section caption="" section_id="c047f47a937e4210df7e70aefaba1014" sys_domain="global" table="x_1387186_ows_satellite_task" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>process_flow.xml</element>
             <position>0</position>
             <sys_created_by>gavin.moreland</sys_created_by>
-            <sys_created_on>2024-06-24 14:36:53</sys_created_on>
-            <sys_id>c4833bac930f4e10df7e70aefaba1002</sys_id>
+            <sys_created_on>2024-06-25 16:02:06</sys_created_on>
+            <sys_id>469099c593470210df7e70aefaba101e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter display_value="Process Flow">9256b0f6937e4210df7e70aefaba109f</sys_ui_formatter>
-            <sys_ui_section caption="New Section" display_value="New Section" name="x_1387186_ows_satellite_task" sys_domain="global" view="Default view">c047f47a937e4210df7e70aefaba1014</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_1387186_ows_satellite_task" sys_domain="global" view="Default view">c047f47a937e4210df7e70aefaba1014</sys_ui_section>
             <sys_updated_by>gavin.moreland</sys_updated_by>
-            <sys_updated_on>2024-06-24 14:36:53</sys_updated_on>
+            <sys_updated_on>2024-06-25 16:02:06</sys_updated_on>
             <sys_user/>
             <type>formatter</type>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>.begin_split</element>
             <position>1</position>
             <sys_created_by>gavin.moreland</sys_created_by>
-            <sys_created_on>2024-06-24 14:36:53</sys_created_on>
-            <sys_id>c0833bac930f4e10df7e70aefaba1003</sys_id>
+            <sys_created_on>2024-06-25 16:02:06</sys_created_on>
+            <sys_id>c69099c593470210df7e70aefaba101f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="New Section" display_value="New Section" name="x_1387186_ows_satellite_task" sys_domain="global" view="Default view">c047f47a937e4210df7e70aefaba1014</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_1387186_ows_satellite_task" sys_domain="global" view="Default view">c047f47a937e4210df7e70aefaba1014</sys_ui_section>
             <sys_updated_by>gavin.moreland</sys_updated_by>
-            <sys_updated_on>2024-06-24 14:36:53</sys_updated_on>
+            <sys_updated_on>2024-06-25 16:02:06</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>number</element>
             <position>2</position>
             <sys_created_by>gavin.moreland</sys_created_by>
-            <sys_created_on>2024-06-24 14:36:53</sys_created_on>
-            <sys_id>c8833bac930f4e10df7e70aefaba1003</sys_id>
+            <sys_created_on>2024-06-25 16:02:06</sys_created_on>
+            <sys_id>ce9099c593470210df7e70aefaba101f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="New Section" display_value="New Section" name="x_1387186_ows_satellite_task" sys_domain="global" view="Default view">c047f47a937e4210df7e70aefaba1014</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_1387186_ows_satellite_task" sys_domain="global" view="Default view">c047f47a937e4210df7e70aefaba1014</sys_ui_section>
             <sys_updated_by>gavin.moreland</sys_updated_by>
-            <sys_updated_on>2024-06-24 14:36:53</sys_updated_on>
+            <sys_updated_on>2024-06-25 16:02:06</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>assignment.asset_agent</element>
             <position>3</position>
             <sys_created_by>gavin.moreland</sys_created_by>
-            <sys_created_on>2024-06-24 14:36:53</sys_created_on>
-            <sys_id>c0833bac930f4e10df7e70aefaba1004</sys_id>
+            <sys_created_on>2024-06-25 16:02:06</sys_created_on>
+            <sys_id>c69099c593470210df7e70aefaba1020</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="New Section" display_value="New Section" name="x_1387186_ows_satellite_task" sys_domain="global" view="Default view">c047f47a937e4210df7e70aefaba1014</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_1387186_ows_satellite_task" sys_domain="global" view="Default view">c047f47a937e4210df7e70aefaba1014</sys_ui_section>
             <sys_updated_by>gavin.moreland</sys_updated_by>
-            <sys_updated_on>2024-06-24 14:36:53</sys_updated_on>
+            <sys_updated_on>2024-06-25 16:02:06</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>assignment.satellite.clearance_level</element>
             <position>4</position>
             <sys_created_by>gavin.moreland</sys_created_by>
-            <sys_created_on>2024-06-24 14:36:53</sys_created_on>
-            <sys_id>c8833bac930f4e10df7e70aefaba1004</sys_id>
+            <sys_created_on>2024-06-25 16:02:06</sys_created_on>
+            <sys_id>ce9099c593470210df7e70aefaba1020</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="New Section" display_value="New Section" name="x_1387186_ows_satellite_task" sys_domain="global" view="Default view">c047f47a937e4210df7e70aefaba1014</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_1387186_ows_satellite_task" sys_domain="global" view="Default view">c047f47a937e4210df7e70aefaba1014</sys_ui_section>
             <sys_updated_by>gavin.moreland</sys_updated_by>
-            <sys_updated_on>2024-06-24 14:36:53</sys_updated_on>
+            <sys_updated_on>2024-06-25 16:02:06</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,97 +74,97 @@
             <element>reviewed_by</element>
             <position>5</position>
             <sys_created_by>gavin.moreland</sys_created_by>
-            <sys_created_on>2024-06-24 14:36:53</sys_created_on>
-            <sys_id>c0833bac930f4e10df7e70aefaba1005</sys_id>
+            <sys_created_on>2024-06-25 16:02:06</sys_created_on>
+            <sys_id>c69099c593470210df7e70aefaba1021</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="New Section" display_value="New Section" name="x_1387186_ows_satellite_task" sys_domain="global" view="Default view">c047f47a937e4210df7e70aefaba1014</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_1387186_ows_satellite_task" sys_domain="global" view="Default view">c047f47a937e4210df7e70aefaba1014</sys_ui_section>
             <sys_updated_by>gavin.moreland</sys_updated_by>
-            <sys_updated_on>2024-06-24 14:36:53</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>status</element>
-            <position>6</position>
-            <sys_created_by>gavin.moreland</sys_created_by>
-            <sys_created_on>2024-06-24 14:36:53</sys_created_on>
-            <sys_id>c8833bac930f4e10df7e70aefaba1005</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="New Section" display_value="New Section" name="x_1387186_ows_satellite_task" sys_domain="global" view="Default view">c047f47a937e4210df7e70aefaba1014</sys_ui_section>
-            <sys_updated_by>gavin.moreland</sys_updated_by>
-            <sys_updated_on>2024-06-24 14:36:53</sys_updated_on>
+            <sys_updated_on>2024-06-25 16:02:06</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>7</position>
+            <position>6</position>
             <sys_created_by>gavin.moreland</sys_created_by>
-            <sys_created_on>2024-06-24 14:36:53</sys_created_on>
-            <sys_id>c0833bac930f4e10df7e70aefaba1006</sys_id>
+            <sys_created_on>2024-06-25 16:02:06</sys_created_on>
+            <sys_id>ce9099c593470210df7e70aefaba1021</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="New Section" display_value="New Section" name="x_1387186_ows_satellite_task" sys_domain="global" view="Default view">c047f47a937e4210df7e70aefaba1014</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_1387186_ows_satellite_task" sys_domain="global" view="Default view">c047f47a937e4210df7e70aefaba1014</sys_ui_section>
             <sys_updated_by>gavin.moreland</sys_updated_by>
-            <sys_updated_on>2024-06-24 14:36:53</sys_updated_on>
+            <sys_updated_on>2024-06-25 16:02:06</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>assignment.satellite</element>
-            <position>8</position>
+            <position>7</position>
             <sys_created_by>gavin.moreland</sys_created_by>
-            <sys_created_on>2024-06-24 14:36:53</sys_created_on>
-            <sys_id>c8833bac930f4e10df7e70aefaba1006</sys_id>
+            <sys_created_on>2024-06-25 16:02:06</sys_created_on>
+            <sys_id>c69099c593470210df7e70aefaba1022</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="New Section" display_value="New Section" name="x_1387186_ows_satellite_task" sys_domain="global" view="Default view">c047f47a937e4210df7e70aefaba1014</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_1387186_ows_satellite_task" sys_domain="global" view="Default view">c047f47a937e4210df7e70aefaba1014</sys_ui_section>
             <sys_updated_by>gavin.moreland</sys_updated_by>
-            <sys_updated_on>2024-06-24 14:36:53</sys_updated_on>
+            <sys_updated_on>2024-06-25 16:02:06</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>assignment.satellite.accuracy</element>
-            <position>9</position>
+            <position>8</position>
             <sys_created_by>gavin.moreland</sys_created_by>
-            <sys_created_on>2024-06-24 14:36:53</sys_created_on>
-            <sys_id>c0833bac930f4e10df7e70aefaba1007</sys_id>
+            <sys_created_on>2024-06-25 16:02:06</sys_created_on>
+            <sys_id>ce9099c593470210df7e70aefaba1022</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="New Section" display_value="New Section" name="x_1387186_ows_satellite_task" sys_domain="global" view="Default view">c047f47a937e4210df7e70aefaba1014</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_1387186_ows_satellite_task" sys_domain="global" view="Default view">c047f47a937e4210df7e70aefaba1014</sys_ui_section>
             <sys_updated_by>gavin.moreland</sys_updated_by>
-            <sys_updated_on>2024-06-24 14:36:53</sys_updated_on>
+            <sys_updated_on>2024-06-25 16:02:06</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>location</element>
-            <position>10</position>
+            <position>9</position>
             <sys_created_by>gavin.moreland</sys_created_by>
-            <sys_created_on>2024-06-24 14:36:53</sys_created_on>
-            <sys_id>c8833bac930f4e10df7e70aefaba1007</sys_id>
+            <sys_created_on>2024-06-25 16:02:06</sys_created_on>
+            <sys_id>c69099c593470210df7e70aefaba1023</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="New Section" display_value="New Section" name="x_1387186_ows_satellite_task" sys_domain="global" view="Default view">c047f47a937e4210df7e70aefaba1014</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_1387186_ows_satellite_task" sys_domain="global" view="Default view">c047f47a937e4210df7e70aefaba1014</sys_ui_section>
             <sys_updated_by>gavin.moreland</sys_updated_by>
-            <sys_updated_on>2024-06-24 14:36:53</sys_updated_on>
+            <sys_updated_on>2024-06-25 16:02:06</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>reviewed_on</element>
-            <position>11</position>
+            <position>10</position>
             <sys_created_by>gavin.moreland</sys_created_by>
-            <sys_created_on>2024-06-24 14:36:53</sys_created_on>
-            <sys_id>c0833bac930f4e10df7e70aefaba1008</sys_id>
+            <sys_created_on>2024-06-25 16:02:06</sys_created_on>
+            <sys_id>ce9099c593470210df7e70aefaba1023</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="New Section" display_value="New Section" name="x_1387186_ows_satellite_task" sys_domain="global" view="Default view">c047f47a937e4210df7e70aefaba1014</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_1387186_ows_satellite_task" sys_domain="global" view="Default view">c047f47a937e4210df7e70aefaba1014</sys_ui_section>
             <sys_updated_by>gavin.moreland</sys_updated_by>
-            <sys_updated_on>2024-06-24 14:36:53</sys_updated_on>
+            <sys_updated_on>2024-06-25 16:02:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assignment.managing_agent</element>
+            <position>11</position>
+            <sys_created_by>gavin.moreland</sys_created_by>
+            <sys_created_on>2024-06-25 16:02:06</sys_created_on>
+            <sys_id>c69099c593470210df7e70aefaba1024</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1387186_ows_satellite_task" sys_domain="global" view="Default view">c047f47a937e4210df7e70aefaba1014</sys_ui_section>
+            <sys_updated_by>gavin.moreland</sys_updated_by>
+            <sys_updated_on>2024-06-25 16:02:06</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -172,13 +172,13 @@
             <element>.end_split</element>
             <position>12</position>
             <sys_created_by>gavin.moreland</sys_created_by>
-            <sys_created_on>2024-06-24 14:36:53</sys_created_on>
-            <sys_id>c8833bac930f4e10df7e70aefaba1008</sys_id>
+            <sys_created_on>2024-06-25 16:02:06</sys_created_on>
+            <sys_id>ce9099c593470210df7e70aefaba1024</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="New Section" display_value="New Section" name="x_1387186_ows_satellite_task" sys_domain="global" view="Default view">c047f47a937e4210df7e70aefaba1014</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_1387186_ows_satellite_task" sys_domain="global" view="Default view">c047f47a937e4210df7e70aefaba1014</sys_ui_section>
             <sys_updated_by>gavin.moreland</sys_updated_by>
-            <sys_updated_on>2024-06-24 14:36:53</sys_updated_on>
+            <sys_updated_on>2024-06-25 16:02:06</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
@@ -186,13 +186,13 @@
             <element>assignment.satellite.analyzed_image</element>
             <position>13</position>
             <sys_created_by>gavin.moreland</sys_created_by>
-            <sys_created_on>2024-06-24 14:36:53</sys_created_on>
-            <sys_id>c0833bac930f4e10df7e70aefaba1009</sys_id>
+            <sys_created_on>2024-06-25 16:02:06</sys_created_on>
+            <sys_id>c69099c593470210df7e70aefaba1025</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="New Section" display_value="New Section" name="x_1387186_ows_satellite_task" sys_domain="global" view="Default view">c047f47a937e4210df7e70aefaba1014</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_1387186_ows_satellite_task" sys_domain="global" view="Default view">c047f47a937e4210df7e70aefaba1014</sys_ui_section>
             <sys_updated_by>gavin.moreland</sys_updated_by>
-            <sys_updated_on>2024-06-24 14:36:53</sys_updated_on>
+            <sys_updated_on>2024-06-25 16:02:06</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -200,13 +200,13 @@
             <element>description</element>
             <position>14</position>
             <sys_created_by>gavin.moreland</sys_created_by>
-            <sys_created_on>2024-06-24 14:36:53</sys_created_on>
-            <sys_id>c8833bac930f4e10df7e70aefaba1009</sys_id>
+            <sys_created_on>2024-06-25 16:02:06</sys_created_on>
+            <sys_id>ce9099c593470210df7e70aefaba1025</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="New Section" display_value="New Section" name="x_1387186_ows_satellite_task" sys_domain="global" view="Default view">c047f47a937e4210df7e70aefaba1014</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_1387186_ows_satellite_task" sys_domain="global" view="Default view">c047f47a937e4210df7e70aefaba1014</sys_ui_section>
             <sys_updated_by>gavin.moreland</sys_updated_by>
-            <sys_updated_on>2024-06-24 14:36:53</sys_updated_on>
+            <sys_updated_on>2024-06-25 16:02:06</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -214,18 +214,18 @@
             <element>location_name</element>
             <position>15</position>
             <sys_created_by>gavin.moreland</sys_created_by>
-            <sys_created_on>2024-06-24 14:36:53</sys_created_on>
-            <sys_id>c0833bac930f4e10df7e70aefaba100a</sys_id>
+            <sys_created_on>2024-06-25 16:02:06</sys_created_on>
+            <sys_id>c69099c593470210df7e70aefaba1026</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="New Section" display_value="New Section" name="x_1387186_ows_satellite_task" sys_domain="global" view="Default view">c047f47a937e4210df7e70aefaba1014</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_1387186_ows_satellite_task" sys_domain="global" view="Default view">c047f47a937e4210df7e70aefaba1014</sys_ui_section>
             <sys_updated_by>gavin.moreland</sys_updated_by>
-            <sys_updated_on>2024-06-24 14:36:53</sys_updated_on>
+            <sys_updated_on>2024-06-25 16:02:06</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
-            <caption>New Section</caption>
+            <caption/>
             <header>false</header>
             <name>x_1387186_ows_satellite_task</name>
             <roles/>
@@ -235,15 +235,15 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>c047f47a937e4210df7e70aefaba1014</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_name>x_1387186_ows_satellite_task</sys_name>
             <sys_overrides/>
             <sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package>
             <sys_policy/>
             <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
             <sys_update_name>sys_ui_section_c047f47a937e4210df7e70aefaba1014</sys_update_name>
-            <sys_updated_by>amy.kronschnabel</sys_updated_by>
-            <sys_updated_on>2024-06-18 14:25:02</sys_updated_on>
+            <sys_updated_by>gavin.moreland</sys_updated_by>
+            <sys_updated_on>2024-06-25 16:02:05</sys_updated_on>
             <sys_user/>
             <title>false</title>
             <view display_value="Default view" name="NULL">Default view</view>
