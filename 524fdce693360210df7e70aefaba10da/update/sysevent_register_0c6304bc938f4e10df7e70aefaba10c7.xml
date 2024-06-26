@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <caller_access/>
+        <derived_priority>100</derived_priority>
+        <description>Event for critical satellite image in order to send a notification to admin</description>
+        <event_name>x_1387186_ows.Critical Satellite Image</event_name>
+        <fired_by>Critical Satellite Image Response Flow</fired_by>
+        <priority>100</priority>
+        <queue/>
+        <suffix>Critical Satellite Image</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-24 15:47:04</sys_created_on>
+        <sys_id>0c6304bc938f4e10df7e70aefaba10c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1387186_ows.Critical Satellite Image</sys_name>
+        <sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
+        <sys_update_name>sysevent_register_0c6304bc938f4e10df7e70aefaba10c7</sys_update_name>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-24 15:47:04</sys_updated_on>
+        <table>x_1387186_sat_img_satellite_images</table>
+    </sysevent_register>
+</record_update>

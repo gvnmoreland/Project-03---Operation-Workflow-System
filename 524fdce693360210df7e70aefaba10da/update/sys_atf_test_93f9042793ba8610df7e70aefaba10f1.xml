@@ -2,10 +2,10 @@
     <sys_atf_test action="INSERT_OR_UPDATE">
         <active>true</active>
         <copied_from display_value="OWS: Satellite Task Form from Distance Record Admin">9814135f93b28610df7e70aefaba1006</copied_from>
-        <description>Test to ensure that the 'Deploy Asset/Agent' button on Distance form is not available to Agents and Analysts. This test should fail.</description>
+        <description>Test to ensure that the 'Deploy Asset/Agent' button on Distance form is not available to Agents and Analysts. </description>
         <enable_parameterized_testing>false</enable_parameterized_testing>
         <fail_on_server_error>true</fail_on_server_error>
-        <name>OWS:(Fail) Satellite Task Form from Distance Record Agent/Analyst</name>
+        <name>OWS:Satellite Task Form from Distance Record Agent/Analyst</name>
         <parameters/>
         <remember/>
         <sn_atf_tg_generated>false</sn_atf_tg_generated>
@@ -13,14 +13,14 @@
         <sys_created_by>alyssa.hoshor</sys_created_by>
         <sys_created_on>2024-06-20 19:02:44</sys_created_on>
         <sys_id>93f9042793ba8610df7e70aefaba10f1</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>OWS:(Fail) Satellite Task Form from Distance Record Agent/Analyst</sys_name>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>OWS:Satellite Task Form from Distance Record Agent/Analyst</sys_name>
         <sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package>
         <sys_policy/>
         <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
         <sys_update_name>sys_atf_test_93f9042793ba8610df7e70aefaba10f1</sys_update_name>
         <sys_updated_by>alyssa.hoshor</sys_updated_by>
-        <sys_updated_on>2024-06-21 13:35:19</sys_updated_on>
+        <sys_updated_on>2024-06-24 12:58:01</sys_updated_on>
     </sys_atf_test>
     <sys_variable_value action="delete_multiple" query="document_key=93f9042793ba8610df7e70aefaba10f1"/>
 </record_update>

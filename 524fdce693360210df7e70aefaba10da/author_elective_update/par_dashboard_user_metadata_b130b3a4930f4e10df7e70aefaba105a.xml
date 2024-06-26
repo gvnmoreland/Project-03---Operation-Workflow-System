@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_user_metadata">
+    <par_dashboard_user_metadata action="DELETE">
+        <background_color/>
+        <cache_expiration_time>0</cache_expiration_time>
+        <card_bg_image/>
+        <created_by_user display_value="Alyssa Hoshor">64e0b2bf93020210df7e70aefaba1073</created_by_user>
+        <created_on>2024-06-24 14:22:32</created_on>
+        <dashboard display_value="AIOS Agent Dashboard - Copy">713073a4930f4e10df7e70aefaba10be</dashboard>
+        <enable_data_cache>false</enable_data_cache>
+        <include_custom_insights>false</include_custom_insights>
+        <include_key_contributors>false</include_key_contributors>
+        <include_kpi_signals>false</include_kpi_signals>
+        <include_predictive_target>false</include_predictive_target>
+        <include_predictive_thresholds>false</include_predictive_thresholds>
+        <include_process_mining>false</include_process_mining>
+        <include_severity>false</include_severity>
+        <include_target>false</include_target>
+        <include_thresholds>false</include_thresholds>
+        <include_trends>false</include_trends>
+        <last_updated_on>2024-06-24 14:22:35</last_updated_on>
+        <po_project_id_list/>
+        <refresh_information>false</refresh_information>
+        <refresh_interval/>
+        <requested_by_user/>
+        <schedule_repetition>false</schedule_repetition>
+        <show_insights_panel>false</show_insights_panel>
+        <sys_class_name>par_dashboard_user_metadata</sys_class_name>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-24 14:22:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b130b3a4930f4e10df7e70aefaba105a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
+        <sys_update_name>par_dashboard_user_metadata_b130b3a4930f4e10df7e70aefaba105a</sys_update_name>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-24 14:22:35</sys_updated_on>
+        <updated_by_user display_value="Alyssa Hoshor">64e0b2bf93020210df7e70aefaba1073</updated_by_user>
+        <use_custom_tab_colors>false</use_custom_tab_colors>
+    </par_dashboard_user_metadata>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</application>
+        <file_path/>
+        <instance_id>de14e45c1b7d7d901024eb9b2d4bcb59</instance_id>
+        <instance_name>dev182002</instance_name>
+        <name>par_dashboard_user_metadata_b130b3a4930f4e10df7e70aefaba105a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_user_metadata"><par_dashboard_user_metadata action="INSERT_OR_UPDATE"><background_color/><cache_expiration_time>0</cache_expiration_time><card_bg_image/><created_by_user display_value="Alyssa Hoshor">64e0b2bf93020210df7e70aefaba1073</created_by_user><created_on>2024-06-24 14:22:32</created_on><dashboard display_value="AIOS Agent Dashboard - Copy">713073a4930f4e10df7e70aefaba10be</dashboard><enable_data_cache>false</enable_data_cache><include_custom_insights>false</include_custom_insights><include_key_contributors>false</include_key_contributors><include_kpi_signals>false</include_kpi_signals><include_predictive_target>false</include_predictive_target><include_predictive_thresholds>false</include_predictive_thresholds><include_process_mining>false</include_process_mining><include_severity>false</include_severity><include_target>false</include_target><include_thresholds>false</include_thresholds><include_trends>false</include_trends><last_updated_on>2024-06-24 14:22:35</last_updated_on><po_project_id_list/><refresh_information>false</refresh_information><refresh_interval/><requested_by_user/><schedule_repetition>false</schedule_repetition><show_insights_panel>false</show_insights_panel><sys_class_name>par_dashboard_user_metadata</sys_class_name><sys_created_by>alyssa.hoshor</sys_created_by><sys_created_on>2024-06-24 14:22:32</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b130b3a4930f4e10df7e70aefaba105a</sys_id><sys_mod_count>1</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package><sys_policy/><sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope><sys_update_name>par_dashboard_user_metadata_b130b3a4930f4e10df7e70aefaba105a</sys_update_name><sys_updated_by>alyssa.hoshor</sys_updated_by><sys_updated_on>2024-06-24 14:22:35</sys_updated_on><updated_by_user display_value="Alyssa Hoshor">64e0b2bf93020210df7e70aefaba1073</updated_by_user><use_custom_tab_colors>false</use_custom_tab_colors></par_dashboard_user_metadata></record_update>]]></payload>
+        <payload_hash>1831913081</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>2b17306e93f60210df7e70aefaba10d2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-24 14:22:35</sys_created_on>
+        <sys_id>a230f3a4930f4e10df7e70aefaba10c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1904aa091040000001</sys_recorded_at>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-24 14:22:35</sys_updated_on>
+        <type>PAR Dashboard Metadata</type>
+        <update_guid>2a30f3a4b50f4e10187cf64021b6d6c3</update_guid>
+        <update_guid_history>2a30f3a4b50f4e10187cf64021b6d6c3:1831913081,7530b3a4620f4e1062acf12eefe3f95d:1863140869</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">f9a03be4930f4e10df7e70aefaba101f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-24 14:24:26</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_user_metadata">par_dashboard_user_metadata</sys_db_object>
+        <sys_id>b9e981803bc741b095127c2b719bb440</sys_id>
+        <sys_metadata>b130b3a4930f4e10df7e70aefaba105a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
+        <sys_scope_delete display_value="">33f219d46b4f4f608eb30d59f6038400</sys_scope_delete>
+        <sys_update_name>par_dashboard_user_metadata_b130b3a4930f4e10df7e70aefaba105a</sys_update_name>
+        <sys_update_version display_value="par_dashboard_user_metadata_b130b3a4930f4e10df7e70aefaba105a">a230f3a4930f4e10df7e70aefaba10c4</sys_update_version>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-24 14:24:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

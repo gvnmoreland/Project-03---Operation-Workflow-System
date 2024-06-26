@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>managing_agent</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-25 13:32:38</sys_created_on>
+        <sys_id>e65ea88593030210df7e70aefaba10c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>managing_agent</sys_name>
+        <sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
+        <sys_update_name>sys_ui_policy_action_e65ea88593030210df7e70aefaba10c0</sys_update_name>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-25 13:32:38</sys_updated_on>
+        <table>x_1387186_ows_distance</table>
+        <ui_policy display_value="Hide/Show Managing Agent Based on Asset/Agent Table">dccb55f3937e0a10df7e70aefaba10ad</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=e65ea88593030210df7e70aefaba10c0"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</application>
+        <file_path/>
+        <instance_id>de14e45c1b7d7d901024eb9b2d4bcb59</instance_id>
+        <instance_name>dev182002</instance_name>
+        <name>sys_ui_policy_action_e65ea88593030210df7e70aefaba10c0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>true</disabled><field>managing_agent</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>alyssa.hoshor</sys_created_by><sys_created_on>2024-06-25 13:32:38</sys_created_on><sys_id>e65ea88593030210df7e70aefaba10c0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>managing_agent</sys_name><sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package><sys_policy/><sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope><sys_update_name>sys_ui_policy_action_e65ea88593030210df7e70aefaba10c0</sys_update_name><sys_updated_by>alyssa.hoshor</sys_updated_by><sys_updated_on>2024-06-25 13:32:38</sys_updated_on><table>x_1387186_ows_distance</table><ui_policy display_value="Hide/Show Managing Agent Based on Asset/Agent Table">dccb55f3937e0a10df7e70aefaba10ad</ui_policy><value/><value_action>ignore</value_action><visible>true</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=e65ea88593030210df7e70aefaba10c0"/></record_update>]]></payload>
+        <payload_hash>-350118314</payload_hash>
+        <record_name>managing_agent</record_name>
+        <reverted_from/>
+        <source>2b17306e93f60210df7e70aefaba10d2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-25 13:32:38</sys_created_on>
+        <sys_id>206ea88593030210df7e70aefaba10d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1904f9931b30000001</sys_recorded_at>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-25 13:32:38</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>246ea8852a030210b1bdb80d7e2234d0</update_guid>
+        <update_guid_history>246ea8852a030210b1bdb80d7e2234d0:-350118314</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-25 13:38:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>a5d87f1e31d64bc6b6faffaf23a9a3c4</sys_id>
+        <sys_metadata>e65ea88593030210df7e70aefaba10c0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>managing_agent</sys_name>
+        <sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
+        <sys_scope_delete display_value="">33f219d46b4f4f608eb30d59f6038400</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_e65ea88593030210df7e70aefaba10c0</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_e65ea88593030210df7e70aefaba10c0">206ea88593030210df7e70aefaba10d1</sys_update_version>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-25 13:38:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="DELETE">
+        <macroponent_config>{
+    "listId": ""
+}</macroponent_config>
+        <screen display_value="Satellite Image Lists">b6c2772c930f4e10df7e70aefaba10f8</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-24 14:33:48</sys_created_on>
+        <sys_id>f2c2772c930f4e10df7e70aefaba10fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_f2c2772c930f4e10df7e70aefaba10fc</sys_update_name>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-24 14:33:48</sys_updated_on>
+    </sys_uib_screen_test_values>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</application>
+        <file_path/>
+        <instance_id>de14e45c1b7d7d901024eb9b2d4bcb59</instance_id>
+        <instance_name>dev182002</instance_name>
+        <name>sys_uib_screen_test_values_f2c2772c930f4e10df7e70aefaba10fc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values"><sys_uib_screen_test_values action="INSERT_OR_UPDATE"><macroponent_config>{
+    "listId": ""
+}</macroponent_config><screen display_value="Satellite Image Lists">b6c2772c930f4e10df7e70aefaba10f8</screen><sys_class_name>sys_uib_screen_test_values</sys_class_name><sys_created_by>alyssa.hoshor</sys_created_by><sys_created_on>2024-06-24 14:33:48</sys_created_on><sys_id>f2c2772c930f4e10df7e70aefaba10fc</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package><sys_policy/><sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope><sys_update_name>sys_uib_screen_test_values_f2c2772c930f4e10df7e70aefaba10fc</sys_update_name><sys_updated_by>alyssa.hoshor</sys_updated_by><sys_updated_on>2024-06-24 14:33:48</sys_updated_on></sys_uib_screen_test_values></record_update>]]></payload>
+        <payload_hash>-1182910506</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>2b17306e93f60210df7e70aefaba10d2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-24 14:33:48</sys_created_on>
+        <sys_id>f2c2b72c930f4e10df7e70aefaba1017</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1904aaad52b0000001</sys_recorded_at>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-24 14:33:48</sys_updated_on>
+        <type>UIB Screen Test Values</type>
+        <update_guid>7ac2772cf50f4e108d707819097477fd</update_guid>
+        <update_guid_history>7ac2772cf50f4e108d707819097477fd:-1182910506</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-24 14:35:10</sys_created_on>
+        <sys_db_object display_value="" name="sys_uib_screen_test_values">sys_uib_screen_test_values</sys_db_object>
+        <sys_id>570f49254f4f4a11a64e9d2d55991e71</sys_id>
+        <sys_metadata>f2c2772c930f4e10df7e70aefaba10fc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
+        <sys_scope_delete display_value="">33f219d46b4f4f608eb30d59f6038400</sys_scope_delete>
+        <sys_update_name>sys_uib_screen_test_values_f2c2772c930f4e10df7e70aefaba10fc</sys_update_name>
+        <sys_update_version display_value="sys_uib_screen_test_values_f2c2772c930f4e10df7e70aefaba10fc">f2c2b72c930f4e10df7e70aefaba1017</sys_update_version>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-24 14:35:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

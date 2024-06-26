@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard">
+    <par_dashboard action="DELETE">
+        <active>true</active>
+        <certified>false</certified>
+        <description/>
+        <experience/>
+        <grid>48</grid>
+        <name>AIOS Agent Dashboard - Copy</name>
+        <sys_class_name>par_dashboard</sys_class_name>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-24 14:22:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>713073a4930f4e10df7e70aefaba10be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AIOS Agent Dashboard - Copy</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
+        <sys_update_name>par_dashboard_713073a4930f4e10df7e70aefaba10be</sys_update_name>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-24 14:22:32</sys_updated_on>
+        <sys_ux_app_config/>
+        <sys_ux_app_route/>
+        <sys_ux_macroponent/>
+        <sys_ux_screen/>
+        <sys_ux_screen_type/>
+    </par_dashboard>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</application>
+        <file_path/>
+        <instance_id>de14e45c1b7d7d901024eb9b2d4bcb59</instance_id>
+        <instance_name>dev182002</instance_name>
+        <name>par_dashboard_713073a4930f4e10df7e70aefaba10be</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard"><par_dashboard action="INSERT_OR_UPDATE"><active>true</active><certified>false</certified><description/><experience/><grid>48</grid><name>AIOS Agent Dashboard - Copy</name><sys_class_name>par_dashboard</sys_class_name><sys_created_by>alyssa.hoshor</sys_created_by><sys_created_on>2024-06-24 14:22:32</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>713073a4930f4e10df7e70aefaba10be</sys_id><sys_mod_count>0</sys_mod_count><sys_name>AIOS Agent Dashboard - Copy</sys_name><sys_overrides/><sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package><sys_policy/><sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope><sys_update_name>par_dashboard_713073a4930f4e10df7e70aefaba10be</sys_update_name><sys_updated_by>alyssa.hoshor</sys_updated_by><sys_updated_on>2024-06-24 14:22:32</sys_updated_on><sys_ux_app_config/><sys_ux_app_route/><sys_ux_macroponent/><sys_ux_screen/><sys_ux_screen_type/></par_dashboard></record_update>]]></payload>
+        <payload_hash>1407206812</payload_hash>
+        <record_name>AIOS Agent Dashboard - Copy</record_name>
+        <reverted_from/>
+        <source>2b17306e93f60210df7e70aefaba10d2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-24 14:22:32</sys_created_on>
+        <sys_id>313073a4930f4e10df7e70aefaba10c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1904aa085140000001</sys_recorded_at>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-24 14:22:32</sys_updated_on>
+        <type>PAR Dashboard</type>
+        <update_guid>353073a4c90f4e10a0acd241ad5fa2c0</update_guid>
+        <update_guid_history>353073a4c90f4e10a0acd241ad5fa2c0:1407206812</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="AIOS Agent Dashboard - Copy">a5a0b7e4930f4e10df7e70aefaba1066</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-24 14:24:26</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard">par_dashboard</sys_db_object>
+        <sys_id>135a800e3c6f48888425224145d99d71</sys_id>
+        <sys_metadata>713073a4930f4e10df7e70aefaba10be</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AIOS Agent Dashboard - Copy</sys_name>
+        <sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
+        <sys_scope_delete display_value="">33f219d46b4f4f608eb30d59f6038400</sys_scope_delete>
+        <sys_update_name>par_dashboard_713073a4930f4e10df7e70aefaba10be</sys_update_name>
+        <sys_update_version display_value="par_dashboard_713073a4930f4e10df7e70aefaba10be">313073a4930f4e10df7e70aefaba10c1</sys_update_version>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-24 14:24:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

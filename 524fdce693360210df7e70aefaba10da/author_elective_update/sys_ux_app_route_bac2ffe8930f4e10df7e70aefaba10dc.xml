@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config display_value="AIOS Workspace">801998b393360a10df7e70aefaba1063</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon/>
+        <name>Satellite Image List</name>
+        <optional_parameters>listId</optional_parameters>
+        <order>0</order>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>satellite-image-list</route_type>
+        <screen_type display_value="Satellite Image List">b6c2ffe8930f4e10df7e70aefaba10d9</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-24 14:33:47</sys_created_on>
+        <sys_id>bac2ffe8930f4e10df7e70aefaba10dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Satellite Image List</sys_name>
+        <sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
+        <sys_update_name>sys_ux_app_route_bac2ffe8930f4e10df7e70aefaba10dc</sys_update_name>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-24 14:33:47</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="DELETE" query="documentkey=bac2ffe8930f4e10df7e70aefaba10dc"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</application>
+        <file_path/>
+        <instance_id>de14e45c1b7d7d901024eb9b2d4bcb59</instance_id>
+        <instance_name>dev182002</instance_name>
+        <name>sys_ux_app_route_bac2ffe8930f4e10df7e70aefaba10dc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route"><sys_ux_app_route action="INSERT_OR_UPDATE"><app_config display_value="AIOS Workspace">801998b393360a10df7e70aefaba1063</app_config><description/><extension_point/><fields/><icon/><name>Satellite Image List</name><optional_parameters>listId</optional_parameters><order>0</order><parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent><parent_macroponent_composition_element_id/><route_type>satellite-image-list</route_type><screen_type display_value="Satellite Image List">b6c2ffe8930f4e10df7e70aefaba10d9</screen_type><sys_class_name>sys_ux_app_route</sys_class_name><sys_created_by>alyssa.hoshor</sys_created_by><sys_created_on>2024-06-24 14:33:47</sys_created_on><sys_id>bac2ffe8930f4e10df7e70aefaba10dc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Satellite Image List</sys_name><sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package><sys_policy/><sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope><sys_update_name>sys_ux_app_route_bac2ffe8930f4e10df7e70aefaba10dc</sys_update_name><sys_updated_by>alyssa.hoshor</sys_updated_by><sys_updated_on>2024-06-24 14:33:47</sys_updated_on></sys_ux_app_route><sys_translated_text action="delete_multiple" query="documentkey=bac2ffe8930f4e10df7e70aefaba10dc"/></record_update>]]></payload>
+        <payload_hash>1907944257</payload_hash>
+        <record_name>Satellite Image List</record_name>
+        <reverted_from/>
+        <source>2b17306e93f60210df7e70aefaba10d2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-24 14:33:47</sys_created_on>
+        <sys_id>b2c2772c930f4e10df7e70aefaba10f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1904aaad3d90000001</sys_recorded_at>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-24 14:33:47</sys_updated_on>
+        <type>UX App Route</type>
+        <update_guid>bac2ffe8530f4e109dd5b7b5085368de</update_guid>
+        <update_guid_history>bac2ffe8530f4e109dd5b7b5085368de:1907944257</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-24 14:35:19</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>a87f11a60fc445f0b49fce067eb8ad90</sys_id>
+        <sys_metadata>bac2ffe8930f4e10df7e70aefaba10dc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Satellite Image List</sys_name>
+        <sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
+        <sys_scope_delete display_value="">33f219d46b4f4f608eb30d59f6038400</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_bac2ffe8930f4e10df7e70aefaba10dc</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_bac2ffe8930f4e10df7e70aefaba10dc">b2c2772c930f4e10df7e70aefaba10f2</sys_update_version>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-24 14:35:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
