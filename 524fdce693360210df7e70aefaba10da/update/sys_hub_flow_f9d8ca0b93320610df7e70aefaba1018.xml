@@ -35,7 +35,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f9d8ca0b93320610df7e70aefaba1018</sys_id>
-        <sys_mod_count>48</sys_mod_count>
+        <sys_mod_count>50</sys_mod_count>
         <sys_name>Distance Measurement - Agent Subflow</sys_name>
         <sys_overrides/>
         <sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package>
@@ -43,7 +43,7 @@
         <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
         <sys_update_name>sys_hub_flow_f9d8ca0b93320610df7e70aefaba1018</sys_update_name>
         <sys_updated_by>alyssa.hoshor</sys_updated_by>
-        <sys_updated_on>2024-06-19 18:39:50</sys_updated_on>
+        <sys_updated_on>2024-06-26 14:31:23</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=f9d8ca0b93320610df7e70aefaba1018"/>
@@ -167,10 +167,10 @@
         <sys_created_by>alyssa.hoshor</sys_created_by>
         <sys_created_on>2024-06-19 15:00:00</sys_created_on>
         <sys_id>0ad8ca0b93320610df7e70aefaba10a2</sys_id>
-        <sys_mod_count>56</sys_mod_count>
+        <sys_mod_count>62</sys_mod_count>
         <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
-        <sys_updated_by>gavin.moreland</sys_updated_by>
-        <sys_updated_on>2024-06-19 19:19:13</sys_updated_on>
+        <sys_updated_by>AIOS.Admin</sys_updated_by>
+        <sys_updated_on>2024-06-26 14:10:30</sys_updated_on>
         <ui_id>734ae9fe-77db-4d6c-907f-cbe2ab66811c</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=0ad8ca0b93320610df7e70aefaba10a2"/>
@@ -244,10 +244,10 @@
         <sys_created_by>alyssa.hoshor</sys_created_by>
         <sys_created_on>2024-06-19 15:05:46</sys_created_on>
         <sys_id>622a4acb93320610df7e70aefaba1004</sys_id>
-        <sys_mod_count>50</sys_mod_count>
+        <sys_mod_count>56</sys_mod_count>
         <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
-        <sys_updated_by>gavin.moreland</sys_updated_by>
-        <sys_updated_on>2024-06-19 19:19:13</sys_updated_on>
+        <sys_updated_by>AIOS.Admin</sys_updated_by>
+        <sys_updated_on>2024-06-26 14:10:30</sys_updated_on>
         <ui_id>9f6ec9d5-ccf4-49ae-bf51-967ba758f657</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=622a4acb93320610df7e70aefaba1004"/>
@@ -272,7 +272,7 @@
         <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
         <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
         <attributes/>
-        <comment/>
+        <comment>Look up agent records that are at or above the satellite record clearance</comment>
         <display_text/>
         <flow display_value="Distance Measurement - Agent Subflow">f9d8ca0b93320610df7e70aefaba1018</flow>
         <generation_source/>
@@ -282,10 +282,10 @@
         <sys_created_by>alyssa.hoshor</sys_created_by>
         <sys_created_on>2024-06-19 15:00:00</sys_created_on>
         <sys_id>8ed8ca0b93320610df7e70aefaba105c</sys_id>
-        <sys_mod_count>54</sys_mod_count>
+        <sys_mod_count>64</sys_mod_count>
         <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
-        <sys_updated_by>gavin.moreland</sys_updated_by>
-        <sys_updated_on>2024-06-19 19:19:13</sys_updated_on>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-26 14:31:13</sys_updated_on>
         <ui_id>4a79c034-7c65-4312-8e19-d4ffe493e1eb</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8ed8ca0b93320610df7e70aefaba105c"/>
@@ -333,8 +333,8 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
-        <action_type display_value="Top Five Agent/Asset Lookup Action">159645b693fe4210df7e70aefaba10f7</action_type>
-        <action_type_parent display_value="Top Five Agent/Asset Lookup Action">9e9385be93be4210df7e70aefaba10c7</action_type_parent>
+        <action_type display_value="Top Agent/Asset Lookup Action">159645b693fe4210df7e70aefaba10f7</action_type>
+        <action_type_parent display_value="Top Agent/Asset Lookup Action">9e9385be93be4210df7e70aefaba10c7</action_type_parent>
         <attributes/>
         <comment/>
         <display_text/>
@@ -346,10 +346,10 @@
         <sys_created_by>alyssa.hoshor</sys_created_by>
         <sys_created_on>2024-06-19 15:00:01</sys_created_on>
         <sys_id>8ed8ca0b93320610df7e70aefaba10cf</sys_id>
-        <sys_mod_count>46</sys_mod_count>
+        <sys_mod_count>52</sys_mod_count>
         <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
-        <sys_updated_by>gavin.moreland</sys_updated_by>
-        <sys_updated_on>2024-06-19 19:19:13</sys_updated_on>
+        <sys_updated_by>AIOS.Admin</sys_updated_by>
+        <sys_updated_on>2024-06-26 14:10:30</sys_updated_on>
         <ui_id>41c83629-ad40-4530-acb6-6f8c8b3005a3</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8ed8ca0b93320610df7e70aefaba10cf"/>
@@ -661,8 +661,8 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
-        <action_type display_value="Top Five Agent/Asset Lookup Action">159645b693fe4210df7e70aefaba10f7</action_type>
-        <action_type_parent display_value="Top Five Agent/Asset Lookup Action">9e9385be93be4210df7e70aefaba10c7</action_type_parent>
+        <action_type display_value="Top Agent/Asset Lookup Action">159645b693fe4210df7e70aefaba10f7</action_type>
+        <action_type_parent display_value="Top Agent/Asset Lookup Action">9e9385be93be4210df7e70aefaba10c7</action_type_parent>
         <attributes/>
         <comment/>
         <display_text/>
@@ -952,7 +952,7 @@
     <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"bf598e4b93320610df7e70aefaba1046","name":"plan","plan_signature":null}}</plan>
         <plan_id display_value="Distance Measurement - Agent Subflow">f9d8ca0b93320610df7e70aefaba1018</plan_id>
-        <snapshot>0724c74b933a0610df7e70aefaba101f</snapshot>
+        <snapshot>38a0069d93438210df7e70aefaba101b</snapshot>
         <sys_created_by>alyssa.hoshor</sys_created_by>
         <sys_created_on>2024-06-19 15:02:19</sys_created_on>
         <sys_domain>global</sys_domain>
