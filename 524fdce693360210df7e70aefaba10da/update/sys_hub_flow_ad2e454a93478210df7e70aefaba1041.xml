@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=1069000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>deletion_test</internal_name>
+        <label_cache>[{"name":"bc96192f-8d8c-428f-9494-ac7c3765bee7.Records","label":"1 - Look Up Records➛Satellite Task Assignments Records","reference":"x_1387186_ows_distance","reference_display":"Satellite Task Assignments","type":"records","base_type":"records","usedInstances":{"f82c2e6d-cb55-49de-ba07-656c77b9ef5d":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f82c2e6d-cb55-49de-ba07-656c77b9ef5d.item","label":"2 - For Each➛Satellite Task Assignments Record","reference":"x_1387186_ows_distance","reference_display":"Satellite Task Assignments","type":"reference","base_type":"reference","usedInstances":{"6066edc4-ec67-402e-8072-93a6c98724ad":["record"],"66399ad8-7d3a-425e-86fa-7359079f0d4d":["record"]},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}}]</label_cache>
+        <master_snapshot>2e32114293878210df7e70aefaba101f</master_snapshot>
+        <name>Delete Satellite Task Assignment Records when Empty</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>fa32114293878210df7e70aefaba105f</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-28 18:25:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ad2e454a93478210df7e70aefaba1041</sys_id>
+        <sys_mod_count>23</sys_mod_count>
+        <sys_name>Delete Satellite Task Assignment Records when Empty</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
+        <sys_update_name>sys_hub_flow_ad2e454a93478210df7e70aefaba1041</sys_update_name>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-28 18:43:18</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=ad2e454a93478210df7e70aefaba1041"/>
+    <sys_variable_value action="delete_multiple" query="document_key=ad2e454a93478210df7e70aefaba1041"/>
+    <sys_flow_timer_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <day_of_month>1</day_of_month>
+        <day_of_week/>
+        <name/>
+        <run_period/>
+        <run_start>2024-06-28 18:43:10</run_start>
+        <sys_class_name>sys_flow_timer_trigger</sys_class_name>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-28 18:43:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fa32114293878210df7e70aefaba105f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-28 18:43:10</sys_updated_on>
+        <time>1970-01-02 06:00:00</time>
+        <timer_type>11</timer_type>
+    </sys_flow_timer_trigger>
+    <sys_flow_trigger_auto_script action="delete_multiple" query="name=Trigger:fa32114293878210df7e70aefaba105f^sys_idNOT INf232114293878210df7e70aefaba1060"/>
+    <sys_flow_trigger_auto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <max_drift/>
+        <name>Trigger:fa32114293878210df7e70aefaba105f</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="Alyssa Hoshor">64e0b2bf93020210df7e70aefaba1073</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek/>
+        <run_period/>
+        <run_start>2024-06-28 18:43:10</run_start>
+        <run_time>1970-01-02 06:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[sn_flow_trigger.FlowTriggerAPI.fireTimerTrigger('fa32114293878210df7e70aefaba105f');]]></script>
+        <sys_class_name>sys_flow_trigger_auto_script</sys_class_name>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-28 18:43:10</sys_created_on>
+        <sys_id>f232114293878210df7e70aefaba1060</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-28 18:43:10</sys_updated_on>
+        <time_zone/>
+        <trigger display_value="">fa32114293878210df7e70aefaba105f</trigger>
+        <upgrade_safe>true</upgrade_safe>
+    </sys_flow_trigger_auto_script>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=ad2e454a93478210df7e70aefaba1041"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=ad2e454a93478210df7e70aefaba1041^sys_idNOT INcc4e494a93478210df7e70aefaba10e9"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Delete Satellite Task Assignment Records when Empty">ad2e454a93478210df7e70aefaba1041</flow>
+        <name>Daily</name>
+        <remote_sys_id/>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-28 18:25:46</sys_created_on>
+        <sys_id>cc4e494a93478210df7e70aefaba10e9</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-28 18:43:11</sys_updated_on>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>daily</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=cc4e494a93478210df7e70aefaba10e9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>cc4e494a93478210df7e70aefaba10e9</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-28 18:25:46</sys_created_on>
+        <sys_id>484e494a93478210df7e70aefaba10eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-28 18:25:46</sys_updated_on>
+        <value>1970-01-01 22:00:00</value>
+        <variable display_value="Time">3ad4edc0c32222002841b63b12d3aee5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_input_89142dc0c32222002841b63b12d3ae8a^id=cc4e494a93478210df7e70aefaba10e9"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=ad2e454a93478210df7e70aefaba1041"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=ad2e454a93478210df7e70aefaba1041^sys_idNOT INe12e454a93478210df7e70aefaba1044"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>ad2e454a93478210df7e70aefaba1041</id>
+        <name>Deletion Test</name>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-28 18:25:20</sys_created_on>
+        <sys_id>e12e454a93478210df7e70aefaba1044</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-28 18:25:20</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=e12e454a93478210df7e70aefaba1044"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=ad2e454a93478210df7e70aefaba1041"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=ad2e454a93478210df7e70aefaba1041"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=ad2e454a93478210df7e70aefaba1041"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=ad2e454a93478210df7e70aefaba1041^sys_idNOT IN835155ce93478210df7e70aefaba1004,ff4e0d4a93478210df7e70aefaba105c"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Delete Record">c3e09916c31332002841b63b12d3aedf</action_type>
+        <action_type_parent display_value="Delete Record">a8f274c8c3c232002841b63b12d3aee9</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Delete Satellite Task Assignment Records when Empty">ad2e454a93478210df7e70aefaba1041</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>f82c2e6d-cb55-49de-ba07-656c77b9ef5d</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-28 18:39:22</sys_created_on>
+        <sys_id>835155ce93478210df7e70aefaba1004</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-28 18:43:11</sys_updated_on>
+        <ui_id>66399ad8-7d3a-425e-86fa-7359079f0d4d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=835155ce93478210df7e70aefaba1004"/>
+    <sys_element_mapping action="delete_multiple" query="id=835155ce93478210df7e70aefaba1004"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>835155ce93478210df7e70aefaba1004</id>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-28 18:39:36</sys_created_on>
+        <sys_id>2e61d5ce93478210df7e70aefaba10bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-28 18:39:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c3e09916c31332002841b63b12d3aedf</table>
+        <value>{{f82c2e6d-cb55-49de-ba07-656c77b9ef5d.item}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=835155ce93478210df7e70aefaba1004"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=835155ce93478210df7e70aefaba1004"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Delete Satellite Task Assignment Records when Empty">ad2e454a93478210df7e70aefaba1041</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-28 18:26:02</sys_created_on>
+        <sys_id>ff4e0d4a93478210df7e70aefaba105c</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-28 18:43:11</sys_updated_on>
+        <ui_id>bc96192f-8d8c-428f-9494-ac7c3765bee7</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ff4e0d4a93478210df7e70aefaba105c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ff4e0d4a93478210df7e70aefaba105c</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-28 18:38:12</sys_created_on>
+        <sys_id>461151ce93478210df7e70aefaba10e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-28 18:38:12</sys_updated_on>
+        <value>x_1387186_ows_distance</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ff4e0d4a93478210df7e70aefaba105c</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-28 18:38:12</sys_created_on>
+        <sys_id>4e1151ce93478210df7e70aefaba10e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-28 18:38:12</sys_updated_on>
+        <value>satelliteISEMPTY</value>
+        <variable display_value="Conditions">8f400a1587003300663ca1bb36cb0b50</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b^id=ff4e0d4a93478210df7e70aefaba105c"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ff4e0d4a93478210df7e70aefaba105c"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=ff4e0d4a93478210df7e70aefaba105c"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=ad2e454a93478210df7e70aefaba1041"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=ad2e454a93478210df7e70aefaba1041^sys_idNOT IN49cf8d0e93478210df7e70aefaba103b"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">6a32dd0293878210df7e70aefaba10d8</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Delete Satellite Task Assignment Records when Empty">ad2e454a93478210df7e70aefaba1041</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-28 18:32:24</sys_created_on>
+        <sys_id>49cf8d0e93478210df7e70aefaba103b</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-28 18:43:11</sys_updated_on>
+        <ui_id>f82c2e6d-cb55-49de-ba07-656c77b9ef5d</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=49cf8d0e93478210df7e70aefaba103b"/>
+    <sys_element_mapping action="delete_multiple" query="id=49cf8d0e93478210df7e70aefaba103b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>49cf8d0e93478210df7e70aefaba103b</id>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-28 18:32:59</sys_created_on>
+        <sys_id>69ef814e93478210df7e70aefaba1079</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-28 18:32:59</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{bc96192f-8d8c-428f-9494-ac7c3765bee7.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=49cf8d0e93478210df7e70aefaba103b"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=49cf8d0e93478210df7e70aefaba103b"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=ad2e454a93478210df7e70aefaba1041"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=ad2e454a93478210df7e70aefaba1041"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_ad2e454a93478210df7e70aefaba1041"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_ad2e454a93478210df7e70aefaba1041"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_ad2e454a93478210df7e70aefaba1041"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_ad2e454a93478210df7e70aefaba1041"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>delete_satellite_task_assignment_records_when_empty</internal_name>
+        <label_cache>[{"name":"bc96192f-8d8c-428f-9494-ac7c3765bee7.Records","label":"1 - Look Up Records➛Satellite Task Assignments Records","reference":"x_1387186_ows_distance","reference_display":"Satellite Task Assignments","type":"records","base_type":"records","usedInstances":{"f82c2e6d-cb55-49de-ba07-656c77b9ef5d":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f82c2e6d-cb55-49de-ba07-656c77b9ef5d.item","label":"2 - For Each➛Satellite Task Assignments Record","reference":"x_1387186_ows_distance","reference_display":"Satellite Task Assignments","type":"reference","base_type":"reference","usedInstances":{"6066edc4-ec67-402e-8072-93a6c98724ad":["record"],"66399ad8-7d3a-425e-86fa-7359079f0d4d":["record"]},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}}]</label_cache>
+        <master>true</master>
+        <name>Delete Satellite Task Assignment Records when Empty</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Delete Satellite Task Assignment Records when Empty">ad2e454a93478210df7e70aefaba1041</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-28 18:43:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2e32114293878210df7e70aefaba101f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-28 18:43:10</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=2e32114293878210df7e70aefaba101f"/>
+    <sys_variable_value action="delete_multiple" query="document_key=2e32114293878210df7e70aefaba101f"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=2e32114293878210df7e70aefaba101f^sys_idNOT IN3a32114293878210df7e70aefaba104d"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Delete Satellite Task Assignment Records when Empty">2e32114293878210df7e70aefaba101f</flow>
+        <name>Daily</name>
+        <remote_sys_id/>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-28 18:43:10</sys_created_on>
+        <sys_id>3a32114293878210df7e70aefaba104d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-28 18:43:11</sys_updated_on>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>daily</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3a32114293878210df7e70aefaba104d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>3a32114293878210df7e70aefaba104d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-28 18:43:10</sys_created_on>
+        <sys_id>b232114293878210df7e70aefaba104e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-28 18:43:10</sys_updated_on>
+        <value>1970-01-01 22:00:00</value>
+        <variable display_value="Time">3ad4edc0c32222002841b63b12d3aee5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_input_89142dc0c32222002841b63b12d3ae8a^id=3a32114293878210df7e70aefaba104d"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=2e32114293878210df7e70aefaba101f"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=2e32114293878210df7e70aefaba101f^sys_idNOT INe632114293878210df7e70aefaba1020"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>2e32114293878210df7e70aefaba101f</id>
+        <name>Delete Satellite Task Assignment Records when Empty</name>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-28 18:43:10</sys_created_on>
+        <sys_id>e632114293878210df7e70aefaba1020</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-28 18:43:10</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=e632114293878210df7e70aefaba1020"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=2e32114293878210df7e70aefaba101f"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=2e32114293878210df7e70aefaba101f"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=2e32114293878210df7e70aefaba101f"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=2e32114293878210df7e70aefaba101f^sys_idNOT IN7a32114293878210df7e70aefaba1046,b632114293878210df7e70aefaba104c"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Delete Satellite Task Assignment Records when Empty">2e32114293878210df7e70aefaba101f</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-28 18:43:10</sys_created_on>
+        <sys_id>7a32114293878210df7e70aefaba1046</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-28 18:43:10</sys_updated_on>
+        <ui_id>bc96192f-8d8c-428f-9494-ac7c3765bee7</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7a32114293878210df7e70aefaba1046"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7a32114293878210df7e70aefaba1046</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-28 18:43:10</sys_created_on>
+        <sys_id>b632114293878210df7e70aefaba1048</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-28 18:43:10</sys_updated_on>
+        <value>x_1387186_ows_distance</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7a32114293878210df7e70aefaba1046</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-28 18:43:10</sys_created_on>
+        <sys_id>f232114293878210df7e70aefaba1048</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-28 18:43:10</sys_updated_on>
+        <value>satelliteISEMPTY</value>
+        <variable display_value="Conditions">8f400a1587003300663ca1bb36cb0b50</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b^id=7a32114293878210df7e70aefaba1046"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7a32114293878210df7e70aefaba1046"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=7a32114293878210df7e70aefaba1046"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Delete Record">c3e09916c31332002841b63b12d3aedf</action_type>
+        <action_type_parent display_value="Delete Record">a8f274c8c3c232002841b63b12d3aee9</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Delete Satellite Task Assignment Records when Empty">2e32114293878210df7e70aefaba101f</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>f82c2e6d-cb55-49de-ba07-656c77b9ef5d</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-28 18:43:10</sys_created_on>
+        <sys_id>b632114293878210df7e70aefaba104c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-28 18:43:10</sys_updated_on>
+        <ui_id>66399ad8-7d3a-425e-86fa-7359079f0d4d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b632114293878210df7e70aefaba104c"/>
+    <sys_element_mapping action="delete_multiple" query="id=b632114293878210df7e70aefaba104c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>b632114293878210df7e70aefaba104c</id>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-28 18:43:10</sys_created_on>
+        <sys_id>7632114293878210df7e70aefaba104d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-28 18:43:10</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c3e09916c31332002841b63b12d3aedf</table>
+        <value>{{f82c2e6d-cb55-49de-ba07-656c77b9ef5d.item}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b632114293878210df7e70aefaba104c"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b632114293878210df7e70aefaba104c"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=2e32114293878210df7e70aefaba101f"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=2e32114293878210df7e70aefaba101f^sys_idNOT IN7632114293878210df7e70aefaba1024"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">6a32dd0293878210df7e70aefaba10d8</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Delete Satellite Task Assignment Records when Empty">2e32114293878210df7e70aefaba101f</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-28 18:43:10</sys_created_on>
+        <sys_id>7632114293878210df7e70aefaba1024</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-28 18:43:10</sys_updated_on>
+        <ui_id>f82c2e6d-cb55-49de-ba07-656c77b9ef5d</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=7632114293878210df7e70aefaba1024"/>
+    <sys_element_mapping action="delete_multiple" query="id=7632114293878210df7e70aefaba1024"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>7632114293878210df7e70aefaba1024</id>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-28 18:43:10</sys_created_on>
+        <sys_id>7a32114293878210df7e70aefaba103f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-28 18:43:10</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{bc96192f-8d8c-428f-9494-ac7c3765bee7.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=7632114293878210df7e70aefaba1024"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7632114293878210df7e70aefaba1024"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=2e32114293878210df7e70aefaba101f"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=2e32114293878210df7e70aefaba101f"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_2e32114293878210df7e70aefaba101f"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_2e32114293878210df7e70aefaba101f"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_2e32114293878210df7e70aefaba101f"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_2e32114293878210df7e70aefaba101f"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>ad2e454a93478210df7e70aefaba1041</sys_id>
+        <latest_snapshot>2e32114293878210df7e70aefaba101f</latest_snapshot>
+        <compiler_build/>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=ad2e454a93478210df7e70aefaba1041^sys_idNOT IN3632114293878210df7e70aefaba1063"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan/>
+        <plan_id>ad2e454a93478210df7e70aefaba1041</plan_id>
+        <snapshot>2e32114293878210df7e70aefaba101f</snapshot>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-28 18:43:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3632114293878210df7e70aefaba1063</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>alyssa.hoshor</sys_updated_by>
+        <sys_updated_on>2024-06-28 18:43:11</sys_updated_on>
+        <trigger display_value="">fa32114293878210df7e70aefaba105f</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=ad2e454a93478210df7e70aefaba1041"/>
+</record_update>
