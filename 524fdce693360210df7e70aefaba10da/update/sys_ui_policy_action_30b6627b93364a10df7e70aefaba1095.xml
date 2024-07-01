@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>location_name</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>amy.kronschnabel</sys_created_by>
+        <sys_created_on>2024-06-22 01:06:04</sys_created_on>
+        <sys_id>30b6627b93364a10df7e70aefaba1095</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>location_name</sys_name>
+        <sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
+        <sys_update_name>sys_ui_policy_action_30b6627b93364a10df7e70aefaba1095</sys_update_name>
+        <sys_updated_by>amy.kronschnabel</sys_updated_by>
+        <sys_updated_on>2024-06-22 01:06:04</sys_updated_on>
+        <table>x_1387186_ows_satellite_task</table>
+        <ui_policy display_value="Hide location reference field">59966e3b93364a10df7e70aefaba10e8</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=30b6627b93364a10df7e70aefaba1095"/>
+</record_update>

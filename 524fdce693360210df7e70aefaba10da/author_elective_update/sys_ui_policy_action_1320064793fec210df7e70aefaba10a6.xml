@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>managing_agent</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>alyssa.hoshor</sys_created_by>
+        <sys_created_on>2024-06-19 14:22:17</sys_created_on>
+        <sys_id>1320064793fec210df7e70aefaba10a6</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>managing_agent</sys_name>
+        <sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
+        <sys_update_name>sys_ui_policy_action_1320064793fec210df7e70aefaba10a6</sys_update_name>
+        <sys_updated_by>gavin.moreland</sys_updated_by>
+        <sys_updated_on>2024-06-26 21:01:07</sys_updated_on>
+        <table>x_1387186_ows_distance</table>
+        <ui_policy display_value="Hide/Show Managing Agent Based on Asset/Agent Table Sat Task">0db45e7e93ba8210df7e70aefaba1006</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=1320064793fec210df7e70aefaba10a6"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</application>
+        <file_path/>
+        <instance_id>de14e45c1b7d7d901024eb9b2d4bcb59</instance_id>
+        <instance_name>dev182002</instance_name>
+        <name>sys_ui_policy_action_1320064793fec210df7e70aefaba10a6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>true</disabled><field>managing_agent</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>alyssa.hoshor</sys_created_by><sys_created_on>2024-06-19 14:22:17</sys_created_on><sys_id>1320064793fec210df7e70aefaba10a6</sys_id><sys_mod_count>3</sys_mod_count><sys_name>managing_agent</sys_name><sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package><sys_policy/><sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope><sys_update_name>sys_ui_policy_action_1320064793fec210df7e70aefaba10a6</sys_update_name><sys_updated_by>gavin.moreland</sys_updated_by><sys_updated_on>2024-06-26 21:01:07</sys_updated_on><table>x_1387186_ows_distance</table><ui_policy display_value="Hide/Show Managing Agent Based on Asset/Agent Table Sat Task">0db45e7e93ba8210df7e70aefaba1006</ui_policy><value/><value_action>ignore</value_action><visible>false</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=1320064793fec210df7e70aefaba10a6"/></record_update>]]></payload>
+        <payload_hash>-1261157896</payload_hash>
+        <record_name>managing_agent</record_name>
+        <reverted_from/>
+        <source>4941460d93cb0210df7e70aefaba1098</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>gavin.moreland</sys_created_by>
+        <sys_created_on>2024-06-26 21:01:07</sys_created_on>
+        <sys_id>bf9e5b95938f8210df7e70aefaba1009</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190565a27420000001</sys_recorded_at>
+        <sys_updated_by>gavin.moreland</sys_updated_by>
+        <sys_updated_on>2024-06-26 21:01:07</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>379e5b95098f8210056acdb203d48d09</update_guid>
+        <update_guid_history>379e5b95098f8210056acdb203d48d09:-1261157896,23a0f0c9b2030210126570fc931b09ba:243918051,ea5fa409aa030210bdcd2a08d350b5ef:-1261157896,a130c2474cfec2108e23cc2b65a298fb:-741982432</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>gavin.moreland</sys_created_by>
+        <sys_created_on>2024-06-26 21:02:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>97ebdd67bb134d649b05f6f1afd7c824</sys_id>
+        <sys_metadata>1320064793fec210df7e70aefaba10a6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>managing_agent</sys_name>
+        <sys_package display_value="Operation Workflow System" source="x_1387186_ows">524fdce693360210df7e70aefaba10da</sys_package>
+        <sys_parent display_value="Hide/Show Managing Agent Based on Asset/Agent Table Sat Task">0db45e7e93ba8210df7e70aefaba1006</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Operation Workflow System">524fdce693360210df7e70aefaba10da</sys_scope>
+        <sys_scope_delete display_value="">33f219d46b4f4f608eb30d59f6038400</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_1320064793fec210df7e70aefaba10a6</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_1320064793fec210df7e70aefaba10a6">bf9e5b95938f8210df7e70aefaba1009</sys_update_version>
+        <sys_updated_by>gavin.moreland</sys_updated_by>
+        <sys_updated_on>2024-06-26 21:02:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -18,7 +18,7 @@
         <query/>
         <report/>
         <require_confirmation>true</require_confirmation>
-        <roles>x_1387186_aios.agent_user,x_1387186_aios.intelligence_administrator,x_1387186_aios.intelligence_agent,x_1387186_aios.intelligence_analyst</roles>
+        <roles>x_1387186_aios.intelligence_administrator,x_1387186_aios.intelligence_agent,x_1387186_aios.intelligence_analyst</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>gavin.moreland</sys_created_by>
         <sys_created_on>2024-06-17 18:10:17</sys_created_on>

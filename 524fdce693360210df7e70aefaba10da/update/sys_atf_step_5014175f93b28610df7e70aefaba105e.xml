@@ -25,7 +25,7 @@ With roles: x_1387186_aios.intelligence_administrator, x_1387186_soms.top_secret
         <sys_updated_by>alyssa.hoshor</sys_updated_by>
         <sys_updated_on>2024-06-20 19:01:02</sys_updated_on>
         <table>sys_user</table>
-        <test display_value="OWS: Satellite Task Form from Distance Record">9814135f93b28610df7e70aefaba1006</test>
+        <test display_value="OWS: Satellite Task Form from Distance Record Admin">9814135f93b28610df7e70aefaba1006</test>
         <timeout/>
         <warning_message/>
     </sys_atf_step>
